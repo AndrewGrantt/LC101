@@ -1,0 +1,11 @@
+.all_sites {
+    background-color: aqua;
+    background-position: left;
+  }body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }

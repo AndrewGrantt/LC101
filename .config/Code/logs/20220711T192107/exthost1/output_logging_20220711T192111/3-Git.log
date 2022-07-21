@@ -1,0 +1,22 @@
+[2022-07-12T00:21:14.845Z] Log level: Info
+[2022-07-12T00:21:14.846Z] [info] Validating found git in: git
+[2022-07-12T00:21:14.973Z] [info] Using git 2.30.2 from git
+[2022-07-12T00:21:15.097Z] > git rev-parse --show-toplevel [18ms]
+[2022-07-12T00:21:15.148Z] > git rev-parse --git-dir --git-common-dir [8ms]
+[2022-07-12T00:21:15.156Z] [info] Open repository: /home/thebuffylow/DOM-and-Events-Studio-1
+[2022-07-12T00:21:15.227Z] > git status -z -uall [15ms]
+[2022-07-12T00:21:15.278Z] > git symbolic-ref --short HEAD [18ms]
+[2022-07-12T00:21:15.332Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+[2022-07-12T00:21:15.395Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [28ms]
+[2022-07-12T00:21:15.409Z] > git remote --verbose [17ms]
+[2022-07-12T00:21:15.453Z] > git config --get commit.template [9ms]
+[2022-07-12T00:21:17.607Z] > git check-ignore -v -z --stdin [13ms]
+[2022-07-12T00:21:18.370Z] > git show --textconv :index.html [219ms]
+[2022-07-12T00:21:18.370Z] > git ls-files --stage -- /home/thebuffylow/DOM-and-Events-Studio-1/index.html [171ms]
+[2022-07-12T00:21:18.429Z] > git cat-file -s 1efd507e53f911b1331e7555cf7667ce9b651871 [31ms]
+[2022-07-12T00:21:22.593Z] > git status -z -uall [4ms]
+[2022-07-12T00:21:22.624Z] > git symbolic-ref --short HEAD [12ms]
+[2022-07-12T00:21:22.643Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+[2022-07-12T00:21:22.668Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [17ms]
+[2022-07-12T00:21:22.675Z] > git remote --verbose [11ms]
+[2022-07-12T00:21:22.720Z] > git config --get commit.template [13ms]

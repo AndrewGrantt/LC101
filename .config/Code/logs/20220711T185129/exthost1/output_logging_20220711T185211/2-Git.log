@@ -1,0 +1,25 @@
+[2022-07-11T23:52:12.690Z] Log level: Info
+[2022-07-11T23:52:12.697Z] [info] Validating found git in: git
+[2022-07-11T23:52:12.817Z] [info] Using git 2.30.2 from git
+[2022-07-11T23:52:13.083Z] > git rev-parse --show-toplevel [55ms]
+[2022-07-11T23:52:13.187Z] > git rev-parse --git-dir --git-common-dir [27ms]
+[2022-07-11T23:52:13.251Z] [info] Open repository: /home/thebuffylow/DOM-and-Events-Studio-1
+[2022-07-11T23:52:13.294Z] > git status -z -uall [14ms]
+[2022-07-11T23:52:13.324Z] > git symbolic-ref --short HEAD [12ms]
+[2022-07-11T23:52:13.351Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+[2022-07-11T23:52:13.653Z] > git remote --verbose [225ms]
+[2022-07-11T23:52:13.659Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [289ms]
+[2022-07-11T23:52:13.716Z] > git config --get commit.template [7ms]
+[2022-07-11T23:52:14.270Z] > git check-ignore -v -z --stdin [9ms]
+[2022-07-11T23:55:29.862Z] > git show --textconv :index.html [256ms]
+[2022-07-11T23:55:29.862Z] > git ls-files --stage -- /home/thebuffylow/DOM-and-Events-Studio-1/index.html [184ms]
+[2022-07-11T23:55:29.924Z] > git cat-file -s 1efd507e53f911b1331e7555cf7667ce9b651871 [25ms]
+[2022-07-11T23:57:38.415Z] > git show --textconv :scripts.js [786ms]
+[2022-07-11T23:57:38.416Z] > git ls-files --stage -- /home/thebuffylow/DOM-and-Events-Studio-1/scripts.js [742ms]
+[2022-07-11T23:57:38.521Z] > git cat-file -s 45c9b3a9d1ac0a8a1dbff140e425a1439ee95aca [62ms]
+[2022-07-11T23:58:39.446Z] > git show --textconv :index.html [35ms]
+[2022-07-11T23:58:39.466Z] > git ls-files --stage -- /home/thebuffylow/DOM-and-Events-Studio-1/index.html [21ms]
+[2022-07-11T23:58:39.527Z] > git cat-file -s 1efd507e53f911b1331e7555cf7667ce9b651871 [9ms]
+[2022-07-12T00:00:55.484Z] > git show --textconv :scripts.js [35ms]
+[2022-07-12T00:00:55.485Z] > git ls-files --stage -- /home/thebuffylow/DOM-and-Events-Studio-1/scripts.js [4ms]
+[2022-07-12T00:00:55.516Z] > git cat-file -s 45c9b3a9d1ac0a8a1dbff140e425a1439ee95aca [8ms]

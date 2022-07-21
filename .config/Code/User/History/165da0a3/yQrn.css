@@ -1,0 +1,35 @@
+
+body {
+    background-color: rgba(225, 111, 246, 0.595);
+  }
+  
+  h1 {
+    color: blueviolet;
+    margin-left: 20px;
+  }
+
+    .sites {
+    color: black;
+    text-align: center;
+  }
+  p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+background-color: antiquewhite;
+  }
+  #mainHeader {
+    background-color: red;
+    color: black;
+    padding: 40px;
+    text-align: center;}
+
+    #testP{
+        color:green;
+        text-align:center;
+    }
+    #headcolor{
+        color:gold
+      
+    }
