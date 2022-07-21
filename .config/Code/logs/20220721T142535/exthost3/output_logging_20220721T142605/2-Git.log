@@ -232,3 +232,86 @@
 [2022-07-21T19:31:37.628Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [18ms]
 [2022-07-21T19:31:37.648Z] > git remote --verbose [21ms]
 [2022-07-21T19:31:37.735Z] > git config --get commit.template [7ms]
+[2022-07-21T19:31:50.105Z] > git add -A -- . [8853ms]
+[2022-07-21T19:31:50.105Z] warning: adding embedded git repository: LC101/DOM-and-Events-Studio-1
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> LC101/DOM-and-Events-Studio-1
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached LC101/DOM-and-Events-Studio-1
+hint: 
+hint: See "git help submodule" for more information.
+warning: adding embedded git repository: LC101/DOM-and-Events-Studio
+warning: adding embedded git repository: LC101/Git_Exercises
+warning: adding embedded git repository: LC101/communication-log-ROLE
+warning: adding embedded git repository: LC101/first/DOM-and-Events-Studio-1
+warning: adding embedded git repository: LC101/js-assignment-4-html-me-something-buffylow
+warning: adding embedded git repository: LC101/log-communication-control
+[2022-07-21T19:31:50.299Z] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [186ms]
+[2022-07-21T19:31:50.446Z] > git status -z -uall [140ms]
+[2022-07-21T19:31:50.456Z] > git symbolic-ref --short HEAD [2ms]
+[2022-07-21T19:31:50.466Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+[2022-07-21T19:31:50.484Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-07-21T19:31:50.486Z] > git remote --verbose [3ms]
+[2022-07-21T19:31:50.515Z] > git config --get commit.template [3ms]
+[2022-07-21T19:31:50.550Z] > git config --get commit.template [4ms]
+[2022-07-21T19:31:50.669Z] > git status -z -uall [138ms]
+[2022-07-21T19:31:50.682Z] > git symbolic-ref --short HEAD [3ms]
+[2022-07-21T19:31:50.693Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+[2022-07-21T19:31:50.716Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [16ms]
+[2022-07-21T19:31:50.724Z] > git remote --verbose [8ms]
+[2022-07-21T19:31:50.750Z] > git config --get commit.template [4ms]
+[2022-07-21T19:31:51.596Z] > git ls-files --stage -- /home/thebuffylow/fetch_planets.html [9ms]
+[2022-07-21T19:31:51.621Z] > git cat-file -s fd4c5393768684919ba9f2adb8e663d55dc45408 [6ms]
+[2022-07-21T19:31:51.659Z] > git show --textconv :fetch_planets.html [9ms]
+[2022-07-21T19:31:51.771Z] > git check-ignore -v -z --stdin [9ms]
+[2022-07-21T19:31:55.859Z] > git status -z -uall [95ms]
+[2022-07-21T19:31:55.866Z] > git symbolic-ref --short HEAD [2ms]
+[2022-07-21T19:31:55.878Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+[2022-07-21T19:31:55.889Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+[2022-07-21T19:31:55.890Z] > git remote --verbose [1ms]
+[2022-07-21T19:31:55.908Z] > git config --get commit.template [4ms]
+[2022-07-21T19:32:01.032Z] > git status -z -uall [88ms]
+[2022-07-21T19:32:01.040Z] > git symbolic-ref --short HEAD [1ms]
+[2022-07-21T19:32:01.051Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+[2022-07-21T19:32:01.067Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+[2022-07-21T19:32:01.069Z] > git remote --verbose [3ms]
+[2022-07-21T19:32:01.083Z] > git config --get commit.template [7ms]
+[2022-07-21T19:32:06.188Z] > git status -z -uall [83ms]
+[2022-07-21T19:32:06.199Z] > git symbolic-ref --short HEAD [1ms]
+[2022-07-21T19:32:06.208Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+[2022-07-21T19:32:06.222Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-07-21T19:32:06.227Z] > git remote --verbose [6ms]
+[2022-07-21T19:32:06.240Z] > git config --get commit.template [3ms]
+[2022-07-21T19:32:06.879Z] > git check-ignore -v -z --stdin [6ms]
+[2022-07-21T19:32:11.360Z] > git status -z -uall [96ms]
+[2022-07-21T19:32:11.367Z] > git symbolic-ref --short HEAD [1ms]
+[2022-07-21T19:32:11.381Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+[2022-07-21T19:32:11.396Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+[2022-07-21T19:32:11.398Z] > git remote --verbose [3ms]
+[2022-07-21T19:32:11.413Z] > git config --get commit.template [1ms]
+[2022-07-21T19:32:16.525Z] > git status -z -uall [103ms]
+[2022-07-21T19:32:16.535Z] > git symbolic-ref --short HEAD [4ms]
+[2022-07-21T19:32:16.546Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+[2022-07-21T19:32:16.562Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-07-21T19:32:16.566Z] > git remote --verbose [5ms]
+[2022-07-21T19:32:16.580Z] > git config --get commit.template [3ms]
+[2022-07-21T19:32:21.696Z] > git status -z -uall [98ms]
+[2022-07-21T19:32:21.705Z] > git symbolic-ref --short HEAD [1ms]
+[2022-07-21T19:32:21.716Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+[2022-07-21T19:32:21.736Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+[2022-07-21T19:32:21.738Z] > git remote --verbose [6ms]
+[2022-07-21T19:32:21.781Z] > git config --get commit.template [7ms]
+[2022-07-21T19:32:22.400Z] > git check-ignore -v -z --stdin [2ms]
+[2022-07-21T19:32:26.936Z] > git status -z -uall [122ms]
+[2022-07-21T19:32:26.946Z] > git symbolic-ref --short HEAD [4ms]
+[2022-07-21T19:32:26.975Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+[2022-07-21T19:32:27.030Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [50ms]
+[2022-07-21T19:32:27.034Z] > git remote --verbose [12ms]
+[2022-07-21T19:32:27.054Z] > git config --get commit.template [2ms]
