@@ -1,0 +1,77 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@8.13.2
+2 info using node@v18.6.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:project Completed in 12ms
+10 timing config:load:file:/home/thebuffylow/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 1ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 24ms
+18 timing npm:load:configload Completed in 24ms
+19 timing npm:load:mkdirpcache Completed in 3ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install typescript
+22 verbose argv "install" "typescript" "--save-dev"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing config:load:flatten Completed in 3ms
+25 timing npm:load:display Completed in 5ms
+26 verbose logfile logs-max:10 dir:/home/thebuffylow/.npm/_logs
+27 verbose logfile /home/thebuffylow/.npm/_logs/2022-07-25T23_13_12_362Z-debug-0.log
+28 timing npm:load:logFile Completed in 6ms
+29 timing npm:load:timers Completed in 0ms
+30 timing npm:load:configScope Completed in 0ms
+31 timing npm:load Completed in 43ms
+32 timing arborist:ctor Completed in 0ms
+33 silly logfile done cleaning log files
+34 timing arborist:ctor Completed in 0ms
+35 timing idealTree:init Completed in 23ms
+36 timing idealTree:userRequests Completed in 6ms
+37 silly idealTree buildDeps
+38 silly fetch manifest typescript@*
+39 http fetch GET 200 https://registry.npmjs.org/typescript 74ms (cache hit)
+40 silly placeDep ROOT typescript@4.7.4 OK for:  want: *
+41 timing idealTree:#root Completed in 203ms
+42 timing idealTree:node_modules/typescript Completed in 0ms
+43 timing idealTree:buildDeps Completed in 205ms
+44 timing idealTree:fixDepFlags Completed in 1ms
+45 timing idealTree Completed in 242ms
+46 timing reify:loadTrees Completed in 243ms
+47 timing reify:diffTrees Completed in 1ms
+48 silly reify moves {}
+49 timing reify:retireShallow Completed in 2ms
+50 timing reify:createSparse Completed in 6ms
+51 timing reify:loadBundles Completed in 0ms
+52 silly audit bulk request { typescript: [ '4.7.4' ] }
+53 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-4.7.4.tgz. Extracting by manifest.
+54 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 526ms
+55 timing auditReport:getReport Completed in 529ms
+56 silly audit report {}
+57 timing auditReport:init Completed in 0ms
+58 timing reify:audit Completed in 530ms
+59 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-4.7.4.tgz 2487ms (cache miss)
+60 timing reifyNode:node_modules/typescript Completed in 2575ms
+61 timing reify:unpack Completed in 2575ms
+62 timing reify:unretire Completed in 10ms
+63 timing build:queue Completed in 1ms
+64 timing build:link:node_modules/typescript Completed in 8ms
+65 timing build:link Completed in 10ms
+66 timing build:deps Completed in 11ms
+67 timing build Completed in 11ms
+68 timing reify:build Completed in 12ms
+69 timing reify:trash Completed in 0ms
+70 timing reify:save Completed in 15ms
+71 timing reify Completed in 2890ms
+72 silly ADD node_modules/typescript
+73 timing command:install Completed in 2897ms
+74 verbose exit 0
+75 timing npm Completed in 3015ms
+76 info ok

@@ -292,3 +292,57 @@ git add
 git status
 git push
 git push 
+touch [200~fetch_planets.html~
+touch fetch_planets.html
+git clone https://github.com/buffylow/Fetch-and-JSON-Studio.git
+node -v
+node
+type node -v
+npm -v
+status
+git status
+git commit -file update 
+git commit --file update 
+cd
+node -v
+sudo apt install curl
+curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt-get install -y nodejs
+Node --version
+node --version
+npm --version
+sudo npm install -g n
+sudo n latest
+node --version
+hash -r
+node --version
+git clone https://github.com/buffylow/typescript-lc101-projects.git
+ls
+cd typescript-lc101-projects
+cd exercises
+ls
+tsc parts1-5.ts
+cd
+npm install typescript -g
+cd
+npm install typescript -g
+root/Admininstrator
+npm install typescript --save-dev
+tsc -v
+npx tsc
+tsc -v
+tsc 
+tsc -v 
+npm install -g typescript
+sudo npm install -g typescript
+sudo  npm install -g npm@8.15.0
+tsc -v
+/lc101
+~/typescript-lc101-projects/exercises
+/~/typescript-lc101-projects/exercises
+/typescript-lc101-projects/exercises
+cd typescript-lc101-projects
+cd exercises
+tsc parts1-5.ts
+cd
+git clone https://github.com/Stl-LC101-MAY-2022/js-assignment-5-launch-checklist-buffylow.git

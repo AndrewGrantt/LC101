@@ -38,7 +38,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -47,12 +48,13 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/thebuffylow/LC101/js-assignment-4-html-me-something-buffylow",
-                                        "path": "/home/thebuffylow/LC101/js-assignment-4-html-me-something-buffylow",
+                                        "fsPath": "/home/thebuffylow/LC101",
+                                        "external": "file:///home/thebuffylow/LC101",
+                                        "path": "/home/thebuffylow/LC101",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/LC101/js-assignment-4-html-me-something-buffylow"
+                                    "label": "~/LC101"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -64,6 +66,28 @@
                                     },
                                     "enabled": true,
                                     "label": "/home/thebuffylow"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/thebuffylow/LC101/Fetch-and-JSON-Studio",
+                                        "path": "/home/thebuffylow/LC101/Fetch-and-JSON-Studio",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/LC101/Fetch-and-JSON-Studio"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/thebuffylow/LC101/js-assignment-4-html-me-something-buffylow",
+                                        "path": "/home/thebuffylow/LC101/js-assignment-4-html-me-something-buffylow",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/LC101/js-assignment-4-html-me-something-buffylow"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -115,18 +139,6 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/thebuffylow/fetch_planets.html",
-                                        "path": "/home/thebuffylow/fetch_planets.html",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/fetch_planets.html"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/thebuffylow/Git_Exercises/exercises.txt",
                                         "path": "/home/thebuffylow/Git_Exercises/exercises.txt",
                                         "scheme": "file"
                                     },
@@ -277,6 +289,10 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -714,7 +730,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -723,7 +740,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1231,6 +1249,11 @@
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
             },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
+            },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
                 "userSettingsLabel": "alt+f4"
@@ -1622,13 +1645,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/thebuffylow/.config/Code/Backups/1658431561985",
+            "folder": "file:///home/thebuffylow/LC101",
+            "backupPath": "/home/thebuffylow/.config/Code/Backups/0f79fa440d16ffe858149ff6df90f579",
             "uiState": {
                 "mode": 1,
-                "x": 295,
-                "y": 69,
-                "width": 1027,
-                "height": 771
+                "x": 287,
+                "y": 63,
+                "width": 1043,
+                "height": 783
             }
         },
         "openedWindows": []

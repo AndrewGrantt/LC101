@@ -1,5 +1,0 @@
-[2022-07-17 18:12:41.736] [main] [info] update#setState idle
-[2022-07-17 18:12:44.709] [main] [info] Starting extension host with pid 378 (fork() took 22 ms).
-[2022-07-17 18:13:11.740] [main] [info] update#setState checking for updates
-[2022-07-17 18:13:11.836] [main] [info] update#setState idle
-[2022-07-17 18:22:01.232] [main] [info] Extension host with pid 378 exited with code: 0, signal: null.

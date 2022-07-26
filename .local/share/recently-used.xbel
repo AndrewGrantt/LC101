@@ -53,12 +53,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/thebuffylow" added="2022-07-11T23:52:01.509550Z" modified="2022-07-11T23:52:01.514397Z" visited="2022-07-11T23:52:01.509551Z">
+  <bookmark href="file:///home/thebuffylow" added="2022-07-11T23:52:01.509550Z" modified="2022-07-21T23:38:32.005453Z" visited="2022-07-11T23:52:01.509551Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-07-11T23:52:01.509554Z" count="1"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-07-21T23:38:32.005422Z" count="4"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -79,6 +79,36 @@
         <mime:mime-type type="text/plain"/>
         <bookmark:applications>
           <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-07-21T19:28:31.248242Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/thebuffylow/LC101" added="2022-07-21T23:11:02.312412Z" modified="2022-07-26T20:03:43.056886Z" visited="2022-07-21T23:11:02.312413Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-07-26T20:03:43.056884Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/thebuffylow/LC101/Fetch-and-JSON-Studio" added="2022-07-21T23:38:58.289425Z" modified="2022-07-21T23:38:58.289439Z" visited="2022-07-21T23:38:58.289427Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-07-21T23:38:58.289432Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/thebuffylow/typescript-lc101-projects/exercises" added="2022-07-25T22:30:17.252390Z" modified="2022-07-25T23:22:59.618138Z" visited="2022-07-25T22:30:17.252393Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-07-25T23:22:59.618129Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>

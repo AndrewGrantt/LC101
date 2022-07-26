@@ -1,3 +1,6 @@
 [2022-07-21 14:25:42.002] [sharedprocess] [info] Starting worker process with pid 7901 (type: fileWatcher, window: 1).
 [2022-07-21 14:26:03.606] [sharedprocess] [info] Starting worker process with pid 7996 (type: fileWatcher, window: 3).
 [2022-07-21 14:26:04.914] [sharedprocess] [info] Worker process with pid 7901 terminated normally (type: fileWatcher, window: 1).
+[2022-07-21 14:43:17.025] [sharedprocess] [info] Worker process with pid 7996 terminated normally (type: fileWatcher, window: 3).
+[2022-07-21 14:43:18.572] [sharedprocess] [info] Starting worker process with pid 10849 (type: fileWatcher, window: 3).
+[2022-07-21 16:32:24.027] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds

@@ -1,6 +1,0 @@
-[2022-07-14 21:04:29.157] [main] [info] update#setState idle
-[2022-07-14 21:04:31.090] [main] [info] Starting extension host with pid 1445 (fork() took 23 ms).
-[2022-07-14 21:04:59.182] [main] [info] update#setState checking for updates
-[2022-07-14 21:04:59.203] [main] [info] update#setState available for download
-[2022-07-14 21:05:04.938] [main] [info] update#setState idle
-[2022-07-14 21:07:56.057] [main] [info] Extension host with pid 1445 exited with code: 0, signal: null.

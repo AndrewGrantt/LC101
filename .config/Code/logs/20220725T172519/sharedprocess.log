@@ -1,0 +1,6 @@
+[2022-07-25 17:25:30.193] [sharedprocess] [info] Starting worker process with pid 3688 (type: fileWatcher, window: 1).
+[2022-07-25 17:25:30.210] [sharedprocess] [info] Starting worker process with pid 3689 (type: fileWatcher, window: 2).
+[2022-07-25 17:25:30.372] [sharedprocess] [info] Worker process with pid 3688 terminated normally (type: fileWatcher, window: 1).
+[2022-07-25 17:25:32.062] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2022-07-25 17:30:17.516] [sharedprocess] [info] Worker process with pid 3689 terminated normally (type: fileWatcher, window: 2).
+[2022-07-25 17:30:19.141] [sharedprocess] [info] Starting worker process with pid 3983 (type: fileWatcher, window: 2).

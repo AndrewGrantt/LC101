@@ -1,0 +1,5 @@
+[2022-07-26 15:03:37.475] [sharedprocess] [info] Starting worker process with pid 1640 (type: fileWatcher, window: 1).
+[2022-07-26 15:03:43.189] [sharedprocess] [info] Worker process with pid 1640 terminated normally (type: fileWatcher, window: 1).
+[2022-07-26 15:03:45.048] [sharedprocess] [info] Starting worker process with pid 1658 (type: fileWatcher, window: 1).
+[2022-07-26 15:04:04.578] [sharedprocess] [info] Starting worker process with pid 2023 (type: fileWatcher, window: 3).
+[2022-07-26 15:04:08.279] [sharedprocess] [info] Worker process with pid 2023 terminated normally (type: fileWatcher, window: 3).

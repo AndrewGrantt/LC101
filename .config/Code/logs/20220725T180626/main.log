@@ -1,0 +1,5 @@
+[2022-07-25 18:06:26.960] [main] [info] update#setState idle
+[2022-07-25 18:06:29.359] [main] [info] Starting extension host with pid 4407 (fork() took 23 ms).
+[2022-07-25 18:06:56.967] [main] [info] update#setState checking for updates
+[2022-07-25 18:06:56.999] [main] [info] update#setState available for download
+[2022-07-25 18:09:56.244] [main] [info] Extension host with pid 4407 exited with code: 0, signal: null.
