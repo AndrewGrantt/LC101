@@ -1,0 +1,10 @@
+[2022-07-26 19:06:02.087] [sharedprocess] [info] Starting worker process with pid 7007 (type: fileWatcher, window: 1).
+[2022-07-26 19:25:59.652] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2022-07-26 19:26:06.063] [sharedprocess] [error] RequestService#request (browser) - error https://az764295.vo.msecnd.net/extensions/marketplace.json {}
+[2022-07-26 20:53:28.704] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2022-07-27 08:04:38.794] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2022-07-27 08:04:39.212] [sharedprocess] [error] RequestService#request (browser) - error https://az764295.vo.msecnd.net/extensions/marketplace.json {}
+[2022-07-27 13:11:51.715] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2022-07-27 13:11:52.140] [sharedprocess] [error] RequestService#request (browser) - error https://az764295.vo.msecnd.net/extensions/marketplace.json {}
+[2022-07-27 16:42:10.919] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2022-07-27 18:30:08.632] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds

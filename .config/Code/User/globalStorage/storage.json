@@ -48,13 +48,46 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/thebuffylow/LC101",
+                                        "fsPath": "/home/thebuffylow/angular_practice",
+                                        "external": "file:///home/thebuffylow/angular_practice",
+                                        "path": "/home/thebuffylow/angular_practice",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/angular_practice"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/thebuffylow/LC101/angular-lc101-projects",
+                                        "path": "/home/thebuffylow/LC101/angular-lc101-projects",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/LC101/angular-lc101-projects"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/thebuffylow/LC101",
                                         "path": "/home/thebuffylow/LC101",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/LC101"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/thebuffylow/LC101/js-assignment-5-launch-checklist-buffylow",
+                                        "path": "/home/thebuffylow/LC101/js-assignment-5-launch-checklist-buffylow",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/LC101/js-assignment-5-launch-checklist-buffylow"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -122,17 +155,6 @@
                                     "label": "~/communication-log-ROLE/index.html/index.html (Workspace)"
                                 },
                                 {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/thebuffylow/communication-log-ROLE/index.html",
-                                        "path": "/home/thebuffylow/communication-log-ROLE/index.html",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/communication-log-ROLE/index.html"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
@@ -182,11 +204,13 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save"
+                        "label": "&&Save",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As..."
+                        "label": "Save &&As...",
+                        "enabled": false
                     },
                     {
                         "id": "saveAll",
@@ -284,11 +308,13 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File"
+                        "label": "Re&&vert File",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor"
+                        "label": "&&Close Editor",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeFolder",
@@ -337,11 +363,13 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find"
+                        "label": "&&Find",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace"
+                        "label": "&&Replace",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -960,8 +988,7 @@
                     },
                     {
                         "id": "workbench.action.debug.configure",
-                        "label": "Open &&Configurations",
-                        "enabled": false
+                        "label": "Open &&Configurations"
                     },
                     {
                         "id": "debug.addConfiguration",
@@ -1645,14 +1672,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/thebuffylow/LC101",
-            "backupPath": "/home/thebuffylow/.config/Code/Backups/0f79fa440d16ffe858149ff6df90f579",
+            "folder": "file:///home/thebuffylow/angular_practice",
+            "backupPath": "/home/thebuffylow/.config/Code/Backups/ae79bf137ee389602c36874704704427",
             "uiState": {
                 "mode": 1,
-                "x": 287,
-                "y": 63,
-                "width": 1043,
-                "height": 783
+                "x": 0,
+                "y": 16,
+                "width": 1616,
+                "height": 877
             }
         },
         "openedWindows": []

@@ -346,3 +346,71 @@ cd exercises
 tsc parts1-5.ts
 cd
 git clone https://github.com/Stl-LC101-MAY-2022/js-assignment-5-launch-checklist-buffylow.git
+cd LC101
+/LC101
+~
+cd
+/LC101
+~Lc101
+ls LC101
+git clone https://github.com/buffylow/angular-lc101-projects.git
+cd
+npm install -g @angular/cli@8.2.2
+sudo npm install -g @angular/cli@8.2.2
+npm audit fix --force
+npm i --package-lock-only
+ng generate 
+ng new heyhey
+cd
+sudo npm install -g @angular/cli@latest
+ng new
+cd
+ng new
+ng new --force
+ng -v
+ng -version
+ng new
+npm install --legacy-peer-deps
+sudo npm install --legacy-peer-deps
+npm install --legacy-peer-deps
+ng new 
+npm install -g npm@latest 
+sudo npm install -g npm@latest 
+npm audit
+ng new 
+ng new --skip-install
+Open package.json and bump jasmine-core to `~3.8.0`
+npm i
+ng new
+ng generate
+ng new
+ng generate
+ls hello
+/hello
+cd
+/hello
+cd
+ng new
+cat test
+~test
+cd test
+ng generate
+ng version
+ng generate test file 
+ng generate test_file
+ng generate file test_file 
+ng generate file hey 
+ng generate component test
+cd buffylow
+mkdir angular_practice
+cd angular_practice
+ng new 1stProject
+cd test
+cd
+cd test
+cd angular_practice
+ng new projectone
+cd
+cd test
+cd angular_practice
+ng new projectone

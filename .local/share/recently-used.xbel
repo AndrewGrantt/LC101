@@ -3,16 +3,6 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/thebuffylow/Git_Exercises/exercises.txt" added="2022-06-27T20:20:00.591683Z" modified="2022-06-27T20:33:39.778526Z" visited="2022-06-27T20:20:00.591686Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/plain"/>
-        <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-06-27T20:33:39.778522Z" count="2"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
   <bookmark href="file:///home/thebuffylow/communication-log-ROLE/index.html" added="2022-07-08T00:18:14.487396Z" modified="2022-07-08T01:09:36.264876Z" visited="2022-07-08T00:18:14.487397Z">
     <info>
       <metadata owner="http://freedesktop.org">
@@ -83,12 +73,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/thebuffylow/LC101" added="2022-07-21T23:11:02.312412Z" modified="2022-07-26T20:03:43.056886Z" visited="2022-07-21T23:11:02.312413Z">
+  <bookmark href="file:///home/thebuffylow/LC101" added="2022-07-21T23:11:02.312412Z" modified="2022-07-27T00:04:45.343577Z" visited="2022-07-21T23:11:02.312413Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-07-26T20:03:43.056884Z" count="2"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-07-27T00:04:45.343551Z" count="3"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -109,6 +99,36 @@
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
           <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-07-25T23:22:59.618129Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/thebuffylow/LC101/js-assignment-5-launch-checklist-buffylow" added="2022-07-26T20:05:11.205081Z" modified="2022-07-26T20:05:11.205100Z" visited="2022-07-26T20:05:11.205084Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-07-26T20:05:11.205090Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/thebuffylow/LC101/angular-lc101-projects" added="2022-07-27T00:05:41.784291Z" modified="2022-07-27T00:05:41.784297Z" visited="2022-07-27T00:05:41.784292Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-07-27T00:05:41.784294Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/thebuffylow/angular_practice" added="2022-08-01T16:38:08.014745Z" modified="2022-08-01T16:55:13.531923Z" visited="2022-08-01T16:38:08.014746Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-08-01T16:55:13.530514Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>

@@ -57,3 +57,50 @@
 [2022-07-26T20:04:24.542Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
 [2022-07-26T20:04:24.543Z] > git remote --verbose [2ms]
 [2022-07-26T20:04:24.565Z] > git config --get commit.template [5ms]
+[2022-07-26T20:04:31.788Z] > git add -A -- . [3977ms]
+[2022-07-26T20:04:31.788Z] warning: adding embedded git repository: LC101/Fetch-and-JSON-Studio
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> LC101/Fetch-and-JSON-Studio
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached LC101/Fetch-and-JSON-Studio
+hint: 
+hint: See "git help submodule" for more information.
+warning: adding embedded git repository: LC101/js-assignment-5-launch-checklist-buffylow
+warning: adding embedded git repository: LC101/typescript-lc101-projects
+[2022-07-26T20:04:31.921Z] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [126ms]
+[2022-07-26T20:04:32.225Z] > git status -z -uall [297ms]
+[2022-07-26T20:04:32.234Z] > git symbolic-ref --short HEAD [1ms]
+[2022-07-26T20:04:32.249Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+[2022-07-26T20:04:32.271Z] > git remote --verbose [3ms]
+[2022-07-26T20:04:32.271Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+[2022-07-26T20:04:32.328Z] > git config --get commit.template [6ms]
+[2022-07-26T20:04:32.422Z] > git config --get commit.template [48ms]
+[2022-07-26T20:04:32.650Z] > git status -z -uall [306ms]
+[2022-07-26T20:04:32.676Z] > git symbolic-ref --short HEAD [9ms]
+[2022-07-26T20:04:32.706Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+[2022-07-26T20:04:32.759Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [28ms]
+[2022-07-26T20:04:32.761Z] > git remote --verbose [5ms]
+[2022-07-26T20:04:32.795Z] > git config --get commit.template [3ms]
+[2022-07-26T20:04:33.205Z] > git ls-files --stage -- /home/thebuffylow/LC101/Fetch-and-JSON-Studio/index.html [3ms]
+[2022-07-26T20:04:33.219Z] > git show --textconv :LC101/Fetch-and-JSON-Studio/index.html [4ms]
+[2022-07-26T20:04:33.527Z] > git check-ignore -v -z --stdin [11ms]
+[2022-07-26T20:04:38.033Z] > git status -z -uall [201ms]
+[2022-07-26T20:04:38.046Z] > git symbolic-ref --short HEAD [6ms]
+[2022-07-26T20:04:38.059Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+[2022-07-26T20:04:38.081Z] > git remote --verbose [6ms]
+[2022-07-26T20:04:38.082Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+[2022-07-26T20:04:38.095Z] > git config --get commit.template [4ms]
+[2022-07-26T20:04:57.766Z] > git status -z -uall [162ms]
+[2022-07-26T20:04:57.775Z] > git symbolic-ref --short HEAD [2ms]
+[2022-07-26T20:04:57.789Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+[2022-07-26T20:04:57.816Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+[2022-07-26T20:04:57.820Z] > git remote --verbose [6ms]
+[2022-07-26T20:04:57.837Z] > git config --get commit.template [4ms]
+[2022-07-26T20:04:58.539Z] > git check-ignore -v -z --stdin [5ms]

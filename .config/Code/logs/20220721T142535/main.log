@@ -1,8 +1,0 @@
-[2022-07-21 14:25:36.363] [main] [info] update#setState idle
-[2022-07-21 14:25:38.886] [main] [info] Starting extension host with pid 7842 (fork() took 28 ms).
-[2022-07-21 14:26:03.656] [main] [info] Starting extension host with pid 7997 (fork() took 16 ms).
-[2022-07-21 14:26:04.925] [main] [info] Extension host with pid 7842 exited with code: 0, signal: null.
-[2022-07-21 14:26:06.364] [main] [info] update#setState checking for updates
-[2022-07-21 14:26:06.372] [main] [info] update#setState available for download
-[2022-07-21 14:43:16.941] [main] [info] Extension host with pid 7997 exited with code: 0, signal: null.
-[2022-07-21 14:43:18.569] [main] [info] Starting extension host with pid 10850 (fork() took 54 ms).
