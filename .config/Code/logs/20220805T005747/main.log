@@ -5,3 +5,4 @@
 [2022-08-05 01:03:09.257] [main] [info] Extension host with pid 15150 exited with code: 0, signal: null.
 [2022-08-05 01:03:11.093] [main] [info] Starting extension host with pid 16070 (fork() took 24 ms).
 [2022-08-05 01:03:25.710] [main] [info] Enabling inspect port on extension host with pid 16070.
+[2022-08-05 02:06:31.288] [main] [info] Extension host with pid 16070 exited with code: 0, signal: null.

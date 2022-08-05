@@ -663,3 +663,23 @@ git commit -a ordbit list
 git commit -orbit list 
 git commit -a orbit_list
 git commit -a
+npm install
+cd
+git status
+git status'
+git status
+
+git status
+git push 
+ls
+cd js-assignment-6-orbit-report-buffylow
+ls
+cd js-assignment-6-orbit-report-buffylow
+ls
+cd src
+ls
+cd app
+npm install
+ng serve
+git push
+git commit -a

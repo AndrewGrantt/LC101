@@ -1,0 +1,6 @@
+[Info  - 2:07:53 AM] Angular language server process ID: 6487
+[Info  - 2:07:53 AM] Using typescript/lib/tsserverlibrary v4.7.4 from /home/thebuffylow/.vscode/extensions/angular.ng-template-14.1.0/node_modules/typescript/lib/tsserverlibrary.js
+[Info  - 2:07:53 AM] Using @angular/language-service v14.1.0 from /home/thebuffylow/.vscode/extensions/angular.ng-template-14.1.0/node_modules/@angular/language-service/index.js
+[Info  - 2:07:53 AM] Logging is turned off. To enable, run command 'Open Angular server log'.
+[Error - 2:08:04 AM] No config file for /home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html
+[Info  - 2:08:16 AM] Enabling Ivy language service for /home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/tsconfig.json.
