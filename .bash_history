@@ -653,3 +653,13 @@ npm install -g @angular/cli@12
 ng serve
 cd
 git clone https://github.com/Stl-LC101-MAY-2022/js-assignment-6-orbit-report-buffylow.git
+git commit -orbit list added 
+git commit
+git status
+git add
+git status
+git commit -a
+git commit -a ordbit list
+git commit -orbit list 
+git commit -a orbit_list
+git commit -a
