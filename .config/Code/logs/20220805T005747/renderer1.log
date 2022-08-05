@@ -11,3 +11,9 @@
 [2022-08-05 01:03:36.109] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
 [2022-08-05 01:03:36.847] [renderer1] [warning] UNRESPONSIVE extension host: 'vscode.git' took 62% of 5389.916ms, saved PROFILE here: 'file:///tmp/exthost-563429.cpuprofile' [{"id":"gc","total":207693,"percentage":4},{"id":"program","total":3583,"percentage":0},{"id":"self","total":1835276,"percentage":34},{"id":"vscode.git","total":3343161,"percentage":62}]
 [2022-08-05 01:12:19.366] [renderer1] [error] [File Watcher (universal)] restarting watcher after error: terminated by itself with code undefined, signal: SIGSEGV
+[2022-08-05 01:25:25.388] [renderer1] [error] Git error
+[2022-08-05 01:50:18.248] [renderer1] [error] Git error
+[2022-08-05 01:50:43.454] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-08-05 01:50:48.586] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-08-05 01:52:23.436] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-08-05 01:52:24.270] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW

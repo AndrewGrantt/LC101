@@ -29,3 +29,76 @@
 [2022-08-05 01:03:22.603] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
 [2022-08-05 01:03:27.488] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10001
 [2022-08-05 01:12:33.333] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10001
+[2022-08-05 01:24:52.744] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 356
+[2022-08-05 01:24:58.732] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 472
+[2022-08-05 01:25:04.477] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 596
+[2022-08-05 01:25:10.147] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 700
+[2022-08-05 01:25:16.091] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 757
+[2022-08-05 01:25:21.873] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 827
+[2022-08-05 01:25:24.383] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/node_modules' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-05 01:25:27.673] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 851
+[2022-08-05 01:25:33.991] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 850
+[2022-08-05 01:25:40.298] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 856
+[2022-08-05 01:25:46.278] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 864
+[2022-08-05 01:25:52.696] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 864
+[2022-08-05 01:25:58.336] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 864
+[2022-08-05 01:26:03.788] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 865
+[2022-08-05 01:26:09.378] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 865
+[2022-08-05 01:26:15.079] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 865
+[2022-08-05 01:26:21.355] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 865
+[2022-08-05 01:26:27.353] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 865
+[2022-08-05 01:26:32.868] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 865
+[2022-08-05 01:26:38.392] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 865
+[2022-08-05 01:26:43.864] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 865
+[2022-08-05 01:26:44.773] [exthost] [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:http'
+[2022-08-05 01:27:11.681] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 865
+[2022-08-05 01:27:17.304] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 865
+[2022-08-05 01:27:22.801] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 865
+[2022-08-05 01:27:28.255] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 865
+[2022-08-05 01:50:08.975] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 866
+[2022-08-05 01:50:14.426] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 866
+[2022-08-05 01:50:15.819] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/orbit-counts' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-05 01:50:15.820] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/orbit-counts' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-05 01:50:15.820] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/orbit-counts' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-05 01:50:15.820] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/orbit-counts' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-05 01:50:15.820] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/orbit-counts' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-05 01:50:15.820] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/orbit-counts' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-05 01:50:15.820] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/orbit-counts' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-05 01:50:15.820] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/orbit-counts' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-05 01:50:15.820] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/orbit-counts' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-05 01:50:16.813] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-08-05 01:50:16.978] [exthost] [info] ExtensionService#_doActivateExtension Angular.ng-template, startup: false, activationEvent: 'onLanguage:html'
+[2022-08-05 01:50:20.491] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 868
+[2022-08-05 01:50:26.221] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 868
+[2022-08-05 01:50:31.937] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 868
+[2022-08-05 01:50:39.956] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 868
+[2022-08-05 01:50:50.885] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 868
+[2022-08-05 01:50:58.911] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 869
+[2022-08-05 01:51:08.400] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 869
+[2022-08-05 01:51:18.673] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 869
+[2022-08-05 01:51:25.854] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 869
+[2022-08-05 01:51:33.201] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 869
+[2022-08-05 01:51:48.122] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 870
+[2022-08-05 01:51:58.966] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 870
+[2022-08-05 01:52:08.151] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-05 01:52:08.203] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-05 01:52:08.491] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-05 01:52:10.000] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 870
+[2022-08-05 01:52:27.557] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 874
+[2022-08-05 01:52:48.502] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 874
+[2022-08-05 01:52:56.816] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 874
+[2022-08-05 01:53:02.692] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 874
+[2022-08-05 01:53:08.249] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 874
+[2022-08-05 01:53:13.682] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 874
+[2022-08-05 01:53:19.338] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 874
+[2022-08-05 01:53:24.858] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 874
+[2022-08-05 01:53:30.378] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 874
+[2022-08-05 01:53:36.128] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 874
+[2022-08-05 01:53:41.579] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 874
+[2022-08-05 01:53:47.049] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 874
+[2022-08-05 01:53:52.791] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 874
+[2022-08-05 01:53:58.223] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 874
+[2022-08-05 01:54:03.814] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 874
+[2022-08-05 01:54:09.598] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 874
+[2022-08-05 01:54:15.376] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 874
+[2022-08-05 01:54:21.422] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 874
