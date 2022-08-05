@@ -1,3 +1,21 @@
 [2022-08-05 02:07:56.476] [renderer1] [error] Git error
 [2022-08-05 02:08:35.455] [renderer1] [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/thebuffylow/.config/Code/logs/20220801T121729' failed: No such file or directory (EUNKNOWN) (path: /home/thebuffylow)
 [2022-08-05 02:08:35.460] [renderer1] [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/thebuffylow/.config/Code/logs/20220801T121729' failed: No such file or directory
+[2022-08-05 02:17:08.131] [renderer1] [error] Error: Unable to read file '/home/thebuffylow/LC101/DOM-and-Events-Studio' (Error: Unable to read file '/home/thebuffylow/LC101/DOM-and-Events-Studio' that is actually a directory)
+    at h.doReadFileStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:602:20089)
+    at async p.doRead (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2752:42357)
+    at async p.readStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2752:42032)
+    at async Ir.resolveFromFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2741:66789)
+    at async a.doResolve (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2752:36892)
+    at async bl.doResolveAsText (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2131:90242)
+    at async Promise.all (index 1)
+    at async Ss.createModel (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1721:19146)
+    at async Ss.resolve (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1721:18861)
+    at async Ul.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2716:11061)
+    at async l.doSetInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2714:6429)
+    at async l.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2714:4791)
+    at async l.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2714:3783)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2916:16970
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2716:27045
+    at async Pt.open (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2724:49808)
+[2022-08-05 02:17:58.510] [renderer1] [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
