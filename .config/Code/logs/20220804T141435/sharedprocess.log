@@ -1,0 +1,10 @@
+[2022-08-04 14:14:42.664] [sharedprocess] [info] Starting worker process with pid 440 (type: fileWatcher, window: 1).
+[2022-08-04 14:39:15.665] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2022-08-04 14:58:00.687] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2022-08-04 14:58:56.250] [sharedprocess] [info] Worker process with pid 440 terminated normally (type: fileWatcher, window: 1).
+[2022-08-04 14:58:58.023] [sharedprocess] [info] Starting worker process with pid 1726 (type: fileWatcher, window: 1).
+[2022-08-04 15:01:01.807] [sharedprocess] [info] Worker process with pid 1726 terminated normally (type: fileWatcher, window: 1).
+[2022-08-04 15:01:03.480] [sharedprocess] [info] Starting worker process with pid 1833 (type: fileWatcher, window: 1).
+[2022-08-04 15:18:20.308] [sharedprocess] [error] SharedProcess (worker, fileWatcher): Worker process with pid 1833 terminated by itself with code null, signal: SIGTRAP (type: fileWatcher, window: 1)
+[2022-08-04 15:18:20.466] [sharedprocess] [info] Starting worker process with pid 3348 (type: fileWatcher, window: 1).
+[2022-08-04 17:16:00.811] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds

@@ -1,0 +1,25 @@
+[2022-08-04T23:29:33.230Z] Log level: Info
+[2022-08-04T23:29:33.272Z] [info] Validating found git in: git
+[2022-08-04T23:29:33.446Z] [info] Using git 2.30.2 from git
+[2022-08-04T23:29:33.664Z] > git rev-parse --show-toplevel [34ms]
+[2022-08-04T23:29:33.710Z] > git rev-parse --git-dir --git-common-dir [9ms]
+[2022-08-04T23:29:33.722Z] [info] Open repository: /home/thebuffylow/Angular-Studios
+[2022-08-04T23:29:33.875Z] > git status -z -uall [105ms]
+[2022-08-04T23:29:33.907Z] > git symbolic-ref --short HEAD [12ms]
+[2022-08-04T23:29:33.943Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+[2022-08-04T23:29:35.787Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1823ms]
+[2022-08-04T23:29:35.810Z] > git remote --verbose [1824ms]
+[2022-08-04T23:29:35.850Z] > git config --get commit.template [9ms]
+[2022-08-04T23:29:35.913Z] > git status -z -uall [45ms]
+[2022-08-04T23:29:35.964Z] > git symbolic-ref --short HEAD [23ms]
+[2022-08-04T23:29:36.010Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+[2022-08-04T23:29:36.095Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [60ms]
+[2022-08-04T23:29:36.116Z] > git remote --verbose [25ms]
+[2022-08-04T23:29:36.266Z] > git config --get commit.template [19ms]
+[2022-08-04T23:29:36.404Z] > git check-ignore -v -z --stdin [21ms]
+[2022-08-04T23:31:46.788Z] > git status -z -uall [110ms]
+[2022-08-04T23:31:46.804Z] > git symbolic-ref --short HEAD [6ms]
+[2022-08-04T23:31:46.819Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+[2022-08-04T23:31:46.832Z] > git remote --verbose [2ms]
+[2022-08-04T23:31:46.834Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+[2022-08-04T23:31:46.853Z] > git config --get commit.template [2ms]

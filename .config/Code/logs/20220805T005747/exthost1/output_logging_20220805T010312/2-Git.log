@@ -1,0 +1,25 @@
+[2022-08-05T06:03:12.968Z] Log level: Info
+[2022-08-05T06:03:12.974Z] [info] Validating found git in: git
+[2022-08-05T06:03:13.022Z] [info] Using git 2.30.2 from git
+[2022-08-05T06:03:13.046Z] > git rev-parse --show-toplevel [10ms]
+[2022-08-05T06:03:13.056Z] > git rev-parse --git-dir --git-common-dir [2ms]
+[2022-08-05T06:03:13.060Z] [info] Open repository: /home/thebuffylow
+[2022-08-05T06:03:14.539Z] > git check-ignore -v -z --stdin [47ms]
+[2022-08-05T06:03:16.992Z] > git check-ignore -v -z --stdin [43ms]
+[2022-08-05T06:03:17.825Z] > git status -z -uall [4758ms]
+[2022-08-05T06:03:22.149Z] > git symbolic-ref --short HEAD [11ms]
+[2022-08-05T06:03:22.162Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+[2022-08-05T06:03:22.176Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+[2022-08-05T06:03:22.180Z] > git remote --verbose [5ms]
+[2022-08-05T06:03:25.673Z] > git config --get commit.template [70ms]
+[2022-08-05T06:03:27.254Z] > git status -z -uall [1547ms]
+[2022-08-05T06:03:27.255Z] > git symbolic-ref --short HEAD [2ms]
+[2022-08-05T06:03:27.267Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+[2022-08-05T06:03:27.288Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+[2022-08-05T06:03:27.295Z] > git remote --verbose [8ms]
+[2022-08-05T06:03:34.905Z] > git config --get commit.template [63ms]
+[2022-08-05T06:10:11.345Z] > git check-ignore -v -z --stdin [93ms]
+[2022-08-05T06:10:43.696Z] > git check-ignore -v -z --stdin [15ms]
+[2022-08-05T06:10:45.657Z] > git check-ignore -v -z --stdin [12ms]
+[2022-08-05T06:10:49.452Z] > git check-ignore -v -z --stdin [58ms]
+[2022-08-05T06:10:51.915Z] > git check-ignore -v -z --stdin [26ms]

@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "core-js": "^3.24.1",
+    "g": "^2.0.1"
   }
 }

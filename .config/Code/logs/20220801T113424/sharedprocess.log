@@ -1,3 +1,0 @@
-[2022-08-01 11:34:29.238] [sharedprocess] [info] Starting worker process with pid 10187 (type: fileWatcher, window: 1).
-[2022-08-01 11:38:08.407] [sharedprocess] [info] Worker process with pid 10187 terminated normally (type: fileWatcher, window: 1).
-[2022-08-01 11:38:09.907] [sharedprocess] [info] Starting worker process with pid 10404 (type: fileWatcher, window: 1).

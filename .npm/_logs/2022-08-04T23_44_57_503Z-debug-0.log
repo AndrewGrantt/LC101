@@ -1,0 +1,2361 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@8.15.1
+2 info using node@v18.6.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/thebuffylow/angular-lc101-projects/lesson2/exercises/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 18ms
+11 timing config:load:file:/home/thebuffylow/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 27ms
+19 timing npm:load:configload Completed in 27ms
+20 timing npm:load:mkdirpcache Completed in 1ms
+21 timing npm:load:mkdirplogs Completed in 0ms
+22 verbose title npm audit fix
+23 verbose argv "audit" "fix" "--legacy-peer-deps"
+24 timing npm:load:setTitle Completed in 1ms
+25 timing config:load:flatten Completed in 3ms
+26 timing npm:load:display Completed in 5ms
+27 verbose logfile logs-max:10 dir:/home/thebuffylow/.npm/_logs
+28 verbose logfile /home/thebuffylow/.npm/_logs/2022-08-04T23_44_57_503Z-debug-0.log
+29 timing npm:load:logFile Completed in 5ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 42ms
+33 timing arborist:ctor Completed in 1ms
+34 silly logfile start cleaning logs, removing 1 files
+35 silly logfile done cleaning log files
+36 silly audit bulk request {
+36 silly audit   '@ampproject/remapping': [ '2.2.0' ],
+36 silly audit   '@angular-devkit/architect': [ '0.1401.1' ],
+36 silly audit   rxjs: [ '6.6.7', '7.5.6', '6.4.0' ],
+36 silly audit   '@angular-devkit/build-angular': [ '14.1.1' ],
+36 silly audit   '@ngtools/webpack': [ '14.1.1' ],
+36 silly audit   'agent-base': [ '6.0.2', '4.3.0' ],
+36 silly audit   'brace-expansion': [ '2.0.1', '1.1.11' ],
+36 silly audit   debug: [ '4.3.4', '4.1.1', '2.6.9', '3.2.6', '3.2.7' ],
+36 silly audit   glob: [ '8.0.3', '7.2.3' ],
+36 silly audit   'https-proxy-agent': [ '5.0.1', '2.2.4' ],
+36 silly audit   'lru-cache': [ '6.0.0', '7.13.2' ],
+36 silly audit   minimatch: [ '5.1.0', '3.1.2', '3.0.4' ],
+36 silly audit   ms: [ '2.1.2', '2.0.0', '2.1.3' ],
+36 silly audit   tslib: [ '1.14.1', '2.4.0', '1.10.0' ],
+36 silly audit   semver: [ '7.3.7', '6.3.0', '7.0.0', '5.7.0', '6.0.0' ],
+36 silly audit   '@angular-devkit/build-webpack': [ '0.1401.1' ],
+36 silly audit   '@angular-devkit/core': [ '14.1.1' ],
+36 silly audit   ajv: [ '8.11.0', '6.12.6' ],
+36 silly audit   'json-schema-traverse': [ '1.0.0', '0.4.1' ],
+36 silly audit   '@angular-devkit/schematics': [ '14.1.1' ],
+36 silly audit   '@angular/animations': [ '14.1.1' ],
+36 silly audit   '@angular/cli': [ '14.1.1' ],
+36 silly audit   ini: [ '3.0.0', '1.3.8' ],
+36 silly audit   uuid: [ '8.3.2', '3.3.2' ],
+36 silly audit   '@angular/common': [ '14.1.1' ],
+36 silly audit   '@angular/compiler': [ '8.0.3' ],
+36 silly audit   '@angular/compiler-cli': [ '14.1.1' ],
+36 silly audit   '@angular/core': [ '14.1.1' ],
+36 silly audit   '@angular/forms': [ '14.1.1' ],
+36 silly audit   '@angular/language-service': [ '8.0.3' ],
+36 silly audit   '@angular/platform-browser': [ '14.1.1' ],
+36 silly audit   '@angular/platform-browser-dynamic': [ '14.1.1' ],
+36 silly audit   '@angular/router': [ '14.1.1' ],
+36 silly audit   '@assemblyscript/loader': [ '0.10.1' ],
+36 silly audit   '@babel/code-frame': [ '7.18.6' ],
+36 silly audit   '@babel/compat-data': [ '7.18.8' ],
+36 silly audit   '@babel/core': [ '7.18.6' ],
+36 silly audit   '@babel/generator': [ '7.18.7', '7.18.10' ],
+36 silly audit   '@jridgewell/gen-mapping': [ '0.3.2', '0.1.1' ],
+36 silly audit   jsesc: [ '2.5.2', '0.5.0' ],
+36 silly audit   '@babel/helper-annotate-as-pure': [ '7.18.6' ],
+36 silly audit   '@babel/helper-builder-binary-assignment-operator-visitor': [ '7.18.9' ],
+36 silly audit   '@babel/helper-compilation-targets': [ '7.18.9' ],
+36 silly audit   '@babel/helper-create-class-features-plugin': [ '7.18.9' ],
+36 silly audit   '@babel/helper-create-regexp-features-plugin': [ '7.18.6' ],
+36 silly audit   '@babel/helper-define-polyfill-provider': [ '0.3.2' ],
+36 silly audit   '@babel/helper-environment-visitor': [ '7.18.9' ],
+36 silly audit   '@babel/helper-explode-assignable-expression': [ '7.18.6' ],
+36 silly audit   '@babel/helper-function-name': [ '7.18.9' ],
+36 silly audit   '@babel/helper-hoist-variables': [ '7.18.6' ],
+36 silly audit   '@babel/helper-member-expression-to-functions': [ '7.18.9' ],
+36 silly audit   '@babel/helper-module-imports': [ '7.18.6' ],
+36 silly audit   '@babel/helper-module-transforms': [ '7.18.9' ],
+36 silly audit   '@babel/helper-optimise-call-expression': [ '7.18.6' ],
+36 silly audit   '@babel/helper-plugin-utils': [ '7.18.9' ],
+36 silly audit   '@babel/helper-remap-async-to-generator': [ '7.18.9' ],
+36 silly audit   '@babel/helper-replace-supers': [ '7.18.9' ],
+36 silly audit   '@babel/helper-simple-access': [ '7.18.6' ],
+36 silly audit   '@babel/helper-skip-transparent-expression-wrappers': [ '7.18.9' ],
+36 silly audit   '@babel/helper-split-export-declaration': [ '7.18.6' ],
+36 silly audit   '@babel/helper-string-parser': [ '7.18.10' ],
+36 silly audit   '@babel/helper-validator-identifier': [ '7.18.6' ],
+36 silly audit   '@babel/helper-validator-option': [ '7.18.6' ],
+36 silly audit   '@babel/helper-wrap-function': [ '7.18.11' ],
+36 silly audit   '@babel/template': [ '7.18.10', '7.18.6' ],
+36 silly audit   '@babel/helpers': [ '7.18.9' ],
+36 silly audit   '@babel/highlight': [ '7.18.6' ],
+36 silly audit   'js-tokens': [ '4.0.0', '3.0.2' ],
+36 silly audit   '@babel/parser': [ '7.18.11' ],
+36 silly audit   '@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining': [ '7.18.9' ],
+36 silly audit   '@babel/plugin-proposal-async-generator-functions': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-proposal-class-properties': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-proposal-class-static-block': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-proposal-dynamic-import': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-proposal-export-namespace-from': [ '7.18.9' ],
+36 silly audit   '@babel/plugin-proposal-json-strings': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-proposal-logical-assignment-operators': [ '7.18.9' ],
+36 silly audit   '@babel/plugin-proposal-nullish-coalescing-operator': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-proposal-numeric-separator': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-proposal-object-rest-spread': [ '7.18.9' ],
+36 silly audit   '@babel/plugin-proposal-optional-catch-binding': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-proposal-optional-chaining': [ '7.18.9' ],
+36 silly audit   '@babel/plugin-proposal-private-methods': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-proposal-private-property-in-object': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-proposal-unicode-property-regex': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-syntax-async-generators': [ '7.8.4' ],
+36 silly audit   '@babel/plugin-syntax-class-properties': [ '7.12.13' ],
+36 silly audit   '@babel/plugin-syntax-class-static-block': [ '7.14.5' ],
+36 silly audit   '@babel/plugin-syntax-dynamic-import': [ '7.8.3' ],
+36 silly audit   '@babel/plugin-syntax-export-namespace-from': [ '7.8.3' ],
+36 silly audit   '@babel/plugin-syntax-import-assertions': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-syntax-json-strings': [ '7.8.3' ],
+36 silly audit   '@babel/plugin-syntax-logical-assignment-operators': [ '7.10.4' ],
+36 silly audit   '@babel/plugin-syntax-nullish-coalescing-operator': [ '7.8.3' ],
+36 silly audit   '@babel/plugin-syntax-numeric-separator': [ '7.10.4' ],
+36 silly audit   '@babel/plugin-syntax-object-rest-spread': [ '7.8.3' ],
+36 silly audit   '@babel/plugin-syntax-optional-catch-binding': [ '7.8.3' ],
+36 silly audit   '@babel/plugin-syntax-optional-chaining': [ '7.8.3' ],
+36 silly audit   '@babel/plugin-syntax-private-property-in-object': [ '7.14.5' ],
+36 silly audit   '@babel/plugin-syntax-top-level-await': [ '7.14.5' ],
+36 silly audit   '@babel/plugin-transform-arrow-functions': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-transform-async-to-generator': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-transform-block-scoped-functions': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-transform-block-scoping': [ '7.18.9' ],
+36 silly audit   '@babel/plugin-transform-classes': [ '7.18.9' ],
+36 silly audit   '@babel/plugin-transform-computed-properties': [ '7.18.9' ],
+36 silly audit   '@babel/plugin-transform-destructuring': [ '7.18.9' ],
+36 silly audit   '@babel/plugin-transform-dotall-regex': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-transform-duplicate-keys': [ '7.18.9' ],
+36 silly audit   '@babel/plugin-transform-exponentiation-operator': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-transform-for-of': [ '7.18.8' ],
+36 silly audit   '@babel/plugin-transform-function-name': [ '7.18.9' ],
+36 silly audit   '@babel/plugin-transform-literals': [ '7.18.9' ],
+36 silly audit   '@babel/plugin-transform-member-expression-literals': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-transform-modules-amd': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-transform-modules-commonjs': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-transform-modules-systemjs': [ '7.18.9' ],
+36 silly audit   '@babel/plugin-transform-modules-umd': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-transform-named-capturing-groups-regex': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-transform-new-target': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-transform-object-super': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-transform-parameters': [ '7.18.8' ],
+36 silly audit   '@babel/plugin-transform-property-literals': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-transform-regenerator': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-transform-reserved-words': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-transform-runtime': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-transform-shorthand-properties': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-transform-spread': [ '7.18.9' ],
+36 silly audit   '@babel/plugin-transform-sticky-regex': [ '7.18.6' ],
+36 silly audit   '@babel/plugin-transform-template-literals': [ '7.18.9' ],
+36 silly audit   '@babel/plugin-transform-typeof-symbol': [ '7.18.9' ],
+36 silly audit   '@babel/plugin-transform-unicode-escapes': [ '7.18.10' ],
+36 silly audit   '@babel/plugin-transform-unicode-regex': [ '7.18.6' ],
+36 silly audit   '@babel/preset-env': [ '7.18.6' ],
+36 silly audit   '@babel/preset-modules': [ '0.1.5' ],
+36 silly audit   '@babel/runtime': [ '7.18.6' ],
+36 silly audit   '@babel/traverse': [ '7.18.11' ],
+36 silly audit   '@babel/types': [ '7.18.10' ],
+36 silly audit   'to-fast-properties': [ '2.0.0' ],
+36 silly audit   '@colors/colors': [ '1.5.0' ],
+36 silly audit   '@csstools/postcss-cascade-layers': [ '1.0.5' ],
+36 silly audit   '@csstools/postcss-color-function': [ '1.1.1' ],
+36 silly audit   '@csstools/postcss-font-format-keywords': [ '1.0.1' ],
+36 silly audit   '@csstools/postcss-hwb-function': [ '1.0.2' ],
+36 silly audit   '@csstools/postcss-ic-unit': [ '1.0.1' ],
+36 silly audit   '@csstools/postcss-is-pseudo-class': [ '2.0.7' ],
+36 silly audit   '@csstools/postcss-normalize-display-values': [ '1.0.1' ],
+36 silly audit   '@csstools/postcss-oklab-function': [ '1.1.1' ],
+36 silly audit   '@csstools/postcss-progressive-custom-properties': [ '1.3.0' ],
+36 silly audit   '@csstools/postcss-stepped-value-functions': [ '1.0.1' ],
+36 silly audit   '@csstools/postcss-trigonometric-functions': [ '1.0.2' ],
+36 silly audit   '@csstools/postcss-unset-value': [ '1.0.2' ],
+36 silly audit   '@csstools/selector-specificity': [ '2.0.2' ],
+36 silly audit   '@discoveryjs/json-ext': [ '0.5.7' ],
+36 silly audit   '@gar/promisify': [ '1.1.3' ],
+36 silly audit   '@istanbuljs/load-nyc-config': [ '1.1.0' ],
+36 silly audit   '@istanbuljs/schema': [ '0.1.3' ],
+36 silly audit   '@jridgewell/resolve-uri': [ '3.1.0' ],
+36 silly audit   '@jridgewell/set-array': [ '1.1.2' ],
+36 silly audit   '@jridgewell/source-map': [ '0.3.2' ],
+36 silly audit   '@jridgewell/sourcemap-codec': [ '1.4.14' ],
+36 silly audit   '@jridgewell/trace-mapping': [ '0.3.14' ],
+36 silly audit   '@leichtgewicht/ip-codec': [ '2.0.4' ],
+36 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+36 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+36 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+36 silly audit   '@npmcli/fs': [ '2.1.1' ],
+36 silly audit   '@npmcli/git': [ '3.0.1' ],
+36 silly audit   mkdirp: [ '1.0.4', '0.5.6' ],
+36 silly audit   which: [ '2.0.2', '1.3.1' ],
+36 silly audit   '@npmcli/installed-package-contents': [ '1.0.7' ],
+36 silly audit   '@npmcli/move-file': [ '2.0.0' ],
+36 silly audit   rimraf: [ '3.0.2', '2.6.3' ],
+36 silly audit   '@npmcli/node-gyp': [ '2.0.0' ],
+36 silly audit   '@npmcli/promise-spawn': [ '3.0.0' ],
+36 silly audit   '@npmcli/run-script': [ '4.2.0' ],
+36 silly audit   '@schematics/angular': [ '14.1.1' ],
+36 silly audit   '@tootallnate/once': [ '2.0.0' ],
+36 silly audit   '@types/body-parser': [ '1.19.2' ],
+36 silly audit   '@types/bonjour': [ '3.5.10' ],
+36 silly audit   '@types/component-emitter': [ '1.2.11' ],
+36 silly audit   '@types/connect': [ '3.4.35' ],
+36 silly audit   '@types/connect-history-api-fallback': [ '1.3.5' ],
+36 silly audit   '@types/cookie': [ '0.4.1' ],
+36 silly audit   '@types/cors': [ '2.8.12' ],
+36 silly audit   '@types/eslint': [ '8.4.5' ],
+36 silly audit   '@types/eslint-scope': [ '3.7.4' ],
+36 silly audit   '@types/estree': [ '0.0.51' ],
+36 silly audit   '@types/express': [ '4.17.13' ],
+36 silly audit   '@types/express-serve-static-core': [ '4.17.30' ],
+36 silly audit   '@types/http-proxy': [ '1.17.9' ],
+36 silly audit   '@types/jasmine': [ '3.3.16' ],
+36 silly audit   '@types/jasminewd2': [ '2.0.6' ],
+36 silly audit   '@types/json-schema': [ '7.0.11' ],
+36 silly audit   '@types/mime': [ '3.0.1' ],
+36 silly audit   '@types/node': [ '8.9.5', '18.6.4' ],
+36 silly audit   '@types/parse-json': [ '4.0.0' ],
+36 silly audit   '@types/q': [ '0.0.32' ],
+36 silly audit   '@types/qs': [ '6.9.7' ],
+36 silly audit   '@types/range-parser': [ '1.2.4' ],
+36 silly audit   '@types/retry': [ '0.12.0' ],
+36 silly audit   '@types/selenium-webdriver': [ '3.0.16' ],
+36 silly audit   '@types/serve-index': [ '1.9.1' ],
+36 silly audit   '@types/serve-static': [ '1.15.0' ],
+36 silly audit   '@types/sockjs': [ '0.3.33' ],
+36 silly audit   '@types/ws': [ '8.5.3' ],
+36 silly audit   '@webassemblyjs/ast': [ '1.11.1' ],
+36 silly audit   '@webassemblyjs/floating-point-hex-parser': [ '1.11.1' ],
+36 silly audit   '@webassemblyjs/helper-api-error': [ '1.11.1' ],
+36 silly audit   '@webassemblyjs/helper-buffer': [ '1.11.1' ],
+36 silly audit   '@webassemblyjs/helper-numbers': [ '1.11.1' ],
+36 silly audit   '@webassemblyjs/helper-wasm-bytecode': [ '1.11.1' ],
+36 silly audit   '@webassemblyjs/helper-wasm-section': [ '1.11.1' ],
+36 silly audit   '@webassemblyjs/ieee754': [ '1.11.1' ],
+36 silly audit   '@webassemblyjs/leb128': [ '1.11.1' ],
+36 silly audit   '@webassemblyjs/utf8': [ '1.11.1' ],
+36 silly audit   '@webassemblyjs/wasm-edit': [ '1.11.1' ],
+36 silly audit   '@webassemblyjs/wasm-gen': [ '1.11.1' ],
+36 silly audit   '@webassemblyjs/wasm-opt': [ '1.11.1' ],
+36 silly audit   '@webassemblyjs/wasm-parser': [ '1.11.1' ],
+36 silly audit   '@webassemblyjs/wast-printer': [ '1.11.1' ],
+36 silly audit   '@xtuc/ieee754': [ '1.2.0' ],
+36 silly audit   '@xtuc/long': [ '4.2.2' ],
+36 silly audit   '@yarnpkg/lockfile': [ '1.1.0' ],
+36 silly audit   abab: [ '2.0.6' ],
+36 silly audit   abbrev: [ '1.1.1' ],
+36 silly audit   accepts: [ '1.3.8' ],
+36 silly audit   acorn: [ '8.8.0' ],
+36 silly audit   'acorn-import-assertions': [ '1.8.0' ],
+36 silly audit   'adjust-sourcemap-loader': [ '4.0.0' ],
+36 silly audit   'loader-utils': [ '2.0.2', '3.2.0' ],
+36 silly audit   'adm-zip': [ '0.4.13' ],
+36 silly audit   agentkeepalive: [ '4.2.1' ],
+36 silly audit   'aggregate-error': [ '3.1.0' ],
+36 silly audit   'ajv-formats': [ '2.1.1' ],
+36 silly audit   'ajv-keywords': [ '3.5.2', '5.1.0' ],
+36 silly audit   'ansi-colors': [ '4.1.3' ],
+36 silly audit   'ansi-escapes': [ '4.3.2' ],
+36 silly audit   'ansi-html-community': [ '0.0.8' ],
+36 silly audit   'ansi-regex': [ '2.1.1', '5.0.1' ],
+36 silly audit   'ansi-styles': [ '3.2.1', '2.2.1', '4.3.0' ],
+36 silly audit   anymatch: [ '3.1.2' ],
+36 silly audit   'append-transform': [ '1.0.0' ],
+36 silly audit   aproba: [ '2.0.0' ],
+36 silly audit   'are-we-there-yet': [ '3.0.1' ],
+36 silly audit   'readable-stream': [ '3.6.0', '2.3.6' ],
+36 silly audit   argparse: [ '1.0.10' ],
+36 silly audit   'array-flatten': [ '2.1.2', '1.1.1' ],
+36 silly audit   'array-union': [ '1.0.2' ],
+36 silly audit   'array-uniq': [ '1.0.3' ],
+36 silly audit   arrify: [ '1.0.1' ],
+36 silly audit   asn1: [ '0.2.4' ],
+36 silly audit   'assert-plus': [ '1.0.0' ],
+36 silly audit   async: [ '2.6.4' ],
+36 silly audit   asynckit: [ '0.4.0' ],
+36 silly audit   atob: [ '2.1.2' ],
+36 silly audit   autoprefixer: [ '10.4.8' ],
+36 silly audit   'aws-sign2': [ '0.7.0' ],
+36 silly audit   aws4: [ '1.8.0' ],
+36 silly audit   'babel-code-frame': [ '6.26.0' ],
+36 silly audit   chalk: [ '1.1.3', '2.4.2', '4.1.2' ],
+36 silly audit   'supports-color': [ '2.0.0', '5.5.0', '7.2.0', '8.1.1', '6.1.0' ],
+36 silly audit   'babel-loader': [ '8.2.5' ],
+36 silly audit   'make-dir': [ '3.1.0', '2.1.0' ],
+36 silly audit   'babel-plugin-dynamic-import-node': [ '2.3.3' ],
+36 silly audit   'babel-plugin-istanbul': [ '6.1.1' ],
+36 silly audit   'babel-plugin-polyfill-corejs2': [ '0.3.2' ],
+36 silly audit   'babel-plugin-polyfill-corejs3': [ '0.5.3' ],
+36 silly audit   'babel-plugin-polyfill-regenerator': [ '0.3.1' ],
+36 silly audit   'balanced-match': [ '1.0.0' ],
+36 silly audit   'base64-js': [ '1.5.1' ],
+36 silly audit   base64id: [ '2.0.0' ],
+36 silly audit   batch: [ '0.6.1' ],
+36 silly audit   'bcrypt-pbkdf': [ '1.0.2' ],
+36 silly audit   'big.js': [ '5.2.2' ],
+36 silly audit   'binary-extensions': [ '2.2.0' ],
+36 silly audit   bl: [ '4.1.0' ],
+36 silly audit   'blocking-proxy': [ '1.0.1' ],
+36 silly audit   'body-parser': [ '1.20.0' ],
+36 silly audit   bytes: [ '3.1.2', '3.0.0' ],
+36 silly audit   depd: [ '2.0.0', '1.1.2' ],
+36 silly audit   'on-finished': [ '2.4.1', '2.3.0' ],
+36 silly audit   qs: [ '6.10.3', '6.5.2' ],
+36 silly audit   'bonjour-service': [ '1.0.13' ],
+36 silly audit   boolbase: [ '1.0.0' ],
+36 silly audit   braces: [ '3.0.2' ],
+36 silly audit   browserslist: [ '4.21.3' ],
+36 silly audit   browserstack: [ '1.5.2' ],
+36 silly audit   buffer: [ '5.7.1' ],
+36 silly audit   'buffer-from': [ '1.1.1' ],
+36 silly audit   'builtin-modules': [ '1.1.1' ],
+36 silly audit   builtins: [ '5.0.1' ],
+36 silly audit   cacache: [ '16.1.1' ],
+36 silly audit   'call-bind': [ '1.0.2' ],
+36 silly audit   callsites: [ '3.1.0' ],
+36 silly audit   camelcase: [ '5.3.1' ],
+36 silly audit   'caniuse-lite': [ '1.0.30001374' ],
+36 silly audit   caseless: [ '0.12.0' ],
+36 silly audit   chardet: [ '0.7.0' ],
+36 silly audit   chokidar: [ '3.5.3' ],
+36 silly audit   chownr: [ '2.0.0' ],
+36 silly audit   'chrome-trace-event': [ '1.0.3' ],
+36 silly audit   'clean-stack': [ '2.2.0' ],
+36 silly audit   'cli-cursor': [ '3.1.0' ],
+36 silly audit   'cli-spinners': [ '2.7.0' ],
+36 silly audit   'cli-width': [ '3.0.0' ],
+36 silly audit   cliui: [ '7.0.4' ],
+36 silly audit   'strip-ansi': [ '6.0.1', '3.0.1' ],
+36 silly audit   clone: [ '1.0.4' ],
+36 silly audit   'clone-deep': [ '4.0.1' ],
+36 silly audit   codelyzer: [ '0.0.28' ],
+36 silly audit   'sprintf-js': [ '1.1.2', '1.0.3' ],
+36 silly audit   'color-convert': [ '1.9.3', '2.0.1' ],
+36 silly audit   'color-name': [ '1.1.3', '1.1.4' ],
+36 silly audit   'color-support': [ '1.1.3' ],
+36 silly audit   colorette: [ '2.0.19' ],
+36 silly audit   colors: [ '1.1.2' ],
+36 silly audit   'combined-stream': [ '1.0.8' ],
+36 silly audit   commander: [ '2.20.0' ],
+36 silly audit   commondir: [ '1.0.1' ],
+36 silly audit   'compare-versions': [ '3.5.1' ],
+36 silly audit   'component-emitter': [ '1.3.0' ],
+36 silly audit   compressible: [ '2.0.18' ],
+36 silly audit   compression: [ '1.7.4' ],
+36 silly audit   'concat-map': [ '0.0.1' ],
+36 silly audit   connect: [ '3.7.0' ],
+36 silly audit   'connect-history-api-fallback': [ '2.0.0' ],
+36 silly audit   'console-control-strings': [ '1.1.0' ],
+36 silly audit   'content-disposition': [ '0.5.4' ],
+36 silly audit   'safe-buffer': [ '5.2.1', '5.1.2' ],
+36 silly audit   'content-type': [ '1.0.4' ],
+36 silly audit   'convert-source-map': [ '1.8.0' ],
+36 silly audit   cookie: [ '0.4.2', '0.5.0' ],
+36 silly audit   'cookie-signature': [ '1.0.6' ],
+36 silly audit   'copy-anything': [ '2.0.6' ],
+36 silly audit   'copy-webpack-plugin': [ '11.0.0' ],
+36 silly audit   'glob-parent': [ '6.0.2', '5.1.2' ],
+36 silly audit   'schema-utils': [ '4.0.0', '2.7.1', '3.1.1' ],
+36 silly audit   'core-js-compat': [ '3.24.1' ],
+36 silly audit   'core-util-is': [ '1.0.2' ],
+36 silly audit   cors: [ '2.8.5' ],
+36 silly audit   cosmiconfig: [ '7.0.1' ],
+36 silly audit   critters: [ '0.0.16' ],
+36 silly audit   'has-flag': [ '4.0.0', '3.0.0' ],
+36 silly audit   'cross-spawn': [ '7.0.3' ],
+36 silly audit   css: [ '3.0.0' ],
+36 silly audit   'css-blank-pseudo': [ '3.0.3' ],
+36 silly audit   'css-has-pseudo': [ '3.0.4' ],
+36 silly audit   'css-loader': [ '6.7.1' ],
+36 silly audit   'css-prefers-color-scheme': [ '6.0.3' ],
+36 silly audit   'css-select': [ '4.3.0' ],
+36 silly audit   'css-what': [ '6.1.0' ],
+36 silly audit   'source-map': [ '0.6.1', '0.5.7', '0.7.4' ],
+36 silly audit   cssdb: [ '6.6.3' ],
+36 silly audit   cssesc: [ '3.0.0' ],
+36 silly audit   'custom-event': [ '1.0.1' ],
+36 silly audit   dashdash: [ '1.14.1' ],
+36 silly audit   'date-format': [ '4.0.13' ],
+36 silly audit   'decode-uri-component': [ '0.2.0' ],
+36 silly audit   'default-gateway': [ '6.0.3' ],
+36 silly audit   'default-require-extensions': [ '2.0.0' ],
+36 silly audit   defaults: [ '1.0.3' ],
+36 silly audit   'define-lazy-prop': [ '2.0.0' ],
+36 silly audit   'define-properties': [ '1.1.4' ],
+36 silly audit   'delayed-stream': [ '1.0.0' ],
+36 silly audit   delegates: [ '1.0.0' ],
+36 silly audit   'dependency-graph': [ '0.11.0' ],
+36 silly audit   destroy: [ '1.2.0' ],
+36 silly audit   'detect-node': [ '2.1.0' ],
+36 silly audit   di: [ '0.0.1' ],
+36 silly audit   diff: [ '3.5.0' ],
+36 silly audit   'dir-glob': [ '3.0.1' ],
+36 silly audit   'dns-equal': [ '1.0.0' ],
+36 silly audit   'dns-packet': [ '5.4.0' ],
+36 silly audit   'dom-serialize': [ '2.2.1' ],
+36 silly audit   'dom-serializer': [ '1.4.1' ],
+36 silly audit   domelementtype: [ '2.3.0' ],
+36 silly audit   domhandler: [ '4.3.1' ],
+36 silly audit   domutils: [ '2.8.0' ],
+36 silly audit   'ecc-jsbn': [ '0.1.2' ],
+36 silly audit   'ee-first': [ '1.1.1' ],
+36 silly audit   'electron-to-chromium': [ '1.4.211' ],
+36 silly audit   'emoji-regex': [ '8.0.0' ],
+36 silly audit   'emojis-list': [ '3.0.0' ],
+36 silly audit   encodeurl: [ '1.0.2' ],
+36 silly audit   encoding: [ '0.1.13' ],
+36 silly audit   'iconv-lite': [ '0.6.3', '0.4.24' ],
+36 silly audit   'engine.io': [ '6.2.0' ],
+36 silly audit   'engine.io-parser': [ '5.0.4' ],
+36 silly audit   'enhanced-resolve': [ '5.10.0' ],
+36 silly audit   ent: [ '2.2.0' ],
+36 silly audit   entities: [ '2.2.0' ],
+36 silly audit   'env-paths': [ '2.2.1' ],
+36 silly audit   'err-code': [ '2.0.3' ],
+36 silly audit   errno: [ '0.1.8' ],
+36 silly audit   'error-ex': [ '1.3.2' ],
+36 silly audit   'es-module-lexer': [ '0.9.3' ],
+36 silly audit   'es6-promise': [ '4.2.8' ],
+36 silly audit   'es6-promisify': [ '5.0.0' ],
+36 silly audit   esbuild: [ '0.14.49' ],
+36 silly audit   'esbuild-android-64': [ '0.14.49' ],
+36 silly audit   'esbuild-android-arm64': [ '0.14.49' ],
+36 silly audit   'esbuild-darwin-64': [ '0.14.49' ],
+36 silly audit   'esbuild-darwin-arm64': [ '0.14.49' ],
+36 silly audit   'esbuild-freebsd-64': [ '0.14.49' ],
+36 silly audit   'esbuild-freebsd-arm64': [ '0.14.49' ],
+36 silly audit   'esbuild-linux-32': [ '0.14.49' ],
+36 silly audit   'esbuild-linux-64': [ '0.14.49' ],
+36 silly audit   'esbuild-linux-arm': [ '0.14.49' ],
+36 silly audit   'esbuild-linux-arm64': [ '0.14.49' ],
+36 silly audit   'esbuild-linux-mips64le': [ '0.14.49' ],
+36 silly audit   'esbuild-linux-ppc64le': [ '0.14.49' ],
+36 silly audit   'esbuild-linux-riscv64': [ '0.14.49' ],
+36 silly audit   'esbuild-linux-s390x': [ '0.14.49' ],
+36 silly audit   'esbuild-netbsd-64': [ '0.14.49' ],
+36 silly audit   'esbuild-openbsd-64': [ '0.14.49' ],
+36 silly audit   'esbuild-sunos-64': [ '0.14.49' ],
+36 silly audit   'esbuild-wasm': [ '0.14.49' ],
+36 silly audit   'esbuild-windows-32': [ '0.14.49' ],
+36 silly audit   'esbuild-windows-64': [ '0.14.49' ],
+36 silly audit   'esbuild-windows-arm64': [ '0.14.49' ],
+36 silly audit   escalade: [ '3.1.1' ],
+36 silly audit   'escape-html': [ '1.0.3' ],
+36 silly audit   'escape-string-regexp': [ '1.0.5' ],
+36 silly audit   'eslint-scope': [ '5.1.1' ],
+36 silly audit   esprima: [ '4.0.1' ],
+36 silly audit   esrecurse: [ '4.3.0' ],
+36 silly audit   estraverse: [ '5.3.0', '4.3.0' ],
+36 silly audit   esutils: [ '2.0.3' ],
+36 silly audit   etag: [ '1.8.1' ],
+36 silly audit   'eventemitter-asyncresource': [ '1.0.0' ],
+36 silly audit   eventemitter3: [ '4.0.7' ],
+36 silly audit   events: [ '3.3.0' ],
+36 silly audit   execa: [ '5.1.1' ],
+36 silly audit   exit: [ '0.1.2' ],
+36 silly audit   express: [ '4.18.1' ],
+36 silly audit   finalhandler: [ '1.2.0', '1.1.2' ],
+36 silly audit   statuses: [ '2.0.1', '1.5.0' ],
+36 silly audit   extend: [ '3.0.2' ],
+36 silly audit   'external-editor': [ '3.1.0' ],
+36 silly audit   extsprintf: [ '1.3.0' ],
+36 silly audit   'fast-deep-equal': [ '3.1.3' ],
+36 silly audit   'fast-glob': [ '3.2.11' ],
+36 silly audit   'fast-json-stable-stringify': [ '2.0.0' ],
+36 silly audit   fastq: [ '1.13.0' ],
+36 silly audit   'faye-websocket': [ '0.11.4' ],
+36 silly audit   figures: [ '3.2.0' ],
+36 silly audit   fileset: [ '2.0.3' ],
+36 silly audit   'fill-range': [ '7.0.1' ],
+36 silly audit   'find-cache-dir': [ '3.3.2' ],
+36 silly audit   'find-up': [ '4.1.0' ],
+36 silly audit   flatted: [ '3.2.6' ],
+36 silly audit   'follow-redirects': [ '1.15.1' ],
+36 silly audit   'forever-agent': [ '0.6.1' ],
+36 silly audit   'form-data': [ '2.3.3' ],
+36 silly audit   forwarded: [ '0.2.0' ],
+36 silly audit   'fraction.js': [ '4.2.0' ],
+36 silly audit   fresh: [ '0.5.2' ],
+36 silly audit   'fs-access': [ '1.0.1' ],
+36 silly audit   'fs-extra': [ '8.1.0' ],
+36 silly audit   'fs-minipass': [ '2.1.0' ],
+36 silly audit   'fs-monkey': [ '1.0.3' ],
+36 silly audit   'fs.realpath': [ '1.0.0' ],
+36 silly audit   fsevents: [ '2.3.2' ],
+36 silly audit   'function-bind': [ '1.1.1' ],
+36 silly audit   gauge: [ '4.0.4' ],
+36 silly audit   gensync: [ '1.0.0-beta.2' ],
+36 silly audit   'get-caller-file': [ '2.0.5' ],
+36 silly audit   'get-intrinsic': [ '1.1.2' ],
+36 silly audit   'get-package-type': [ '0.1.0' ],
+36 silly audit   'get-stream': [ '6.0.1' ],
+36 silly audit   getpass: [ '0.1.7' ],
+36 silly audit   'glob-to-regexp': [ '0.4.1' ],
+36 silly audit   globals: [ '11.12.0' ],
+36 silly audit   globby: [ '13.1.2', '5.0.0' ],
+36 silly audit   'graceful-fs': [ '4.2.10' ],
+36 silly audit   'handle-thing': [ '2.0.1' ],
+36 silly audit   handlebars: [ '4.7.7' ],
+36 silly audit   wordwrap: [ '1.0.0', '0.0.3' ],
+36 silly audit   'har-schema': [ '2.0.0' ],
+36 silly audit   'har-validator': [ '5.1.3' ],
+36 silly audit   has: [ '1.0.3' ],
+36 silly audit   'has-ansi': [ '2.0.0' ],
+36 silly audit   'has-property-descriptors': [ '1.0.0' ],
+36 silly audit   'has-symbols': [ '1.0.3' ],
+36 silly audit   'has-unicode': [ '2.0.1' ],
+36 silly audit   'hdr-histogram-js': [ '2.0.3' ],
+36 silly audit   'hdr-histogram-percentiles-obj': [ '3.0.0' ],
+36 silly audit   'hosted-git-info': [ '5.0.0' ],
+36 silly audit   'hpack.js': [ '2.1.6' ],
+36 silly audit   'html-entities': [ '2.3.3' ],
+36 silly audit   'http-cache-semantics': [ '4.1.0' ],
+36 silly audit   'http-deceiver': [ '1.2.7' ],
+36 silly audit   'http-errors': [ '2.0.0', '1.6.3' ],
+36 silly audit   'http-parser-js': [ '0.5.8' ],
+36 silly audit   'http-proxy': [ '1.18.1' ],
+36 silly audit   'http-proxy-agent': [ '5.0.0' ],
+36 silly audit   'http-proxy-middleware': [ '2.0.6' ],
+36 silly audit   'http-signature': [ '1.2.0' ],
+36 silly audit   'human-signals': [ '2.1.0' ],
+36 silly audit   'humanize-ms': [ '1.2.1' ],
+36 silly audit   'icss-utils': [ '5.1.0' ],
+36 silly audit   ieee754: [ '1.2.1' ],
+36 silly audit   ignore: [ '5.2.0' ],
+36 silly audit   'ignore-walk': [ '5.0.1' ],
+36 silly audit   'image-size': [ '0.5.5' ],
+36 silly audit   immediate: [ '3.0.6' ],
+36 silly audit   immutable: [ '4.1.0' ],
+36 silly audit   'import-fresh': [ '3.3.0' ],
+36 silly audit   'resolve-from': [ '4.0.0', '5.0.0' ],
+36 silly audit   imurmurhash: [ '0.1.4' ],
+36 silly audit   'indent-string': [ '4.0.0' ],
+36 silly audit   'infer-owner': [ '1.0.4' ],
+36 silly audit   inflight: [ '1.0.6' ],
+36 silly audit   inherits: [ '2.0.4', '2.0.3' ],
+36 silly audit   inquirer: [ '8.2.4' ],
+36 silly audit   ip: [ '2.0.0' ],
+36 silly audit   'ipaddr.js': [ '2.0.1', '1.9.1' ],
+36 silly audit   'is-arrayish': [ '0.2.1' ],
+36 silly audit   'is-binary-path': [ '2.1.0' ],
+36 silly audit   'is-core-module': [ '2.10.0' ],
+36 silly audit   'is-docker': [ '2.2.1' ],
+36 silly audit   'is-extglob': [ '2.1.1' ],
+36 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+36 silly audit   'is-glob': [ '4.0.3' ],
+36 silly audit   'is-interactive': [ '1.0.0' ],
+36 silly audit   'is-lambda': [ '1.0.1' ],
+36 silly audit   'is-number': [ '7.0.0' ],
+36 silly audit   'is-plain-obj': [ '3.0.0' ],
+36 silly audit   'is-plain-object': [ '2.0.4' ],
+36 silly audit   'is-stream': [ '2.0.1' ],
+36 silly audit   'is-typedarray': [ '1.0.0' ],
+36 silly audit   'is-unicode-supported': [ '0.1.0' ],
+36 silly audit   'is-what': [ '3.14.1' ],
+36 silly audit   'is-wsl': [ '2.2.0' ],
+36 silly audit   isarray: [ '1.0.0' ],
+36 silly audit   isbinaryfile: [ '4.0.10' ],
+36 silly audit   isexe: [ '2.0.0' ],
+36 silly audit   isobject: [ '3.0.1' ],
+36 silly audit   isstream: [ '0.1.2' ],
+36 silly audit   'istanbul-api': [ '2.1.6' ],
+36 silly audit   'istanbul-lib-coverage': [ '2.0.5', '3.2.0' ],
+36 silly audit   'istanbul-lib-instrument': [ '3.3.0', '5.2.0' ],
+36 silly audit   'istanbul-lib-hook': [ '2.0.7' ],
+36 silly audit   'istanbul-lib-report': [ '2.0.8' ],
+36 silly audit   'istanbul-lib-source-maps': [ '3.0.6' ],
+36 silly audit   'istanbul-reports': [ '2.2.6' ],
+36 silly audit   jasmine: [ '2.8.0' ],
+36 silly audit   'jasmine-core': [ '3.4.0', '2.8.0' ],
+36 silly audit   'jasmine-spec-reporter': [ '4.2.1' ],
+36 silly audit   jasminewd2: [ '2.2.0' ],
+36 silly audit   'jest-worker': [ '27.5.1' ],
+36 silly audit   'js-yaml': [ '3.13.1' ],
+36 silly audit   jsbn: [ '0.1.1' ],
+36 silly audit   'json-parse-even-better-errors': [ '2.3.1' ],
+36 silly audit   'json-schema': [ '0.4.0' ],
+36 silly audit   'json-stringify-safe': [ '5.0.1' ],
+36 silly audit   json5: [ '2.2.1' ],
+36 silly audit   'jsonc-parser': [ '3.1.0' ],
+36 silly audit   jsonfile: [ '4.0.0' ],
+36 silly audit   jsonparse: [ '1.3.1' ],
+36 silly audit   jsprim: [ '1.4.2' ],
+36 silly audit   jszip: [ '3.10.1' ],
+36 silly audit   karma: [ '6.4.0' ],
+36 silly audit   'karma-chrome-launcher': [ '2.2.0' ],
+36 silly audit   'karma-coverage-istanbul-reporter': [ '2.0.6' ],
+36 silly audit   'karma-jasmine': [ '2.0.1' ],
+36 silly audit   'karma-jasmine-html-reporter': [ '1.4.2' ],
+36 silly audit   'karma-source-map-support': [ '1.4.0' ],
+36 silly audit   tmp: [ '0.2.1', '0.0.30', '0.0.33' ],
+36 silly audit   yargs: [ '16.2.0', '17.5.1' ],
+36 silly audit   'yargs-parser': [ '20.2.9', '21.1.1' ],
+36 silly audit   'kind-of': [ '6.0.3' ],
+36 silly audit   klona: [ '2.0.5' ],
+36 silly audit   less: [ '4.1.3' ],
+36 silly audit   'less-loader': [ '11.0.0' ],
+36 silly audit   mime: [ '1.6.0', '2.6.0' ],
+36 silly audit   'license-webpack-plugin': [ '4.0.2' ],
+36 silly audit   lie: [ '3.3.0' ],
+36 silly audit   'lines-and-columns': [ '1.2.4' ],
+36 silly audit   'loader-runner': [ '4.3.0' ],
+36 silly audit   'locate-path': [ '5.0.0' ],
+36 silly audit   lodash: [ '4.17.21' ],
+36 silly audit   'lodash.debounce': [ '4.0.8' ],
+36 silly audit   'log-symbols': [ '4.1.0' ],
+36 silly audit   log4js: [ '6.6.1' ],
+36 silly audit   'magic-string': [ '0.26.2' ],
+36 silly audit   'make-error': [ '1.3.5' ],
+36 silly audit   'make-fetch-happen': [ '10.2.0' ],
+36 silly audit   'media-typer': [ '0.3.0' ],
+36 silly audit   memfs: [ '3.4.7' ],
+36 silly audit   'merge-descriptors': [ '1.0.1' ],
+36 silly audit   'merge-stream': [ '2.0.0' ],
+36 silly audit   merge2: [ '1.4.1' ],
+36 silly audit   methods: [ '1.1.2' ],
+36 silly audit   micromatch: [ '4.0.5' ],
+36 silly audit   'mime-db': [ '1.52.0' ],
+36 silly audit   'mime-types': [ '2.1.35' ],
+36 silly audit   'mimic-fn': [ '2.1.0' ],
+36 silly audit   'mini-css-extract-plugin': [ '2.6.1' ],
+36 silly audit   'minimalistic-assert': [ '1.0.1' ],
+36 silly audit   minimist: [ '1.2.6', '0.0.10' ],
+36 silly audit   minipass: [ '3.3.4' ],
+36 silly audit   'minipass-collect': [ '1.0.2' ],
+36 silly audit   'minipass-fetch': [ '2.1.0' ],
+36 silly audit   'minipass-flush': [ '1.0.5' ],
+36 silly audit   'minipass-json-stream': [ '1.0.1' ],
+36 silly audit   'minipass-pipeline': [ '1.2.4' ],
+36 silly audit   'minipass-sized': [ '1.0.3' ],
+36 silly audit   minizlib: [ '2.1.2' ],
+36 silly audit   'multicast-dns': [ '7.2.5' ],
+36 silly audit   'mute-stream': [ '0.0.8' ],
+36 silly audit   nanoid: [ '3.3.4' ],
+36 silly audit   needle: [ '3.1.0' ],
+36 silly audit   negotiator: [ '0.6.3' ],
+36 silly audit   'neo-async': [ '2.6.2' ],
+36 silly audit   'nice-napi': [ '1.0.2' ],
+36 silly audit   'node-addon-api': [ '3.2.1' ],
+36 silly audit   'node-forge': [ '1.3.1' ],
+36 silly audit   'node-gyp': [ '9.1.0' ],
+36 silly audit   'node-gyp-build': [ '4.5.0' ],
+36 silly audit   'node-releases': [ '2.0.6' ],
+36 silly audit   nopt: [ '5.0.0' ],
+36 silly audit   'normalize-package-data': [ '4.0.0' ],
+36 silly audit   'normalize-path': [ '3.0.0' ],
+36 silly audit   'normalize-range': [ '0.1.2' ],
+36 silly audit   'npm-bundled': [ '1.1.2' ],
+36 silly audit   'npm-install-checks': [ '5.0.0' ],
+36 silly audit   'npm-normalize-package-bin': [ '1.0.1' ],
+36 silly audit   'npm-package-arg': [ '9.1.0' ],
+36 silly audit   'npm-packlist': [ '5.1.1' ],
+36 silly audit   'npm-pick-manifest': [ '7.0.1' ],
+36 silly audit   'npm-registry-fetch': [ '13.3.0' ],
+36 silly audit   'npm-run-path': [ '4.0.1' ],
+36 silly audit   npmlog: [ '6.0.2' ],
+36 silly audit   'nth-check': [ '2.1.1' ],
+36 silly audit   'null-check': [ '1.0.0' ],
+36 silly audit   'oauth-sign': [ '0.9.0' ],
+36 silly audit   'object-assign': [ '4.1.1' ],
+36 silly audit   'object-inspect': [ '1.12.2' ],
+36 silly audit   'object-keys': [ '1.1.1' ],
+36 silly audit   'object.assign': [ '4.1.2' ],
+36 silly audit   obuf: [ '1.1.2' ],
+36 silly audit   'on-headers': [ '1.0.2' ],
+36 silly audit   once: [ '1.4.0' ],
+36 silly audit   onetime: [ '5.1.2' ],
+36 silly audit   open: [ '8.4.0' ],
+36 silly audit   optimist: [ '0.6.1' ],
+36 silly audit   ora: [ '5.4.1' ],
+36 silly audit   'os-tmpdir': [ '1.0.2' ],
+36 silly audit   'p-limit': [ '2.3.0' ],
+36 silly audit   'p-locate': [ '4.1.0' ],
+36 silly audit   'p-map': [ '4.0.0' ],
+36 silly audit   'p-retry': [ '4.6.2' ],
+36 silly audit   retry: [ '0.13.1', '0.12.0' ],
+36 silly audit   'p-try': [ '2.2.0' ],
+36 silly audit   pacote: [ '13.6.1' ],
+36 silly audit   pako: [ '1.0.10' ],
+36 silly audit   'parent-module': [ '1.0.1' ],
+36 silly audit   'parse-json': [ '5.2.0' ],
+36 silly audit   'parse-node-version': [ '1.0.1' ],
+36 silly audit   parse5: [ '6.0.1' ],
+36 silly audit   'parse5-html-rewriting-stream': [ '6.0.1' ],
+36 silly audit   'parse5-htmlparser2-tree-adapter': [ '6.0.1' ],
+36 silly audit   'parse5-sax-parser': [ '6.0.1' ],
+36 silly audit   parseurl: [ '1.3.3' ],
+36 silly audit   'path-exists': [ '4.0.0' ],
+36 silly audit   'path-is-absolute': [ '1.0.1' ],
+36 silly audit   'path-is-inside': [ '1.0.2' ],
+36 silly audit   'path-key': [ '3.1.1' ],
+36 silly audit   'path-parse': [ '1.0.7' ],
+36 silly audit   'path-to-regexp': [ '0.1.7' ],
+36 silly audit   'path-type': [ '4.0.0' ],
+36 silly audit   'performance-now': [ '2.1.0' ],
+36 silly audit   picocolors: [ '1.0.0' ],
+36 silly audit   picomatch: [ '2.3.1' ],
+36 silly audit   pify: [ '4.0.1', '2.3.0' ],
+36 silly audit   pinkie: [ '2.0.4' ],
+36 silly audit   'pinkie-promise': [ '2.0.1' ],
+36 silly audit   piscina: [ '3.2.0' ],
+36 silly audit   'pkg-dir': [ '4.2.0' ],
+36 silly audit   postcss: [ '8.4.14' ],
+36 silly audit   'postcss-attribute-case-insensitive': [ '5.0.2' ],
+36 silly audit   'postcss-clamp': [ '4.1.0' ],
+36 silly audit   'postcss-color-functional-notation': [ '4.2.4' ],
+36 silly audit   'postcss-color-hex-alpha': [ '8.0.4' ],
+36 silly audit   'postcss-color-rebeccapurple': [ '7.1.1' ],
+36 silly audit   'postcss-custom-media': [ '8.0.2' ],
+36 silly audit   'postcss-custom-properties': [ '12.1.8' ],
+36 silly audit   'postcss-custom-selectors': [ '6.0.3' ],
+36 silly audit   'postcss-dir-pseudo-class': [ '6.0.5' ],
+36 silly audit   'postcss-double-position-gradients': [ '3.1.2' ],
+36 silly audit   'postcss-env-function': [ '4.0.6' ],
+36 silly audit   'postcss-focus-visible': [ '6.0.4' ],
+36 silly audit   'postcss-focus-within': [ '5.0.4' ],
+36 silly audit   'postcss-font-variant': [ '5.0.0' ],
+36 silly audit   'postcss-gap-properties': [ '3.0.5' ],
+36 silly audit   'postcss-image-set-function': [ '4.0.7' ],
+36 silly audit   'postcss-import': [ '14.1.0' ],
+36 silly audit   'postcss-initial': [ '4.0.1' ],
+36 silly audit   'postcss-lab-function': [ '4.2.1' ],
+36 silly audit   'postcss-loader': [ '7.0.1' ],
+36 silly audit   'postcss-logical': [ '5.0.4' ],
+36 silly audit   'postcss-media-minmax': [ '5.0.0' ],
+36 silly audit   'postcss-modules-extract-imports': [ '3.0.0' ],
+36 silly audit   'postcss-modules-local-by-default': [ '4.0.0' ],
+36 silly audit   'postcss-modules-scope': [ '3.0.0' ],
+36 silly audit   'postcss-modules-values': [ '4.0.0' ],
+36 silly audit   'postcss-nesting': [ '10.1.10' ],
+36 silly audit   'postcss-opacity-percentage': [ '1.1.2' ],
+36 silly audit   'postcss-overflow-shorthand': [ '3.0.4' ],
+36 silly audit   'postcss-page-break': [ '3.0.4' ],
+36 silly audit   'postcss-place': [ '7.0.5' ],
+36 silly audit   'postcss-preset-env': [ '7.7.2' ],
+36 silly audit   'postcss-pseudo-class-any-link': [ '7.1.6' ],
+36 silly audit   'postcss-replace-overflow-wrap': [ '4.0.0' ],
+36 silly audit   'postcss-selector-not': [ '6.0.1' ],
+36 silly audit   'postcss-selector-parser': [ '6.0.10' ],
+36 silly audit   'postcss-value-parser': [ '4.2.0' ],
+36 silly audit   'pretty-bytes': [ '5.6.0' ],
+36 silly audit   'proc-log': [ '2.0.1' ],
+36 silly audit   'process-nextick-args': [ '2.0.1' ],
+36 silly audit   'promise-inflight': [ '1.0.1' ],
+36 silly audit   'promise-retry': [ '2.0.1' ],
+36 silly audit   protractor: [ '5.4.2' ],
+36 silly audit   del: [ '2.2.2' ],
+36 silly audit   'is-path-cwd': [ '1.0.0' ],
+36 silly audit   'is-path-in-cwd': [ '1.0.1' ],
+36 silly audit   'is-path-inside': [ '1.0.1' ],
+36 silly audit   'source-map-support': [ '0.4.18', '0.5.21' ],
+36 silly audit   'webdriver-manager': [ '12.1.6' ],
+36 silly audit   'proxy-addr': [ '2.0.7' ],
+36 silly audit   prr: [ '1.0.1' ],
+36 silly audit   psl: [ '1.3.0' ],
+36 silly audit   punycode: [ '2.1.1', '1.4.1' ],
+36 silly audit   q: [ '1.4.1' ],
+36 silly audit   qjobs: [ '1.2.0' ],
+36 silly audit   'queue-microtask': [ '1.2.3' ],
+36 silly audit   randombytes: [ '2.1.0' ],
+36 silly audit   'range-parser': [ '1.2.1' ],
+36 silly audit   'raw-body': [ '2.5.1' ],
+36 silly audit   'read-cache': [ '1.0.0' ],
+36 silly audit   'read-package-json': [ '5.0.1' ],
+36 silly audit   'read-package-json-fast': [ '2.0.3' ],
+36 silly audit   readdirp: [ '3.6.0' ],
+36 silly audit   'reflect-metadata': [ '0.1.13' ],
+36 silly audit   regenerate: [ '1.4.2' ],
+36 silly audit   'regenerate-unicode-properties': [ '10.0.1' ],
+36 silly audit   'regenerator-runtime': [ '0.13.9' ],
+36 silly audit   'regenerator-transform': [ '0.15.0' ],
+36 silly audit   'regex-parser': [ '2.2.11' ],
+36 silly audit   'regexpu-core': [ '5.1.0' ],
+36 silly audit   regjsgen: [ '0.6.0' ],
+36 silly audit   regjsparser: [ '0.8.4' ],
+36 silly audit   request: [ '2.88.0' ],
+36 silly audit   'require-directory': [ '2.1.1' ],
+36 silly audit   'require-from-string': [ '2.0.2' ],
+36 silly audit   'requires-port': [ '1.0.0' ],
+36 silly audit   resolve: [ '1.22.1' ],
+36 silly audit   'resolve-url-loader': [ '5.0.0' ],
+36 silly audit   'restore-cursor': [ '3.1.0' ],
+36 silly audit   reusify: [ '1.0.4' ],
+36 silly audit   rfdc: [ '1.3.0' ],
+36 silly audit   'run-async': [ '2.4.1' ],
+36 silly audit   'run-parallel': [ '1.2.0' ],
+36 silly audit   'safer-buffer': [ '2.1.2' ],
+36 silly audit   sass: [ '1.53.0' ],
+36 silly audit   'sass-loader': [ '13.0.2' ],
+36 silly audit   saucelabs: [ '1.5.0' ],
+36 silly audit   sax: [ '1.2.4' ],
+36 silly audit   'select-hose': [ '2.0.0' ],
+36 silly audit   'selenium-webdriver': [ '3.6.0' ],
+36 silly audit   selfsigned: [ '2.0.1' ],
+36 silly audit   send: [ '0.18.0' ],
+36 silly audit   'serialize-javascript': [ '6.0.0' ],
+36 silly audit   'serve-index': [ '1.9.1' ],
+36 silly audit   setprototypeof: [ '1.1.0', '1.2.0' ],
+36 silly audit   'serve-static': [ '1.15.0' ],
+36 silly audit   'set-blocking': [ '2.0.0' ],
+36 silly audit   setimmediate: [ '1.0.5' ],
+36 silly audit   'shallow-clone': [ '3.0.1' ],
+36 silly audit   'shebang-command': [ '2.0.0' ],
+36 silly audit   'shebang-regex': [ '3.0.0' ],
+36 silly audit   'side-channel': [ '1.0.4' ],
+36 silly audit   'signal-exit': [ '3.0.7' ],
+36 silly audit   slash: [ '4.0.0' ],
+36 silly audit   'smart-buffer': [ '4.2.0' ],
+36 silly audit   'socket.io': [ '4.5.1' ],
+36 silly audit   'socket.io-adapter': [ '2.4.0' ],
+36 silly audit   'socket.io-parser': [ '4.0.5' ],
+36 silly audit   sockjs: [ '0.3.24' ],
+36 silly audit   socks: [ '2.7.0' ],
+36 silly audit   'socks-proxy-agent': [ '7.0.0' ],
+36 silly audit   'source-map-js': [ '1.0.2' ],
+36 silly audit   'source-map-loader': [ '4.0.0' ],
+36 silly audit   'source-map-resolve': [ '0.6.0' ],
+36 silly audit   'sourcemap-codec': [ '1.4.8' ],
+36 silly audit   'spdx-correct': [ '3.1.1' ],
+36 silly audit   'spdx-exceptions': [ '2.3.0' ],
+36 silly audit   'spdx-expression-parse': [ '3.0.1' ],
+36 silly audit   'spdx-license-ids': [ '3.0.11' ],
+36 silly audit   spdy: [ '4.0.2' ],
+36 silly audit   'spdy-transport': [ '3.0.0' ],
+36 silly audit   sshpk: [ '1.16.1' ],
+36 silly audit   ssri: [ '9.0.1' ],
+36 silly audit   streamroller: [ '3.1.2' ],
+36 silly audit   string_decoder: [ '1.1.1' ],
+36 silly audit   'string-width': [ '4.2.3' ],
+36 silly audit   'strip-bom': [ '3.0.0' ],
+36 silly audit   'strip-final-newline': [ '2.0.0' ],
+36 silly audit   stylus: [ '0.58.1' ],
+36 silly audit   'stylus-loader': [ '7.0.0' ],
+36 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+36 silly audit   'symbol-observable': [ '4.0.0' ],
+36 silly audit   tapable: [ '2.2.1' ],
+36 silly audit   tar: [ '6.1.11' ],
+36 silly audit   terser: [ '5.14.2' ],
+36 silly audit   'terser-webpack-plugin': [ '5.3.3' ],
+36 silly audit   'test-exclude': [ '6.0.0' ],
+36 silly audit   'text-table': [ '0.2.0' ],
+36 silly audit   through: [ '2.3.8' ],
+36 silly audit   thunky: [ '1.1.0' ],
+36 silly audit   'to-regex-range': [ '5.0.1' ],
+36 silly audit   toidentifier: [ '1.0.1' ],
+36 silly audit   'tough-cookie': [ '2.4.3' ],
+36 silly audit   'tree-kill': [ '1.2.2' ],
+36 silly audit   'ts-node': [ '7.0.1' ],
+36 silly audit   tslint: [ '5.15.0' ],
+36 silly audit   tsutils: [ '2.29.0' ],
+36 silly audit   'tunnel-agent': [ '0.6.0' ],
+36 silly audit   tweetnacl: [ '0.14.5' ],
+36 silly audit   'type-fest': [ '0.21.3' ],
+36 silly audit   'type-is': [ '1.6.18' ],
+36 silly audit   'typed-assert': [ '1.0.9' ],
+36 silly audit   typescript: [ '3.4.5' ],
+36 silly audit   'ua-parser-js': [ '0.7.31' ],
+36 silly audit   'uglify-js': [ '3.6.0' ],
+36 silly audit   'unicode-canonical-property-names-ecmascript': [ '2.0.0' ],
+36 silly audit   'unicode-match-property-ecmascript': [ '2.0.0' ],
+36 silly audit   'unicode-match-property-value-ecmascript': [ '2.0.0' ],
+36 silly audit   'unicode-property-aliases-ecmascript': [ '2.0.0' ],
+36 silly audit   'unique-filename': [ '1.1.1' ],
+36 silly audit   'unique-slug': [ '2.0.2' ],
+36 silly audit   universalify: [ '0.1.2' ],
+36 silly audit   unpipe: [ '1.0.0' ],
+36 silly audit   'update-browserslist-db': [ '1.0.5' ],
+36 silly audit   'uri-js': [ '4.2.2' ],
+36 silly audit   'util-deprecate': [ '1.0.2' ],
+36 silly audit   'utils-merge': [ '1.0.1' ],
+36 silly audit   'validate-npm-package-license': [ '3.0.4' ],
+36 silly audit   'validate-npm-package-name': [ '4.0.0' ],
+36 silly audit   vary: [ '1.1.2' ],
+36 silly audit   verror: [ '1.10.0' ],
+36 silly audit   'void-elements': [ '2.0.1' ],
+36 silly audit   watchpack: [ '2.4.0' ],
+36 silly audit   wbuf: [ '1.7.3' ],
+36 silly audit   wcwidth: [ '1.0.1' ],
+36 silly audit   'webdriver-js-extender': [ '2.1.0' ],
+36 silly audit   webpack: [ '5.73.0' ],
+36 silly audit   'webpack-dev-middleware': [ '5.3.3' ],
+36 silly audit   'webpack-dev-server': [ '4.9.3' ],
+36 silly audit   ws: [ '8.8.1', '8.2.3' ],
+36 silly audit   'webpack-merge': [ '5.8.0' ],
+36 silly audit   'webpack-sources': [ '3.2.3' ],
+36 silly audit   'webpack-subresource-integrity': [ '5.1.0' ],
+36 silly audit   'websocket-driver': [ '0.7.4' ],
+36 silly audit   'websocket-extensions': [ '0.1.4' ],
+36 silly audit   'wide-align': [ '1.1.5' ],
+36 silly audit   wildcard: [ '2.0.0' ],
+36 silly audit   'wrap-ansi': [ '7.0.0' ],
+36 silly audit   wrappy: [ '1.0.2' ],
+36 silly audit   xml2js: [ '0.4.19' ],
+36 silly audit   xmlbuilder: [ '9.0.7' ],
+36 silly audit   y18n: [ '5.0.8' ],
+36 silly audit   yallist: [ '4.0.0' ],
+36 silly audit   yaml: [ '1.10.2' ],
+36 silly audit   yn: [ '2.0.0' ],
+36 silly audit   'zone.js': [ '0.9.1' ]
+36 silly audit }
+37 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 527ms
+38 timing auditReport:getReport Completed in 547ms
+39 silly audit report {
+39 silly audit report   minimist: [
+39 silly audit report     {
+39 silly audit report       id: 1070255,
+39 silly audit report       url: 'https://github.com/advisories/GHSA-vh95-rmgr-6w4m',
+39 silly audit report       title: 'Prototype Pollution in minimist',
+39 silly audit report       severity: 'moderate',
+39 silly audit report       vulnerable_versions: '<0.2.1',
+39 silly audit report       cwe: [Array],
+39 silly audit report       cvss: [Object]
+39 silly audit report     },
+39 silly audit report     {
+39 silly audit report       id: 1067342,
+39 silly audit report       url: 'https://github.com/advisories/GHSA-xvch-5gv4-984h',
+39 silly audit report       title: 'Prototype Pollution in minimist',
+39 silly audit report       severity: 'critical',
+39 silly audit report       vulnerable_versions: '<1.2.6',
+39 silly audit report       cwe: [Array],
+39 silly audit report       cvss: [Object]
+39 silly audit report     }
+39 silly audit report   ]
+39 silly audit report }
+40 timing metavuln:cache:get:security-advisory:minimist:HzlTd/CS509JwqRUmSOa+xKGYgjeXpUaWCnQckWGHjn/fcOUvS1viXUyBuSwKMKOELDnu9ADP3t6IyP7rFSUIA== Completed in 23ms
+41 timing metavuln:cache:get:security-advisory:minimist:nZkhUdPEpKwzIx1nekYW4B7BHQyF2nm6J0JsgeP2HfA0DRMT5hhByRU71A4RPgtBbQPYEzVBozv8/mBZCafaGw== Completed in 19ms
+42 http fetch GET 200 https://registry.npmjs.org/minimist 61ms (cache hit)
+43 timing metavuln:packument:minimist Completed in 66ms
+44 timing metavuln:load:security-advisory:minimist:1070255 Completed in 2ms
+45 timing metavuln:calculate:security-advisory:minimist:1070255 Completed in 71ms
+46 timing metavuln:load:security-advisory:minimist:1067342 Completed in 1ms
+47 timing metavuln:calculate:security-advisory:minimist:1067342 Completed in 66ms
+48 timing metavuln:cache:get:security-advisory:optimist:QlpVugrpOusS/3D2cXrzh/p5B7l+sZkt5/a0nwAoaWvtLGHzbaPJYeCv5rLMF+h6AeHU6ckXkVcXSGjkApkBsQ== Completed in 4ms
+49 http fetch GET 200 https://registry.npmjs.org/optimist 10ms (cache hit)
+50 timing metavuln:packument:optimist Completed in 12ms
+51 timing metavuln:load:security-advisory:optimist:HzlTd/CS509JwqRUmSOa+xKGYgjeXpUaWCnQckWGHjn/fcOUvS1viXUyBuSwKMKOELDnu9ADP3t6IyP7rFSUIA== Completed in 1ms
+52 timing metavuln:calculate:security-advisory:optimist:HzlTd/CS509JwqRUmSOa+xKGYgjeXpUaWCnQckWGHjn/fcOUvS1viXUyBuSwKMKOELDnu9ADP3t6IyP7rFSUIA== Completed in 13ms
+53 timing metavuln:cache:get:security-advisory:protractor:+vCfCnkl0v5z0xu9K4cX/npmGLo/qKYjbZHgV0inBe+tRSMQHq0XMvQFfq8MWyBRGVk3QxjcZlDxKYrlWD4rlg== Completed in 15ms
+54 http fetch GET 200 https://registry.npmjs.org/protractor 30ms (cache hit)
+55 timing metavuln:packument:protractor Completed in 37ms
+56 timing metavuln:load:security-advisory:protractor:QlpVugrpOusS/3D2cXrzh/p5B7l+sZkt5/a0nwAoaWvtLGHzbaPJYeCv5rLMF+h6AeHU6ckXkVcXSGjkApkBsQ== Completed in 7ms
+57 timing metavuln:calculate:security-advisory:protractor:QlpVugrpOusS/3D2cXrzh/p5B7l+sZkt5/a0nwAoaWvtLGHzbaPJYeCv5rLMF+h6AeHU6ckXkVcXSGjkApkBsQ== Completed in 44ms
+58 timing auditReport:init Completed in 141ms
+59 timing audit Completed in 1944ms
+60 timing idealTree:init Completed in 8ms
+61 timing idealTree:userRequests Completed in 1ms
+62 silly idealTree buildDeps
+63 silly fetch manifest protractor@~5.4.0
+64 silly placeDep ROOT protractor@5.4.4 REPLACE for: exercises@0.0.0 want: ~5.4.0
+65 silly fetch manifest yargs@^12.0.5
+66 timing arborist:ctor Completed in 0ms
+67 http fetch GET 200 https://registry.npmjs.org/yargs 1081ms (cache hit)
+68 timing idealTree:#root Completed in 1138ms
+69 silly placeDep node_modules/protractor yargs@12.0.5 OK for: protractor@5.4.4 want: ^12.0.5
+70 silly fetch manifest cliui@^4.0.0
+71 silly fetch manifest decamelize@^1.2.0
+72 silly fetch manifest find-up@^3.0.0
+73 silly fetch manifest get-caller-file@^1.0.1
+74 silly fetch manifest os-locale@^3.0.0
+75 silly fetch manifest require-main-filename@^1.0.1
+76 silly fetch manifest string-width@^2.0.0
+77 silly fetch manifest which-module@^2.0.0
+78 silly fetch manifest y18n@^3.2.1 || ^4.0.0
+79 silly fetch manifest yargs-parser@^11.1.1
+80 http fetch GET 200 https://registry.npmjs.org/cliui 170ms (cache hit)
+81 http fetch GET 200 https://registry.npmjs.org/yargs-parser 165ms (cache hit)
+82 http fetch GET 200 https://registry.npmjs.org/find-up 174ms (cache hit)
+83 http fetch GET 200 https://registry.npmjs.org/get-caller-file 176ms (cache hit)
+84 http fetch GET 200 https://registry.npmjs.org/y18n 172ms (cache hit)
+85 http fetch GET 200 https://registry.npmjs.org/string-width 175ms (cache hit)
+86 http fetch GET 200 https://registry.npmjs.org/decamelize 221ms (cache revalidated)
+87 http fetch GET 200 https://registry.npmjs.org/require-main-filename 369ms (cache revalidated)
+88 http fetch GET 200 https://registry.npmjs.org/which-module 373ms (cache revalidated)
+89 http fetch GET 200 https://registry.npmjs.org/os-locale 420ms (cache revalidated)
+90 timing idealTree:node_modules/protractor Completed in 439ms
+91 silly placeDep node_modules/protractor cliui@4.1.0 OK for: yargs@12.0.5 want: ^4.0.0
+92 silly placeDep ROOT decamelize@1.2.0 OK for: yargs@12.0.5 want: ^1.2.0
+93 silly placeDep node_modules/protractor find-up@3.0.0 OK for: yargs@12.0.5 want: ^3.0.0
+94 silly placeDep node_modules/protractor get-caller-file@1.0.3 OK for: yargs@12.0.5 want: ^1.0.1
+95 silly placeDep ROOT os-locale@3.1.0 OK for: yargs@12.0.5 want: ^3.0.0
+96 silly placeDep ROOT require-main-filename@1.0.1 OK for: yargs@12.0.5 want: ^1.0.1
+97 silly placeDep node_modules/protractor string-width@2.1.1 OK for: yargs@12.0.5 want: ^2.0.0
+98 silly placeDep ROOT which-module@2.0.0 OK for: yargs@12.0.5 want: ^2.0.0
+99 silly placeDep node_modules/protractor y18n@4.0.3 OK for: yargs@12.0.5 want: ^3.2.1 || ^4.0.0
+100 silly placeDep node_modules/protractor yargs-parser@11.1.1 OK for: yargs@12.0.5 want: ^11.1.1
+101 silly fetch manifest strip-ansi@^4.0.0
+102 silly fetch manifest wrap-ansi@^2.0.0
+103 silly fetch manifest locate-path@^3.0.0
+104 silly fetch manifest execa@^1.0.0
+105 silly fetch manifest lcid@^2.0.0
+106 silly fetch manifest mem@^4.0.0
+107 silly fetch manifest is-fullwidth-code-point@^2.0.0
+108 http fetch GET 200 https://registry.npmjs.org/strip-ansi 69ms (cache hit)
+109 http fetch GET 200 https://registry.npmjs.org/locate-path 73ms (cache hit)
+110 http fetch GET 200 https://registry.npmjs.org/wrap-ansi 75ms (cache hit)
+111 http fetch GET 200 https://registry.npmjs.org/execa 78ms (cache hit)
+112 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point 80ms (cache hit)
+113 http fetch GET 200 https://registry.npmjs.org/mem 150ms (cache revalidated)
+114 http fetch GET 200 https://registry.npmjs.org/lcid 152ms (cache revalidated)
+115 timing idealTree:node_modules/protractor/node_modules/yargs Completed in 183ms
+116 timing idealTree:node_modules/decamelize Completed in 0ms
+117 silly placeDep node_modules/os-locale execa@1.0.0 OK for: os-locale@3.1.0 want: ^1.0.0
+118 silly placeDep ROOT lcid@2.0.0 OK for: os-locale@3.1.0 want: ^2.0.0
+119 silly placeDep ROOT mem@4.3.0 OK for: os-locale@3.1.0 want: ^4.0.0
+120 silly fetch manifest cross-spawn@^6.0.0
+121 silly fetch manifest get-stream@^4.0.0
+122 silly fetch manifest is-stream@^1.1.0
+123 silly fetch manifest npm-run-path@^2.0.0
+124 silly fetch manifest p-finally@^1.0.0
+125 silly fetch manifest strip-eof@^1.0.0
+126 silly fetch manifest invert-kv@^2.0.0
+127 silly fetch manifest map-age-cleaner@^0.1.1
+128 silly fetch manifest p-is-promise@^2.0.0
+129 http fetch GET 200 https://registry.npmjs.org/npm-run-path 57ms (cache hit)
+130 http fetch GET 200 https://registry.npmjs.org/get-stream 72ms (cache hit)
+131 http fetch GET 200 https://registry.npmjs.org/cross-spawn 75ms (cache hit)
+132 http fetch GET 200 https://registry.npmjs.org/is-stream 76ms (cache hit)
+133 http fetch GET 200 https://registry.npmjs.org/p-is-promise 155ms (cache revalidated)
+134 http fetch GET 200 https://registry.npmjs.org/p-finally 160ms (cache revalidated)
+135 http fetch GET 200 https://registry.npmjs.org/strip-eof 160ms (cache revalidated)
+136 http fetch GET 200 https://registry.npmjs.org/map-age-cleaner 227ms (cache revalidated)
+137 http fetch GET 200 https://registry.npmjs.org/invert-kv 323ms (cache revalidated)
+138 timing idealTree:node_modules/os-locale Completed in 337ms
+139 silly placeDep ROOT invert-kv@2.0.0 OK for: lcid@2.0.0 want: ^2.0.0
+140 timing idealTree:node_modules/lcid Completed in 3ms
+141 timing idealTree:node_modules/invert-kv Completed in 0ms
+142 silly placeDep ROOT map-age-cleaner@0.1.3 OK for: mem@4.3.0 want: ^0.1.1
+143 silly placeDep ROOT p-is-promise@2.1.0 OK for: mem@4.3.0 want: ^2.0.0
+144 silly fetch manifest p-defer@^1.0.0
+145 http fetch GET 200 https://registry.npmjs.org/p-defer 130ms (cache revalidated)
+146 timing idealTree:node_modules/mem Completed in 152ms
+147 silly placeDep ROOT p-defer@1.0.0 OK for: map-age-cleaner@0.1.3 want: ^1.0.0
+148 timing idealTree:node_modules/map-age-cleaner Completed in 9ms
+149 timing idealTree:node_modules/p-defer Completed in 0ms
+150 timing idealTree:node_modules/p-is-promise Completed in 0ms
+151 timing idealTree:node_modules/require-main-filename Completed in 0ms
+152 timing idealTree:node_modules/which-module Completed in 0ms
+153 silly placeDep node_modules/os-locale cross-spawn@6.0.5 OK for: execa@1.0.0 want: ^6.0.0
+154 silly placeDep node_modules/os-locale get-stream@4.1.0 OK for: execa@1.0.0 want: ^4.0.0
+155 silly placeDep node_modules/os-locale is-stream@1.1.0 OK for: execa@1.0.0 want: ^1.1.0
+156 silly placeDep node_modules/os-locale npm-run-path@2.0.2 OK for: execa@1.0.0 want: ^2.0.0
+157 silly placeDep ROOT p-finally@1.0.0 OK for: execa@1.0.0 want: ^1.0.0
+158 silly placeDep ROOT strip-eof@1.0.0 OK for: execa@1.0.0 want: ^1.0.0
+159 silly fetch manifest nice-try@^1.0.4
+160 silly fetch manifest path-key@^2.0.1
+161 silly fetch manifest semver@^5.5.0
+162 silly fetch manifest shebang-command@^1.2.0
+163 silly fetch manifest pump@^3.0.0
+164 silly fetch manifest path-key@^2.0.0
+165 http fetch GET 200 https://registry.npmjs.org/semver 82ms (cache hit)
+166 http fetch GET 200 https://registry.npmjs.org/path-key 83ms (cache hit)
+167 http fetch GET 200 https://registry.npmjs.org/path-key 91ms (cache hit)
+168 http fetch GET 200 https://registry.npmjs.org/shebang-command 91ms (cache hit)
+169 http fetch GET 200 https://registry.npmjs.org/nice-try 136ms (cache revalidated)
+170 http fetch GET 200 https://registry.npmjs.org/pump 164ms (cache revalidated)
+171 timing idealTree:node_modules/os-locale/node_modules/execa Completed in 189ms
+172 timing idealTree:node_modules/p-finally Completed in 0ms
+173 timing idealTree:node_modules/strip-eof Completed in 0ms
+174 silly placeDep ROOT nice-try@1.0.5 OK for: cross-spawn@6.0.5 want: ^1.0.4
+175 silly placeDep node_modules/os-locale path-key@2.0.1 OK for: cross-spawn@6.0.5 want: ^2.0.1
+176 silly placeDep node_modules/os-locale semver@5.7.1 OK for: cross-spawn@6.0.5 want: ^5.5.0
+177 silly placeDep node_modules/os-locale shebang-command@1.2.0 OK for: cross-spawn@6.0.5 want: ^1.2.0
+178 silly fetch manifest shebang-regex@^1.0.0
+179 http fetch GET 200 https://registry.npmjs.org/shebang-regex 81ms (cache hit)
+180 timing idealTree:node_modules/os-locale/node_modules/cross-spawn Completed in 115ms
+181 timing idealTree:node_modules/nice-try Completed in 0ms
+182 silly placeDep ROOT pump@3.0.0 OK for: get-stream@4.1.0 want: ^3.0.0
+183 silly fetch manifest end-of-stream@^1.1.0
+184 http fetch GET 200 https://registry.npmjs.org/end-of-stream 116ms (cache revalidated)
+185 timing idealTree:node_modules/os-locale/node_modules/get-stream Completed in 122ms
+186 silly placeDep ROOT end-of-stream@1.4.4 OK for: pump@3.0.0 want: ^1.1.0
+187 timing idealTree:node_modules/pump Completed in 2ms
+188 timing idealTree:node_modules/end-of-stream Completed in 0ms
+189 timing idealTree:node_modules/os-locale/node_modules/is-stream Completed in 0ms
+190 timing idealTree:node_modules/os-locale/node_modules/npm-run-path Completed in 0ms
+191 timing idealTree:node_modules/os-locale/node_modules/path-key Completed in 0ms
+192 timing idealTree:node_modules/os-locale/node_modules/semver Completed in 0ms
+193 silly placeDep node_modules/os-locale shebang-regex@1.0.0 OK for: shebang-command@1.2.0 want: ^1.0.0
+194 timing idealTree:node_modules/os-locale/node_modules/shebang-command Completed in 5ms
+195 timing idealTree:node_modules/os-locale/node_modules/shebang-regex Completed in 0ms
+196 silly placeDep node_modules/protractor/node_modules/cliui strip-ansi@4.0.0 OK for: cliui@4.1.0 want: ^4.0.0
+197 silly placeDep node_modules/protractor wrap-ansi@2.1.0 OK for: cliui@4.1.0 want: ^2.0.0
+198 silly fetch manifest ansi-regex@^3.0.0
+199 silly fetch manifest string-width@^1.0.1
+200 http fetch GET 200 https://registry.npmjs.org/ansi-regex 32ms (cache hit)
+201 timing idealTree:node_modules/protractor/node_modules/cliui Completed in 45ms
+202 silly placeDep node_modules/protractor locate-path@3.0.0 OK for: find-up@3.0.0 want: ^3.0.0
+203 silly fetch manifest p-locate@^3.0.0
+204 silly fetch manifest path-exists@^3.0.0
+205 http fetch GET 200 https://registry.npmjs.org/path-exists 77ms (cache hit)
+206 http fetch GET 200 https://registry.npmjs.org/p-locate 79ms (cache hit)
+207 timing idealTree:node_modules/protractor/node_modules/find-up Completed in 95ms
+208 timing idealTree:node_modules/protractor/node_modules/get-caller-file Completed in 0ms
+209 silly placeDep node_modules/protractor p-locate@3.0.0 OK for: locate-path@3.0.0 want: ^3.0.0
+210 silly placeDep node_modules/protractor path-exists@3.0.0 OK for: locate-path@3.0.0 want: ^3.0.0
+211 timing idealTree:node_modules/protractor/node_modules/locate-path Completed in 13ms
+212 timing idealTree:node_modules/protractor/node_modules/p-locate Completed in 0ms
+213 timing idealTree:node_modules/protractor/node_modules/path-exists Completed in 0ms
+214 silly placeDep node_modules/protractor is-fullwidth-code-point@2.0.0 OK for: string-width@2.1.1 want: ^2.0.0
+215 silly placeDep node_modules/protractor/node_modules/string-width strip-ansi@4.0.0 OK for: string-width@2.1.1 want: ^4.0.0
+216 timing idealTree:node_modules/protractor/node_modules/string-width Completed in 13ms
+217 timing idealTree:node_modules/protractor/node_modules/is-fullwidth-code-point Completed in 0ms
+218 silly placeDep node_modules/protractor/node_modules/wrap-ansi string-width@1.0.2 OK for: wrap-ansi@2.1.0 want: ^1.0.1
+219 silly fetch manifest code-point-at@^1.0.0
+220 silly fetch manifest is-fullwidth-code-point@^1.0.0
+221 http fetch GET 200 https://registry.npmjs.org/code-point-at 114ms (cache revalidated)
+222 timing idealTree:node_modules/protractor/node_modules/wrap-ansi Completed in 117ms
+223 timing idealTree:node_modules/protractor/node_modules/y18n Completed in 0ms
+224 timing idealTree:node_modules/protractor/node_modules/yargs-parser Completed in 0ms
+225 silly placeDep node_modules/protractor ansi-regex@3.0.1 OK for: strip-ansi@4.0.0 want: ^3.0.0
+226 timing idealTree:node_modules/protractor/node_modules/cliui/node_modules/strip-ansi Completed in 2ms
+227 timing idealTree:node_modules/protractor/node_modules/ansi-regex Completed in 0ms
+228 timing idealTree:node_modules/protractor/node_modules/string-width/node_modules/strip-ansi Completed in 0ms
+229 silly placeDep ROOT code-point-at@1.1.0 OK for: string-width@1.0.2 want: ^1.0.0
+230 silly placeDep node_modules/protractor/node_modules/wrap-ansi is-fullwidth-code-point@1.0.0 OK for: string-width@1.0.2 want: ^1.0.0
+231 silly fetch manifest number-is-nan@^1.0.0
+232 http fetch GET 200 https://registry.npmjs.org/number-is-nan 128ms (cache revalidated)
+233 timing idealTree:node_modules/protractor/node_modules/wrap-ansi/node_modules/string-width Completed in 134ms
+234 timing idealTree:node_modules/code-point-at Completed in 0ms
+235 silly placeDep ROOT number-is-nan@1.0.1 OK for: is-fullwidth-code-point@1.0.0 want: ^1.0.0
+236 timing idealTree:node_modules/protractor/node_modules/wrap-ansi/node_modules/is-fullwidth-code-point Completed in 17ms
+237 timing idealTree:node_modules/number-is-nan Completed in 0ms
+238 timing idealTree:buildDeps Completed in 3147ms
+239 timing idealTree:fixDepFlags Completed in 50ms
+240 timing idealTree Completed in 3228ms
+241 timing reify:loadTrees Completed in 3230ms
+242 timing reify:diffTrees Completed in 23ms
+243 silly reify mark retired [
+243 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/optimist'
+243 silly reify ]
+244 silly reify mark retired [
+244 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/protractor',
+244 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/.bin/protractor',
+244 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/.bin/webdriver-manager'
+244 silly reify ]
+245 silly reify mark retired [
+245 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/wordwrap'
+245 silly reify ]
+246 silly reify moves {
+246 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/optimist': '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/.optimist-kZdgbQF7',
+246 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/protractor': '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/.protractor-YBoA8XfY',
+246 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/.bin/protractor': '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/.bin/.protractor-njzzXdpM',
+246 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/.bin/webdriver-manager': '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/.bin/.webdriver-manager-LRauKJTY',
+246 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/wordwrap': '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/.wordwrap-Uha5Zsu7'
+246 silly reify }
+247 timing reify:retireShallow Completed in 7ms
+248 timing reify:createSparse Completed in 38ms
+249 timing reify:loadBundles Completed in 0ms
+250 silly audit bulk request {
+250 silly audit   '@ampproject/remapping': [ '2.2.0' ],
+250 silly audit   '@angular-devkit/architect': [ '0.1401.1' ],
+250 silly audit   rxjs: [ '6.6.7', '7.5.6', '6.4.0' ],
+250 silly audit   '@angular-devkit/build-angular': [ '14.1.1' ],
+250 silly audit   '@ngtools/webpack': [ '14.1.1' ],
+250 silly audit   'agent-base': [ '6.0.2', '4.3.0' ],
+250 silly audit   'brace-expansion': [ '2.0.1', '1.1.11' ],
+250 silly audit   debug: [ '4.3.4', '4.1.1', '2.6.9', '3.2.6', '3.2.7' ],
+250 silly audit   glob: [ '8.0.3', '7.2.3' ],
+250 silly audit   'https-proxy-agent': [ '5.0.1', '2.2.4' ],
+250 silly audit   'lru-cache': [ '6.0.0', '7.13.2' ],
+250 silly audit   minimatch: [ '5.1.0', '3.1.2', '3.0.4' ],
+250 silly audit   ms: [ '2.1.2', '2.0.0', '2.1.3' ],
+250 silly audit   tslib: [ '1.14.1', '2.4.0', '1.10.0' ],
+250 silly audit   semver: [ '7.3.7', '6.3.0', '7.0.0', '5.7.0', '6.0.0', '5.7.1' ],
+250 silly audit   '@angular-devkit/build-webpack': [ '0.1401.1' ],
+250 silly audit   '@angular-devkit/core': [ '14.1.1' ],
+250 silly audit   ajv: [ '8.11.0', '6.12.6' ],
+250 silly audit   'json-schema-traverse': [ '1.0.0', '0.4.1' ],
+250 silly audit   '@angular-devkit/schematics': [ '14.1.1' ],
+250 silly audit   '@angular/animations': [ '14.1.1' ],
+250 silly audit   '@angular/cli': [ '14.1.1' ],
+250 silly audit   ini: [ '3.0.0', '1.3.8' ],
+250 silly audit   uuid: [ '8.3.2', '3.3.2' ],
+250 silly audit   '@angular/common': [ '14.1.1' ],
+250 silly audit   '@angular/compiler': [ '8.0.3' ],
+250 silly audit   '@angular/compiler-cli': [ '14.1.1' ],
+250 silly audit   '@angular/core': [ '14.1.1' ],
+250 silly audit   '@angular/forms': [ '14.1.1' ],
+250 silly audit   '@angular/language-service': [ '8.0.3' ],
+250 silly audit   '@angular/platform-browser': [ '14.1.1' ],
+250 silly audit   '@angular/platform-browser-dynamic': [ '14.1.1' ],
+250 silly audit   '@angular/router': [ '14.1.1' ],
+250 silly audit   '@assemblyscript/loader': [ '0.10.1' ],
+250 silly audit   '@babel/code-frame': [ '7.18.6' ],
+250 silly audit   '@babel/compat-data': [ '7.18.8' ],
+250 silly audit   '@babel/core': [ '7.18.6' ],
+250 silly audit   '@babel/generator': [ '7.18.7', '7.18.10' ],
+250 silly audit   '@jridgewell/gen-mapping': [ '0.3.2', '0.1.1' ],
+250 silly audit   jsesc: [ '2.5.2', '0.5.0' ],
+250 silly audit   '@babel/helper-annotate-as-pure': [ '7.18.6' ],
+250 silly audit   '@babel/helper-builder-binary-assignment-operator-visitor': [ '7.18.9' ],
+250 silly audit   '@babel/helper-compilation-targets': [ '7.18.9' ],
+250 silly audit   '@babel/helper-create-class-features-plugin': [ '7.18.9' ],
+250 silly audit   '@babel/helper-create-regexp-features-plugin': [ '7.18.6' ],
+250 silly audit   '@babel/helper-define-polyfill-provider': [ '0.3.2' ],
+250 silly audit   '@babel/helper-environment-visitor': [ '7.18.9' ],
+250 silly audit   '@babel/helper-explode-assignable-expression': [ '7.18.6' ],
+250 silly audit   '@babel/helper-function-name': [ '7.18.9' ],
+250 silly audit   '@babel/helper-hoist-variables': [ '7.18.6' ],
+250 silly audit   '@babel/helper-member-expression-to-functions': [ '7.18.9' ],
+250 silly audit   '@babel/helper-module-imports': [ '7.18.6' ],
+250 silly audit   '@babel/helper-module-transforms': [ '7.18.9' ],
+250 silly audit   '@babel/helper-optimise-call-expression': [ '7.18.6' ],
+250 silly audit   '@babel/helper-plugin-utils': [ '7.18.9' ],
+250 silly audit   '@babel/helper-remap-async-to-generator': [ '7.18.9' ],
+250 silly audit   '@babel/helper-replace-supers': [ '7.18.9' ],
+250 silly audit   '@babel/helper-simple-access': [ '7.18.6' ],
+250 silly audit   '@babel/helper-skip-transparent-expression-wrappers': [ '7.18.9' ],
+250 silly audit   '@babel/helper-split-export-declaration': [ '7.18.6' ],
+250 silly audit   '@babel/helper-string-parser': [ '7.18.10' ],
+250 silly audit   '@babel/helper-validator-identifier': [ '7.18.6' ],
+250 silly audit   '@babel/helper-validator-option': [ '7.18.6' ],
+250 silly audit   '@babel/helper-wrap-function': [ '7.18.11' ],
+250 silly audit   '@babel/template': [ '7.18.10', '7.18.6' ],
+250 silly audit   '@babel/helpers': [ '7.18.9' ],
+250 silly audit   '@babel/highlight': [ '7.18.6' ],
+250 silly audit   'js-tokens': [ '4.0.0', '3.0.2' ],
+250 silly audit   '@babel/parser': [ '7.18.11' ],
+250 silly audit   '@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining': [ '7.18.9' ],
+250 silly audit   '@babel/plugin-proposal-async-generator-functions': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-proposal-class-properties': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-proposal-class-static-block': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-proposal-dynamic-import': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-proposal-export-namespace-from': [ '7.18.9' ],
+250 silly audit   '@babel/plugin-proposal-json-strings': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-proposal-logical-assignment-operators': [ '7.18.9' ],
+250 silly audit   '@babel/plugin-proposal-nullish-coalescing-operator': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-proposal-numeric-separator': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-proposal-object-rest-spread': [ '7.18.9' ],
+250 silly audit   '@babel/plugin-proposal-optional-catch-binding': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-proposal-optional-chaining': [ '7.18.9' ],
+250 silly audit   '@babel/plugin-proposal-private-methods': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-proposal-private-property-in-object': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-proposal-unicode-property-regex': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-syntax-async-generators': [ '7.8.4' ],
+250 silly audit   '@babel/plugin-syntax-class-properties': [ '7.12.13' ],
+250 silly audit   '@babel/plugin-syntax-class-static-block': [ '7.14.5' ],
+250 silly audit   '@babel/plugin-syntax-dynamic-import': [ '7.8.3' ],
+250 silly audit   '@babel/plugin-syntax-export-namespace-from': [ '7.8.3' ],
+250 silly audit   '@babel/plugin-syntax-import-assertions': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-syntax-json-strings': [ '7.8.3' ],
+250 silly audit   '@babel/plugin-syntax-logical-assignment-operators': [ '7.10.4' ],
+250 silly audit   '@babel/plugin-syntax-nullish-coalescing-operator': [ '7.8.3' ],
+250 silly audit   '@babel/plugin-syntax-numeric-separator': [ '7.10.4' ],
+250 silly audit   '@babel/plugin-syntax-object-rest-spread': [ '7.8.3' ],
+250 silly audit   '@babel/plugin-syntax-optional-catch-binding': [ '7.8.3' ],
+250 silly audit   '@babel/plugin-syntax-optional-chaining': [ '7.8.3' ],
+250 silly audit   '@babel/plugin-syntax-private-property-in-object': [ '7.14.5' ],
+250 silly audit   '@babel/plugin-syntax-top-level-await': [ '7.14.5' ],
+250 silly audit   '@babel/plugin-transform-arrow-functions': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-transform-async-to-generator': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-transform-block-scoped-functions': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-transform-block-scoping': [ '7.18.9' ],
+250 silly audit   '@babel/plugin-transform-classes': [ '7.18.9' ],
+250 silly audit   '@babel/plugin-transform-computed-properties': [ '7.18.9' ],
+250 silly audit   '@babel/plugin-transform-destructuring': [ '7.18.9' ],
+250 silly audit   '@babel/plugin-transform-dotall-regex': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-transform-duplicate-keys': [ '7.18.9' ],
+250 silly audit   '@babel/plugin-transform-exponentiation-operator': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-transform-for-of': [ '7.18.8' ],
+250 silly audit   '@babel/plugin-transform-function-name': [ '7.18.9' ],
+250 silly audit   '@babel/plugin-transform-literals': [ '7.18.9' ],
+250 silly audit   '@babel/plugin-transform-member-expression-literals': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-transform-modules-amd': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-transform-modules-commonjs': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-transform-modules-systemjs': [ '7.18.9' ],
+250 silly audit   '@babel/plugin-transform-modules-umd': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-transform-named-capturing-groups-regex': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-transform-new-target': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-transform-object-super': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-transform-parameters': [ '7.18.8' ],
+250 silly audit   '@babel/plugin-transform-property-literals': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-transform-regenerator': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-transform-reserved-words': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-transform-runtime': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-transform-shorthand-properties': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-transform-spread': [ '7.18.9' ],
+250 silly audit   '@babel/plugin-transform-sticky-regex': [ '7.18.6' ],
+250 silly audit   '@babel/plugin-transform-template-literals': [ '7.18.9' ],
+250 silly audit   '@babel/plugin-transform-typeof-symbol': [ '7.18.9' ],
+250 silly audit   '@babel/plugin-transform-unicode-escapes': [ '7.18.10' ],
+250 silly audit   '@babel/plugin-transform-unicode-regex': [ '7.18.6' ],
+250 silly audit   '@babel/preset-env': [ '7.18.6' ],
+250 silly audit   '@babel/preset-modules': [ '0.1.5' ],
+250 silly audit   '@babel/runtime': [ '7.18.6' ],
+250 silly audit   '@babel/traverse': [ '7.18.11' ],
+250 silly audit   '@babel/types': [ '7.18.10' ],
+250 silly audit   'to-fast-properties': [ '2.0.0' ],
+250 silly audit   '@colors/colors': [ '1.5.0' ],
+250 silly audit   '@csstools/postcss-cascade-layers': [ '1.0.5' ],
+250 silly audit   '@csstools/postcss-color-function': [ '1.1.1' ],
+250 silly audit   '@csstools/postcss-font-format-keywords': [ '1.0.1' ],
+250 silly audit   '@csstools/postcss-hwb-function': [ '1.0.2' ],
+250 silly audit   '@csstools/postcss-ic-unit': [ '1.0.1' ],
+250 silly audit   '@csstools/postcss-is-pseudo-class': [ '2.0.7' ],
+250 silly audit   '@csstools/postcss-normalize-display-values': [ '1.0.1' ],
+250 silly audit   '@csstools/postcss-oklab-function': [ '1.1.1' ],
+250 silly audit   '@csstools/postcss-progressive-custom-properties': [ '1.3.0' ],
+250 silly audit   '@csstools/postcss-stepped-value-functions': [ '1.0.1' ],
+250 silly audit   '@csstools/postcss-trigonometric-functions': [ '1.0.2' ],
+250 silly audit   '@csstools/postcss-unset-value': [ '1.0.2' ],
+250 silly audit   '@csstools/selector-specificity': [ '2.0.2' ],
+250 silly audit   '@discoveryjs/json-ext': [ '0.5.7' ],
+250 silly audit   '@gar/promisify': [ '1.1.3' ],
+250 silly audit   '@istanbuljs/load-nyc-config': [ '1.1.0' ],
+250 silly audit   '@istanbuljs/schema': [ '0.1.3' ],
+250 silly audit   '@jridgewell/resolve-uri': [ '3.1.0' ],
+250 silly audit   '@jridgewell/set-array': [ '1.1.2' ],
+250 silly audit   '@jridgewell/source-map': [ '0.3.2' ],
+250 silly audit   '@jridgewell/sourcemap-codec': [ '1.4.14' ],
+250 silly audit   '@jridgewell/trace-mapping': [ '0.3.14' ],
+250 silly audit   '@leichtgewicht/ip-codec': [ '2.0.4' ],
+250 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+250 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+250 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+250 silly audit   '@npmcli/fs': [ '2.1.1' ],
+250 silly audit   '@npmcli/git': [ '3.0.1' ],
+250 silly audit   mkdirp: [ '1.0.4', '0.5.6' ],
+250 silly audit   which: [ '2.0.2', '1.3.1' ],
+250 silly audit   '@npmcli/installed-package-contents': [ '1.0.7' ],
+250 silly audit   '@npmcli/move-file': [ '2.0.0' ],
+250 silly audit   rimraf: [ '3.0.2', '2.6.3' ],
+250 silly audit   '@npmcli/node-gyp': [ '2.0.0' ],
+250 silly audit   '@npmcli/promise-spawn': [ '3.0.0' ],
+250 silly audit   '@npmcli/run-script': [ '4.2.0' ],
+250 silly audit   '@schematics/angular': [ '14.1.1' ],
+250 silly audit   '@tootallnate/once': [ '2.0.0' ],
+250 silly audit   '@types/body-parser': [ '1.19.2' ],
+250 silly audit   '@types/bonjour': [ '3.5.10' ],
+250 silly audit   '@types/component-emitter': [ '1.2.11' ],
+250 silly audit   '@types/connect': [ '3.4.35' ],
+250 silly audit   '@types/connect-history-api-fallback': [ '1.3.5' ],
+250 silly audit   '@types/cookie': [ '0.4.1' ],
+250 silly audit   '@types/cors': [ '2.8.12' ],
+250 silly audit   '@types/eslint': [ '8.4.5' ],
+250 silly audit   '@types/eslint-scope': [ '3.7.4' ],
+250 silly audit   '@types/estree': [ '0.0.51' ],
+250 silly audit   '@types/express': [ '4.17.13' ],
+250 silly audit   '@types/express-serve-static-core': [ '4.17.30' ],
+250 silly audit   '@types/http-proxy': [ '1.17.9' ],
+250 silly audit   '@types/jasmine': [ '3.3.16' ],
+250 silly audit   '@types/jasminewd2': [ '2.0.6' ],
+250 silly audit   '@types/json-schema': [ '7.0.11' ],
+250 silly audit   '@types/mime': [ '3.0.1' ],
+250 silly audit   '@types/node': [ '8.9.5', '18.6.4' ],
+250 silly audit   '@types/parse-json': [ '4.0.0' ],
+250 silly audit   '@types/q': [ '0.0.32' ],
+250 silly audit   '@types/qs': [ '6.9.7' ],
+250 silly audit   '@types/range-parser': [ '1.2.4' ],
+250 silly audit   '@types/retry': [ '0.12.0' ],
+250 silly audit   '@types/selenium-webdriver': [ '3.0.16' ],
+250 silly audit   '@types/serve-index': [ '1.9.1' ],
+250 silly audit   '@types/serve-static': [ '1.15.0' ],
+250 silly audit   '@types/sockjs': [ '0.3.33' ],
+250 silly audit   '@types/ws': [ '8.5.3' ],
+250 silly audit   '@webassemblyjs/ast': [ '1.11.1' ],
+250 silly audit   '@webassemblyjs/floating-point-hex-parser': [ '1.11.1' ],
+250 silly audit   '@webassemblyjs/helper-api-error': [ '1.11.1' ],
+250 silly audit   '@webassemblyjs/helper-buffer': [ '1.11.1' ],
+250 silly audit   '@webassemblyjs/helper-numbers': [ '1.11.1' ],
+250 silly audit   '@webassemblyjs/helper-wasm-bytecode': [ '1.11.1' ],
+250 silly audit   '@webassemblyjs/helper-wasm-section': [ '1.11.1' ],
+250 silly audit   '@webassemblyjs/ieee754': [ '1.11.1' ],
+250 silly audit   '@webassemblyjs/leb128': [ '1.11.1' ],
+250 silly audit   '@webassemblyjs/utf8': [ '1.11.1' ],
+250 silly audit   '@webassemblyjs/wasm-edit': [ '1.11.1' ],
+250 silly audit   '@webassemblyjs/wasm-gen': [ '1.11.1' ],
+250 silly audit   '@webassemblyjs/wasm-opt': [ '1.11.1' ],
+250 silly audit   '@webassemblyjs/wasm-parser': [ '1.11.1' ],
+250 silly audit   '@webassemblyjs/wast-printer': [ '1.11.1' ],
+250 silly audit   '@xtuc/ieee754': [ '1.2.0' ],
+250 silly audit   '@xtuc/long': [ '4.2.2' ],
+250 silly audit   '@yarnpkg/lockfile': [ '1.1.0' ],
+250 silly audit   abab: [ '2.0.6' ],
+250 silly audit   abbrev: [ '1.1.1' ],
+250 silly audit   accepts: [ '1.3.8' ],
+250 silly audit   acorn: [ '8.8.0' ],
+250 silly audit   'acorn-import-assertions': [ '1.8.0' ],
+250 silly audit   'adjust-sourcemap-loader': [ '4.0.0' ],
+250 silly audit   'loader-utils': [ '2.0.2', '3.2.0' ],
+250 silly audit   'adm-zip': [ '0.4.13' ],
+250 silly audit   agentkeepalive: [ '4.2.1' ],
+250 silly audit   'aggregate-error': [ '3.1.0' ],
+250 silly audit   'ajv-formats': [ '2.1.1' ],
+250 silly audit   'ajv-keywords': [ '3.5.2', '5.1.0' ],
+250 silly audit   'ansi-colors': [ '4.1.3' ],
+250 silly audit   'ansi-escapes': [ '4.3.2' ],
+250 silly audit   'ansi-html-community': [ '0.0.8' ],
+250 silly audit   'ansi-regex': [ '2.1.1', '5.0.1', '3.0.1' ],
+250 silly audit   'ansi-styles': [ '3.2.1', '2.2.1', '4.3.0' ],
+250 silly audit   anymatch: [ '3.1.2' ],
+250 silly audit   'append-transform': [ '1.0.0' ],
+250 silly audit   aproba: [ '2.0.0' ],
+250 silly audit   'are-we-there-yet': [ '3.0.1' ],
+250 silly audit   'readable-stream': [ '3.6.0', '2.3.6' ],
+250 silly audit   argparse: [ '1.0.10' ],
+250 silly audit   'array-flatten': [ '2.1.2', '1.1.1' ],
+250 silly audit   'array-union': [ '1.0.2' ],
+250 silly audit   'array-uniq': [ '1.0.3' ],
+250 silly audit   arrify: [ '1.0.1' ],
+250 silly audit   asn1: [ '0.2.4' ],
+250 silly audit   'assert-plus': [ '1.0.0' ],
+250 silly audit   async: [ '2.6.4' ],
+250 silly audit   asynckit: [ '0.4.0' ],
+250 silly audit   atob: [ '2.1.2' ],
+250 silly audit   autoprefixer: [ '10.4.8' ],
+250 silly audit   'aws-sign2': [ '0.7.0' ],
+250 silly audit   aws4: [ '1.8.0' ],
+250 silly audit   'babel-code-frame': [ '6.26.0' ],
+250 silly audit   chalk: [ '1.1.3', '2.4.2', '4.1.2' ],
+250 silly audit   'supports-color': [ '2.0.0', '5.5.0', '7.2.0', '8.1.1', '6.1.0' ],
+250 silly audit   'babel-loader': [ '8.2.5' ],
+250 silly audit   'make-dir': [ '3.1.0', '2.1.0' ],
+250 silly audit   'babel-plugin-dynamic-import-node': [ '2.3.3' ],
+250 silly audit   'babel-plugin-istanbul': [ '6.1.1' ],
+250 silly audit   'babel-plugin-polyfill-corejs2': [ '0.3.2' ],
+250 silly audit   'babel-plugin-polyfill-corejs3': [ '0.5.3' ],
+250 silly audit   'babel-plugin-polyfill-regenerator': [ '0.3.1' ],
+250 silly audit   'balanced-match': [ '1.0.0' ],
+250 silly audit   'base64-js': [ '1.5.1' ],
+250 silly audit   base64id: [ '2.0.0' ],
+250 silly audit   batch: [ '0.6.1' ],
+250 silly audit   'bcrypt-pbkdf': [ '1.0.2' ],
+250 silly audit   'big.js': [ '5.2.2' ],
+250 silly audit   'binary-extensions': [ '2.2.0' ],
+250 silly audit   bl: [ '4.1.0' ],
+250 silly audit   'blocking-proxy': [ '1.0.1' ],
+250 silly audit   'body-parser': [ '1.20.0' ],
+250 silly audit   bytes: [ '3.1.2', '3.0.0' ],
+250 silly audit   depd: [ '2.0.0', '1.1.2' ],
+250 silly audit   'on-finished': [ '2.4.1', '2.3.0' ],
+250 silly audit   qs: [ '6.10.3', '6.5.2' ],
+250 silly audit   'bonjour-service': [ '1.0.13' ],
+250 silly audit   boolbase: [ '1.0.0' ],
+250 silly audit   braces: [ '3.0.2' ],
+250 silly audit   browserslist: [ '4.21.3' ],
+250 silly audit   browserstack: [ '1.5.2' ],
+250 silly audit   buffer: [ '5.7.1' ],
+250 silly audit   'buffer-from': [ '1.1.1' ],
+250 silly audit   'builtin-modules': [ '1.1.1' ],
+250 silly audit   builtins: [ '5.0.1' ],
+250 silly audit   cacache: [ '16.1.1' ],
+250 silly audit   'call-bind': [ '1.0.2' ],
+250 silly audit   callsites: [ '3.1.0' ],
+250 silly audit   camelcase: [ '5.3.1' ],
+250 silly audit   'caniuse-lite': [ '1.0.30001374' ],
+250 silly audit   caseless: [ '0.12.0' ],
+250 silly audit   chardet: [ '0.7.0' ],
+250 silly audit   chokidar: [ '3.5.3' ],
+250 silly audit   chownr: [ '2.0.0' ],
+250 silly audit   'chrome-trace-event': [ '1.0.3' ],
+250 silly audit   'clean-stack': [ '2.2.0' ],
+250 silly audit   'cli-cursor': [ '3.1.0' ],
+250 silly audit   'cli-spinners': [ '2.7.0' ],
+250 silly audit   'cli-width': [ '3.0.0' ],
+250 silly audit   cliui: [ '7.0.4', '4.1.0' ],
+250 silly audit   'strip-ansi': [ '6.0.1', '3.0.1', '4.0.0' ],
+250 silly audit   clone: [ '1.0.4' ],
+250 silly audit   'clone-deep': [ '4.0.1' ],
+250 silly audit   codelyzer: [ '0.0.28' ],
+250 silly audit   'sprintf-js': [ '1.1.2', '1.0.3' ],
+250 silly audit   'color-convert': [ '1.9.3', '2.0.1' ],
+250 silly audit   'color-name': [ '1.1.3', '1.1.4' ],
+250 silly audit   'color-support': [ '1.1.3' ],
+250 silly audit   colorette: [ '2.0.19' ],
+250 silly audit   colors: [ '1.1.2' ],
+250 silly audit   'combined-stream': [ '1.0.8' ],
+250 silly audit   commander: [ '2.20.0' ],
+250 silly audit   commondir: [ '1.0.1' ],
+250 silly audit   'compare-versions': [ '3.5.1' ],
+250 silly audit   'component-emitter': [ '1.3.0' ],
+250 silly audit   compressible: [ '2.0.18' ],
+250 silly audit   compression: [ '1.7.4' ],
+250 silly audit   'concat-map': [ '0.0.1' ],
+250 silly audit   connect: [ '3.7.0' ],
+250 silly audit   'connect-history-api-fallback': [ '2.0.0' ],
+250 silly audit   'console-control-strings': [ '1.1.0' ],
+250 silly audit   'content-disposition': [ '0.5.4' ],
+250 silly audit   'safe-buffer': [ '5.2.1', '5.1.2' ],
+250 silly audit   'content-type': [ '1.0.4' ],
+250 silly audit   'convert-source-map': [ '1.8.0' ],
+250 silly audit   cookie: [ '0.4.2', '0.5.0' ],
+250 silly audit   'cookie-signature': [ '1.0.6' ],
+250 silly audit   'copy-anything': [ '2.0.6' ],
+250 silly audit   'copy-webpack-plugin': [ '11.0.0' ],
+250 silly audit   'glob-parent': [ '6.0.2', '5.1.2' ],
+250 silly audit   'schema-utils': [ '4.0.0', '2.7.1', '3.1.1' ],
+250 silly audit   'core-js-compat': [ '3.24.1' ],
+250 silly audit   'core-util-is': [ '1.0.2' ],
+250 silly audit   cors: [ '2.8.5' ],
+250 silly audit   cosmiconfig: [ '7.0.1' ],
+250 silly audit   critters: [ '0.0.16' ],
+250 silly audit   'has-flag': [ '4.0.0', '3.0.0' ],
+250 silly audit   'cross-spawn': [ '7.0.3', '6.0.5' ],
+250 silly audit   css: [ '3.0.0' ],
+250 silly audit   'css-blank-pseudo': [ '3.0.3' ],
+250 silly audit   'css-has-pseudo': [ '3.0.4' ],
+250 silly audit   'css-loader': [ '6.7.1' ],
+250 silly audit   'css-prefers-color-scheme': [ '6.0.3' ],
+250 silly audit   'css-select': [ '4.3.0' ],
+250 silly audit   'css-what': [ '6.1.0' ],
+250 silly audit   'source-map': [ '0.6.1', '0.7.4', '0.5.7' ],
+250 silly audit   cssdb: [ '6.6.3' ],
+250 silly audit   cssesc: [ '3.0.0' ],
+250 silly audit   'custom-event': [ '1.0.1' ],
+250 silly audit   dashdash: [ '1.14.1' ],
+250 silly audit   'date-format': [ '4.0.13' ],
+250 silly audit   'decode-uri-component': [ '0.2.0' ],
+250 silly audit   'default-gateway': [ '6.0.3' ],
+250 silly audit   'default-require-extensions': [ '2.0.0' ],
+250 silly audit   defaults: [ '1.0.3' ],
+250 silly audit   'define-lazy-prop': [ '2.0.0' ],
+250 silly audit   'define-properties': [ '1.1.4' ],
+250 silly audit   'delayed-stream': [ '1.0.0' ],
+250 silly audit   delegates: [ '1.0.0' ],
+250 silly audit   'dependency-graph': [ '0.11.0' ],
+250 silly audit   destroy: [ '1.2.0' ],
+250 silly audit   'detect-node': [ '2.1.0' ],
+250 silly audit   di: [ '0.0.1' ],
+250 silly audit   diff: [ '3.5.0' ],
+250 silly audit   'dir-glob': [ '3.0.1' ],
+250 silly audit   'dns-equal': [ '1.0.0' ],
+250 silly audit   'dns-packet': [ '5.4.0' ],
+250 silly audit   'dom-serialize': [ '2.2.1' ],
+250 silly audit   'dom-serializer': [ '1.4.1' ],
+250 silly audit   domelementtype: [ '2.3.0' ],
+250 silly audit   domhandler: [ '4.3.1' ],
+250 silly audit   domutils: [ '2.8.0' ],
+250 silly audit   'ecc-jsbn': [ '0.1.2' ],
+250 silly audit   'ee-first': [ '1.1.1' ],
+250 silly audit   'electron-to-chromium': [ '1.4.211' ],
+250 silly audit   'emoji-regex': [ '8.0.0' ],
+250 silly audit   'emojis-list': [ '3.0.0' ],
+250 silly audit   encodeurl: [ '1.0.2' ],
+250 silly audit   encoding: [ '0.1.13' ],
+250 silly audit   'iconv-lite': [ '0.6.3', '0.4.24' ],
+250 silly audit   'engine.io': [ '6.2.0' ],
+250 silly audit   'engine.io-parser': [ '5.0.4' ],
+250 silly audit   'enhanced-resolve': [ '5.10.0' ],
+250 silly audit   ent: [ '2.2.0' ],
+250 silly audit   entities: [ '2.2.0' ],
+250 silly audit   'env-paths': [ '2.2.1' ],
+250 silly audit   'err-code': [ '2.0.3' ],
+250 silly audit   errno: [ '0.1.8' ],
+250 silly audit   'error-ex': [ '1.3.2' ],
+250 silly audit   'es-module-lexer': [ '0.9.3' ],
+250 silly audit   'es6-promise': [ '4.2.8' ],
+250 silly audit   'es6-promisify': [ '5.0.0' ],
+250 silly audit   esbuild: [ '0.14.49' ],
+250 silly audit   'esbuild-android-64': [ '0.14.49' ],
+250 silly audit   'esbuild-android-arm64': [ '0.14.49' ],
+250 silly audit   'esbuild-darwin-64': [ '0.14.49' ],
+250 silly audit   'esbuild-darwin-arm64': [ '0.14.49' ],
+250 silly audit   'esbuild-freebsd-64': [ '0.14.49' ],
+250 silly audit   'esbuild-freebsd-arm64': [ '0.14.49' ],
+250 silly audit   'esbuild-linux-32': [ '0.14.49' ],
+250 silly audit   'esbuild-linux-64': [ '0.14.49' ],
+250 silly audit   'esbuild-linux-arm': [ '0.14.49' ],
+250 silly audit   'esbuild-linux-arm64': [ '0.14.49' ],
+250 silly audit   'esbuild-linux-mips64le': [ '0.14.49' ],
+250 silly audit   'esbuild-linux-ppc64le': [ '0.14.49' ],
+250 silly audit   'esbuild-linux-riscv64': [ '0.14.49' ],
+250 silly audit   'esbuild-linux-s390x': [ '0.14.49' ],
+250 silly audit   'esbuild-netbsd-64': [ '0.14.49' ],
+250 silly audit   'esbuild-openbsd-64': [ '0.14.49' ],
+250 silly audit   'esbuild-sunos-64': [ '0.14.49' ],
+250 silly audit   'esbuild-wasm': [ '0.14.49' ],
+250 silly audit   'esbuild-windows-32': [ '0.14.49' ],
+250 silly audit   'esbuild-windows-64': [ '0.14.49' ],
+250 silly audit   'esbuild-windows-arm64': [ '0.14.49' ],
+250 silly audit   escalade: [ '3.1.1' ],
+250 silly audit   'escape-html': [ '1.0.3' ],
+250 silly audit   'escape-string-regexp': [ '1.0.5' ],
+250 silly audit   'eslint-scope': [ '5.1.1' ],
+250 silly audit   esprima: [ '4.0.1' ],
+250 silly audit   esrecurse: [ '4.3.0' ],
+250 silly audit   estraverse: [ '5.3.0', '4.3.0' ],
+250 silly audit   esutils: [ '2.0.3' ],
+250 silly audit   etag: [ '1.8.1' ],
+250 silly audit   'eventemitter-asyncresource': [ '1.0.0' ],
+250 silly audit   eventemitter3: [ '4.0.7' ],
+250 silly audit   events: [ '3.3.0' ],
+250 silly audit   execa: [ '5.1.1', '1.0.0' ],
+250 silly audit   exit: [ '0.1.2' ],
+250 silly audit   express: [ '4.18.1' ],
+250 silly audit   finalhandler: [ '1.2.0', '1.1.2' ],
+250 silly audit   statuses: [ '2.0.1', '1.5.0' ],
+250 silly audit   extend: [ '3.0.2' ],
+250 silly audit   'external-editor': [ '3.1.0' ],
+250 silly audit   extsprintf: [ '1.3.0' ],
+250 silly audit   'fast-deep-equal': [ '3.1.3' ],
+250 silly audit   'fast-glob': [ '3.2.11' ],
+250 silly audit   'fast-json-stable-stringify': [ '2.0.0' ],
+250 silly audit   fastq: [ '1.13.0' ],
+250 silly audit   'faye-websocket': [ '0.11.4' ],
+250 silly audit   figures: [ '3.2.0' ],
+250 silly audit   fileset: [ '2.0.3' ],
+250 silly audit   'fill-range': [ '7.0.1' ],
+250 silly audit   'find-cache-dir': [ '3.3.2' ],
+250 silly audit   'find-up': [ '4.1.0', '3.0.0' ],
+250 silly audit   flatted: [ '3.2.6' ],
+250 silly audit   'follow-redirects': [ '1.15.1' ],
+250 silly audit   'forever-agent': [ '0.6.1' ],
+250 silly audit   'form-data': [ '2.3.3' ],
+250 silly audit   forwarded: [ '0.2.0' ],
+250 silly audit   'fraction.js': [ '4.2.0' ],
+250 silly audit   fresh: [ '0.5.2' ],
+250 silly audit   'fs-access': [ '1.0.1' ],
+250 silly audit   'fs-extra': [ '8.1.0' ],
+250 silly audit   'fs-minipass': [ '2.1.0' ],
+250 silly audit   'fs-monkey': [ '1.0.3' ],
+250 silly audit   'fs.realpath': [ '1.0.0' ],
+250 silly audit   fsevents: [ '2.3.2' ],
+250 silly audit   'function-bind': [ '1.1.1' ],
+250 silly audit   gauge: [ '4.0.4' ],
+250 silly audit   gensync: [ '1.0.0-beta.2' ],
+250 silly audit   'get-caller-file': [ '2.0.5', '1.0.3' ],
+250 silly audit   'get-intrinsic': [ '1.1.2' ],
+250 silly audit   'get-package-type': [ '0.1.0' ],
+250 silly audit   'get-stream': [ '6.0.1', '4.1.0' ],
+250 silly audit   getpass: [ '0.1.7' ],
+250 silly audit   'glob-to-regexp': [ '0.4.1' ],
+250 silly audit   globals: [ '11.12.0' ],
+250 silly audit   globby: [ '13.1.2', '5.0.0' ],
+250 silly audit   'graceful-fs': [ '4.2.10' ],
+250 silly audit   'handle-thing': [ '2.0.1' ],
+250 silly audit   handlebars: [ '4.7.7' ],
+250 silly audit   wordwrap: [ '1.0.0' ],
+250 silly audit   'har-schema': [ '2.0.0' ],
+250 silly audit   'har-validator': [ '5.1.3' ],
+250 silly audit   has: [ '1.0.3' ],
+250 silly audit   'has-ansi': [ '2.0.0' ],
+250 silly audit   'has-property-descriptors': [ '1.0.0' ],
+250 silly audit   'has-symbols': [ '1.0.3' ],
+250 silly audit   'has-unicode': [ '2.0.1' ],
+250 silly audit   'hdr-histogram-js': [ '2.0.3' ],
+250 silly audit   'hdr-histogram-percentiles-obj': [ '3.0.0' ],
+250 silly audit   'hosted-git-info': [ '5.0.0' ],
+250 silly audit   'hpack.js': [ '2.1.6' ],
+250 silly audit   'html-entities': [ '2.3.3' ],
+250 silly audit   'http-cache-semantics': [ '4.1.0' ],
+250 silly audit   'http-deceiver': [ '1.2.7' ],
+250 silly audit   'http-errors': [ '2.0.0', '1.6.3' ],
+250 silly audit   'http-parser-js': [ '0.5.8' ],
+250 silly audit   'http-proxy': [ '1.18.1' ],
+250 silly audit   'http-proxy-agent': [ '5.0.0' ],
+250 silly audit   'http-proxy-middleware': [ '2.0.6' ],
+250 silly audit   'http-signature': [ '1.2.0' ],
+250 silly audit   'human-signals': [ '2.1.0' ],
+250 silly audit   'humanize-ms': [ '1.2.1' ],
+250 silly audit   'icss-utils': [ '5.1.0' ],
+250 silly audit   ieee754: [ '1.2.1' ],
+250 silly audit   ignore: [ '5.2.0' ],
+250 silly audit   'ignore-walk': [ '5.0.1' ],
+250 silly audit   'image-size': [ '0.5.5' ],
+250 silly audit   immediate: [ '3.0.6' ],
+250 silly audit   immutable: [ '4.1.0' ],
+250 silly audit   'import-fresh': [ '3.3.0' ],
+250 silly audit   'resolve-from': [ '4.0.0', '5.0.0' ],
+250 silly audit   imurmurhash: [ '0.1.4' ],
+250 silly audit   'indent-string': [ '4.0.0' ],
+250 silly audit   'infer-owner': [ '1.0.4' ],
+250 silly audit   inflight: [ '1.0.6' ],
+250 silly audit   inherits: [ '2.0.4', '2.0.3' ],
+250 silly audit   inquirer: [ '8.2.4' ],
+250 silly audit   ip: [ '2.0.0' ],
+250 silly audit   'ipaddr.js': [ '2.0.1', '1.9.1' ],
+250 silly audit   'is-arrayish': [ '0.2.1' ],
+250 silly audit   'is-binary-path': [ '2.1.0' ],
+250 silly audit   'is-core-module': [ '2.10.0' ],
+250 silly audit   'is-docker': [ '2.2.1' ],
+250 silly audit   'is-extglob': [ '2.1.1' ],
+250 silly audit   'is-fullwidth-code-point': [ '3.0.0', '2.0.0', '1.0.0' ],
+250 silly audit   'is-glob': [ '4.0.3' ],
+250 silly audit   'is-interactive': [ '1.0.0' ],
+250 silly audit   'is-lambda': [ '1.0.1' ],
+250 silly audit   'is-number': [ '7.0.0' ],
+250 silly audit   'is-plain-obj': [ '3.0.0' ],
+250 silly audit   'is-plain-object': [ '2.0.4' ],
+250 silly audit   'is-stream': [ '2.0.1', '1.1.0' ],
+250 silly audit   'is-typedarray': [ '1.0.0' ],
+250 silly audit   'is-unicode-supported': [ '0.1.0' ],
+250 silly audit   'is-what': [ '3.14.1' ],
+250 silly audit   'is-wsl': [ '2.2.0' ],
+250 silly audit   isarray: [ '1.0.0' ],
+250 silly audit   isbinaryfile: [ '4.0.10' ],
+250 silly audit   isexe: [ '2.0.0' ],
+250 silly audit   isobject: [ '3.0.1' ],
+250 silly audit   isstream: [ '0.1.2' ],
+250 silly audit   'istanbul-api': [ '2.1.6' ],
+250 silly audit   'istanbul-lib-coverage': [ '2.0.5', '3.2.0' ],
+250 silly audit   'istanbul-lib-instrument': [ '3.3.0', '5.2.0' ],
+250 silly audit   'istanbul-lib-hook': [ '2.0.7' ],
+250 silly audit   'istanbul-lib-report': [ '2.0.8' ],
+250 silly audit   'istanbul-lib-source-maps': [ '3.0.6' ],
+250 silly audit   'istanbul-reports': [ '2.2.6' ],
+250 silly audit   jasmine: [ '2.8.0' ],
+250 silly audit   'jasmine-core': [ '3.4.0', '2.8.0' ],
+250 silly audit   'jasmine-spec-reporter': [ '4.2.1' ],
+250 silly audit   jasminewd2: [ '2.2.0' ],
+250 silly audit   'jest-worker': [ '27.5.1' ],
+250 silly audit   'js-yaml': [ '3.13.1' ],
+250 silly audit   jsbn: [ '0.1.1' ],
+250 silly audit   'json-parse-even-better-errors': [ '2.3.1' ],
+250 silly audit   'json-schema': [ '0.4.0' ],
+250 silly audit   'json-stringify-safe': [ '5.0.1' ],
+250 silly audit   json5: [ '2.2.1' ],
+250 silly audit   'jsonc-parser': [ '3.1.0' ],
+250 silly audit   jsonfile: [ '4.0.0' ],
+250 silly audit   jsonparse: [ '1.3.1' ],
+250 silly audit   jsprim: [ '1.4.2' ],
+250 silly audit   jszip: [ '3.10.1' ],
+250 silly audit   karma: [ '6.4.0' ],
+250 silly audit   'karma-chrome-launcher': [ '2.2.0' ],
+250 silly audit   'karma-coverage-istanbul-reporter': [ '2.0.6' ],
+250 silly audit   'karma-jasmine': [ '2.0.1' ],
+250 silly audit   'karma-jasmine-html-reporter': [ '1.4.2' ],
+250 silly audit   'karma-source-map-support': [ '1.4.0' ],
+250 silly audit   tmp: [ '0.2.1', '0.0.30', '0.0.33' ],
+250 silly audit   yargs: [ '16.2.0', '17.5.1', '12.0.5' ],
+250 silly audit   'yargs-parser': [ '20.2.9', '21.1.1', '11.1.1' ],
+250 silly audit   'kind-of': [ '6.0.3' ],
+250 silly audit   klona: [ '2.0.5' ],
+250 silly audit   less: [ '4.1.3' ],
+250 silly audit   'less-loader': [ '11.0.0' ],
+250 silly audit   mime: [ '1.6.0', '2.6.0' ],
+250 silly audit   'license-webpack-plugin': [ '4.0.2' ],
+250 silly audit   lie: [ '3.3.0' ],
+250 silly audit   'lines-and-columns': [ '1.2.4' ],
+250 silly audit   'loader-runner': [ '4.3.0' ],
+250 silly audit   'locate-path': [ '5.0.0', '3.0.0' ],
+250 silly audit   lodash: [ '4.17.21' ],
+250 silly audit   'lodash.debounce': [ '4.0.8' ],
+250 silly audit   'log-symbols': [ '4.1.0' ],
+250 silly audit   log4js: [ '6.6.1' ],
+250 silly audit   'magic-string': [ '0.26.2' ],
+250 silly audit   'make-error': [ '1.3.5' ],
+250 silly audit   'make-fetch-happen': [ '10.2.0' ],
+250 silly audit   'media-typer': [ '0.3.0' ],
+250 silly audit   memfs: [ '3.4.7' ],
+250 silly audit   'merge-descriptors': [ '1.0.1' ],
+250 silly audit   'merge-stream': [ '2.0.0' ],
+250 silly audit   merge2: [ '1.4.1' ],
+250 silly audit   methods: [ '1.1.2' ],
+250 silly audit   micromatch: [ '4.0.5' ],
+250 silly audit   'mime-db': [ '1.52.0' ],
+250 silly audit   'mime-types': [ '2.1.35' ],
+250 silly audit   'mimic-fn': [ '2.1.0' ],
+250 silly audit   'mini-css-extract-plugin': [ '2.6.1' ],
+250 silly audit   'minimalistic-assert': [ '1.0.1' ],
+250 silly audit   minimist: [ '1.2.6' ],
+250 silly audit   minipass: [ '3.3.4' ],
+250 silly audit   'minipass-collect': [ '1.0.2' ],
+250 silly audit   'minipass-fetch': [ '2.1.0' ],
+250 silly audit   'minipass-flush': [ '1.0.5' ],
+250 silly audit   'minipass-json-stream': [ '1.0.1' ],
+250 silly audit   'minipass-pipeline': [ '1.2.4' ],
+250 silly audit   'minipass-sized': [ '1.0.3' ],
+250 silly audit   minizlib: [ '2.1.2' ],
+250 silly audit   'multicast-dns': [ '7.2.5' ],
+250 silly audit   'mute-stream': [ '0.0.8' ],
+250 silly audit   nanoid: [ '3.3.4' ],
+250 silly audit   needle: [ '3.1.0' ],
+250 silly audit   negotiator: [ '0.6.3' ],
+250 silly audit   'neo-async': [ '2.6.2' ],
+250 silly audit   'nice-napi': [ '1.0.2' ],
+250 silly audit   'node-addon-api': [ '3.2.1' ],
+250 silly audit   'node-forge': [ '1.3.1' ],
+250 silly audit   'node-gyp': [ '9.1.0' ],
+250 silly audit   'node-gyp-build': [ '4.5.0' ],
+250 silly audit   'node-releases': [ '2.0.6' ],
+250 silly audit   nopt: [ '5.0.0' ],
+250 silly audit   'normalize-package-data': [ '4.0.0' ],
+250 silly audit   'normalize-path': [ '3.0.0' ],
+250 silly audit   'normalize-range': [ '0.1.2' ],
+250 silly audit   'npm-bundled': [ '1.1.2' ],
+250 silly audit   'npm-install-checks': [ '5.0.0' ],
+250 silly audit   'npm-normalize-package-bin': [ '1.0.1' ],
+250 silly audit   'npm-package-arg': [ '9.1.0' ],
+250 silly audit   'npm-packlist': [ '5.1.1' ],
+250 silly audit   'npm-pick-manifest': [ '7.0.1' ],
+250 silly audit   'npm-registry-fetch': [ '13.3.0' ],
+250 silly audit   'npm-run-path': [ '4.0.1', '2.0.2' ],
+250 silly audit   npmlog: [ '6.0.2' ],
+250 silly audit   'nth-check': [ '2.1.1' ],
+250 silly audit   'null-check': [ '1.0.0' ],
+250 silly audit   'oauth-sign': [ '0.9.0' ],
+250 silly audit   'object-assign': [ '4.1.1' ],
+250 silly audit   'object-inspect': [ '1.12.2' ],
+250 silly audit   'object-keys': [ '1.1.1' ],
+250 silly audit   'object.assign': [ '4.1.2' ],
+250 silly audit   obuf: [ '1.1.2' ],
+250 silly audit   'on-headers': [ '1.0.2' ],
+250 silly audit   once: [ '1.4.0' ],
+250 silly audit   onetime: [ '5.1.2' ],
+250 silly audit   open: [ '8.4.0' ],
+250 silly audit   ora: [ '5.4.1' ],
+250 silly audit   'os-tmpdir': [ '1.0.2' ],
+250 silly audit   'p-limit': [ '2.3.0' ],
+250 silly audit   'p-locate': [ '4.1.0', '3.0.0' ],
+250 silly audit   'p-map': [ '4.0.0' ],
+250 silly audit   'p-retry': [ '4.6.2' ],
+250 silly audit   retry: [ '0.13.1', '0.12.0' ],
+250 silly audit   'p-try': [ '2.2.0' ],
+250 silly audit   pacote: [ '13.6.1' ],
+250 silly audit   pako: [ '1.0.10' ],
+250 silly audit   'parent-module': [ '1.0.1' ],
+250 silly audit   'parse-json': [ '5.2.0' ],
+250 silly audit   'parse-node-version': [ '1.0.1' ],
+250 silly audit   parse5: [ '6.0.1' ],
+250 silly audit   'parse5-html-rewriting-stream': [ '6.0.1' ],
+250 silly audit   'parse5-htmlparser2-tree-adapter': [ '6.0.1' ],
+250 silly audit   'parse5-sax-parser': [ '6.0.1' ],
+250 silly audit   parseurl: [ '1.3.3' ],
+250 silly audit   'path-exists': [ '4.0.0', '3.0.0' ],
+250 silly audit   'path-is-absolute': [ '1.0.1' ],
+250 silly audit   'path-is-inside': [ '1.0.2' ],
+250 silly audit   'path-key': [ '3.1.1', '2.0.1' ],
+250 silly audit   'path-parse': [ '1.0.7' ],
+250 silly audit   'path-to-regexp': [ '0.1.7' ],
+250 silly audit   'path-type': [ '4.0.0' ],
+250 silly audit   'performance-now': [ '2.1.0' ],
+250 silly audit   picocolors: [ '1.0.0' ],
+250 silly audit   picomatch: [ '2.3.1' ],
+250 silly audit   pify: [ '4.0.1', '2.3.0' ],
+250 silly audit   pinkie: [ '2.0.4' ],
+250 silly audit   'pinkie-promise': [ '2.0.1' ],
+250 silly audit   piscina: [ '3.2.0' ],
+250 silly audit   'pkg-dir': [ '4.2.0' ],
+250 silly audit   postcss: [ '8.4.14' ],
+250 silly audit   'postcss-attribute-case-insensitive': [ '5.0.2' ],
+250 silly audit   'postcss-clamp': [ '4.1.0' ],
+250 silly audit   'postcss-color-functional-notation': [ '4.2.4' ],
+250 silly audit   'postcss-color-hex-alpha': [ '8.0.4' ],
+250 silly audit   'postcss-color-rebeccapurple': [ '7.1.1' ],
+250 silly audit   'postcss-custom-media': [ '8.0.2' ],
+250 silly audit   'postcss-custom-properties': [ '12.1.8' ],
+250 silly audit   'postcss-custom-selectors': [ '6.0.3' ],
+250 silly audit   'postcss-dir-pseudo-class': [ '6.0.5' ],
+250 silly audit   'postcss-double-position-gradients': [ '3.1.2' ],
+250 silly audit   'postcss-env-function': [ '4.0.6' ],
+250 silly audit   'postcss-focus-visible': [ '6.0.4' ],
+250 silly audit   'postcss-focus-within': [ '5.0.4' ],
+250 silly audit   'postcss-font-variant': [ '5.0.0' ],
+250 silly audit   'postcss-gap-properties': [ '3.0.5' ],
+250 silly audit   'postcss-image-set-function': [ '4.0.7' ],
+250 silly audit   'postcss-import': [ '14.1.0' ],
+250 silly audit   'postcss-initial': [ '4.0.1' ],
+250 silly audit   'postcss-lab-function': [ '4.2.1' ],
+250 silly audit   'postcss-loader': [ '7.0.1' ],
+250 silly audit   'postcss-logical': [ '5.0.4' ],
+250 silly audit   'postcss-media-minmax': [ '5.0.0' ],
+250 silly audit   'postcss-modules-extract-imports': [ '3.0.0' ],
+250 silly audit   'postcss-modules-local-by-default': [ '4.0.0' ],
+250 silly audit   'postcss-modules-scope': [ '3.0.0' ],
+250 silly audit   'postcss-modules-values': [ '4.0.0' ],
+250 silly audit   'postcss-nesting': [ '10.1.10' ],
+250 silly audit   'postcss-opacity-percentage': [ '1.1.2' ],
+250 silly audit   'postcss-overflow-shorthand': [ '3.0.4' ],
+250 silly audit   'postcss-page-break': [ '3.0.4' ],
+250 silly audit   'postcss-place': [ '7.0.5' ],
+250 silly audit   'postcss-preset-env': [ '7.7.2' ],
+250 silly audit   'postcss-pseudo-class-any-link': [ '7.1.6' ],
+250 silly audit   'postcss-replace-overflow-wrap': [ '4.0.0' ],
+250 silly audit   'postcss-selector-not': [ '6.0.1' ],
+250 silly audit   'postcss-selector-parser': [ '6.0.10' ],
+250 silly audit   'postcss-value-parser': [ '4.2.0' ],
+250 silly audit   'pretty-bytes': [ '5.6.0' ],
+250 silly audit   'proc-log': [ '2.0.1' ],
+250 silly audit   'process-nextick-args': [ '2.0.1' ],
+250 silly audit   'promise-inflight': [ '1.0.1' ],
+250 silly audit   'promise-retry': [ '2.0.1' ],
+250 silly audit   'source-map-support': [ '0.5.21', '0.4.18' ],
+250 silly audit   'proxy-addr': [ '2.0.7' ],
+250 silly audit   prr: [ '1.0.1' ],
+250 silly audit   psl: [ '1.3.0' ],
+250 silly audit   punycode: [ '2.1.1', '1.4.1' ],
+250 silly audit   q: [ '1.4.1' ],
+250 silly audit   qjobs: [ '1.2.0' ],
+250 silly audit   'queue-microtask': [ '1.2.3' ],
+250 silly audit   randombytes: [ '2.1.0' ],
+250 silly audit   'range-parser': [ '1.2.1' ],
+250 silly audit   'raw-body': [ '2.5.1' ],
+250 silly audit   'read-cache': [ '1.0.0' ],
+250 silly audit   'read-package-json': [ '5.0.1' ],
+250 silly audit   'read-package-json-fast': [ '2.0.3' ],
+250 silly audit   readdirp: [ '3.6.0' ],
+250 silly audit   'reflect-metadata': [ '0.1.13' ],
+250 silly audit   regenerate: [ '1.4.2' ],
+250 silly audit   'regenerate-unicode-properties': [ '10.0.1' ],
+250 silly audit   'regenerator-runtime': [ '0.13.9' ],
+250 silly audit   'regenerator-transform': [ '0.15.0' ],
+250 silly audit   'regex-parser': [ '2.2.11' ],
+250 silly audit   'regexpu-core': [ '5.1.0' ],
+250 silly audit   regjsgen: [ '0.6.0' ],
+250 silly audit   regjsparser: [ '0.8.4' ],
+250 silly audit   request: [ '2.88.0' ],
+250 silly audit   'require-directory': [ '2.1.1' ],
+250 silly audit   'require-from-string': [ '2.0.2' ],
+250 silly audit   'requires-port': [ '1.0.0' ],
+250 silly audit   resolve: [ '1.22.1' ],
+250 silly audit   'resolve-url-loader': [ '5.0.0' ],
+250 silly audit   'restore-cursor': [ '3.1.0' ],
+250 silly audit   reusify: [ '1.0.4' ],
+250 silly audit   rfdc: [ '1.3.0' ],
+250 silly audit   'run-async': [ '2.4.1' ],
+250 silly audit   'run-parallel': [ '1.2.0' ],
+250 silly audit   'safer-buffer': [ '2.1.2' ],
+250 silly audit   sass: [ '1.53.0' ],
+250 silly audit   'sass-loader': [ '13.0.2' ],
+250 silly audit   saucelabs: [ '1.5.0' ],
+250 silly audit   sax: [ '1.2.4' ],
+250 silly audit   'select-hose': [ '2.0.0' ],
+250 silly audit   'selenium-webdriver': [ '3.6.0' ],
+250 silly audit   selfsigned: [ '2.0.1' ],
+250 silly audit   send: [ '0.18.0' ],
+250 silly audit   'serialize-javascript': [ '6.0.0' ],
+250 silly audit   'serve-index': [ '1.9.1' ],
+250 silly audit   setprototypeof: [ '1.1.0', '1.2.0' ],
+250 silly audit   'serve-static': [ '1.15.0' ],
+250 silly audit   'set-blocking': [ '2.0.0' ],
+250 silly audit   setimmediate: [ '1.0.5' ],
+250 silly audit   'shallow-clone': [ '3.0.1' ],
+250 silly audit   'shebang-command': [ '2.0.0', '1.2.0' ],
+250 silly audit   'shebang-regex': [ '3.0.0', '1.0.0' ],
+250 silly audit   'side-channel': [ '1.0.4' ],
+250 silly audit   'signal-exit': [ '3.0.7' ],
+250 silly audit   slash: [ '4.0.0' ],
+250 silly audit   'smart-buffer': [ '4.2.0' ],
+250 silly audit   'socket.io': [ '4.5.1' ],
+250 silly audit   'socket.io-adapter': [ '2.4.0' ],
+250 silly audit   'socket.io-parser': [ '4.0.5' ],
+250 silly audit   sockjs: [ '0.3.24' ],
+250 silly audit   socks: [ '2.7.0' ],
+250 silly audit   'socks-proxy-agent': [ '7.0.0' ],
+250 silly audit   'source-map-js': [ '1.0.2' ],
+250 silly audit   'source-map-loader': [ '4.0.0' ],
+250 silly audit   'source-map-resolve': [ '0.6.0' ],
+250 silly audit   'sourcemap-codec': [ '1.4.8' ],
+250 silly audit   'spdx-correct': [ '3.1.1' ],
+250 silly audit   'spdx-exceptions': [ '2.3.0' ],
+250 silly audit   'spdx-expression-parse': [ '3.0.1' ],
+250 silly audit   'spdx-license-ids': [ '3.0.11' ],
+250 silly audit   spdy: [ '4.0.2' ],
+250 silly audit   'spdy-transport': [ '3.0.0' ],
+250 silly audit   sshpk: [ '1.16.1' ],
+250 silly audit   ssri: [ '9.0.1' ],
+250 silly audit   streamroller: [ '3.1.2' ],
+250 silly audit   string_decoder: [ '1.1.1' ],
+250 silly audit   'string-width': [ '4.2.3', '2.1.1', '1.0.2' ],
+250 silly audit   'strip-bom': [ '3.0.0' ],
+250 silly audit   'strip-final-newline': [ '2.0.0' ],
+250 silly audit   stylus: [ '0.58.1' ],
+250 silly audit   'stylus-loader': [ '7.0.0' ],
+250 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+250 silly audit   'symbol-observable': [ '4.0.0' ],
+250 silly audit   tapable: [ '2.2.1' ],
+250 silly audit   tar: [ '6.1.11' ],
+250 silly audit   terser: [ '5.14.2' ],
+250 silly audit   'terser-webpack-plugin': [ '5.3.3' ],
+250 silly audit   'test-exclude': [ '6.0.0' ],
+250 silly audit   'text-table': [ '0.2.0' ],
+250 silly audit   through: [ '2.3.8' ],
+250 silly audit   thunky: [ '1.1.0' ],
+250 silly audit   'to-regex-range': [ '5.0.1' ],
+250 silly audit   toidentifier: [ '1.0.1' ],
+250 silly audit   'tough-cookie': [ '2.4.3' ],
+250 silly audit   'tree-kill': [ '1.2.2' ],
+250 silly audit   'ts-node': [ '7.0.1' ],
+250 silly audit   tslint: [ '5.15.0' ],
+250 silly audit   tsutils: [ '2.29.0' ],
+250 silly audit   'tunnel-agent': [ '0.6.0' ],
+250 silly audit   tweetnacl: [ '0.14.5' ],
+250 silly audit   'type-fest': [ '0.21.3' ],
+250 silly audit   'type-is': [ '1.6.18' ],
+250 silly audit   'typed-assert': [ '1.0.9' ],
+250 silly audit   typescript: [ '3.4.5' ],
+250 silly audit   'ua-parser-js': [ '0.7.31' ],
+250 silly audit   'uglify-js': [ '3.6.0' ],
+250 silly audit   'unicode-canonical-property-names-ecmascript': [ '2.0.0' ],
+250 silly audit   'unicode-match-property-ecmascript': [ '2.0.0' ],
+250 silly audit   'unicode-match-property-value-ecmascript': [ '2.0.0' ],
+250 silly audit   'unicode-property-aliases-ecmascript': [ '2.0.0' ],
+250 silly audit   'unique-filename': [ '1.1.1' ],
+250 silly audit   'unique-slug': [ '2.0.2' ],
+250 silly audit   universalify: [ '0.1.2' ],
+250 silly audit   unpipe: [ '1.0.0' ],
+250 silly audit   'update-browserslist-db': [ '1.0.5' ],
+250 silly audit   'uri-js': [ '4.2.2' ],
+250 silly audit   'util-deprecate': [ '1.0.2' ],
+250 silly audit   'utils-merge': [ '1.0.1' ],
+250 silly audit   'validate-npm-package-license': [ '3.0.4' ],
+250 silly audit   'validate-npm-package-name': [ '4.0.0' ],
+250 silly audit   vary: [ '1.1.2' ],
+250 silly audit   verror: [ '1.10.0' ],
+250 silly audit   'void-elements': [ '2.0.1' ],
+250 silly audit   watchpack: [ '2.4.0' ],
+250 silly audit   wbuf: [ '1.7.3' ],
+250 silly audit   wcwidth: [ '1.0.1' ],
+250 silly audit   'webdriver-js-extender': [ '2.1.0' ],
+250 silly audit   webpack: [ '5.73.0' ],
+250 silly audit   'webpack-dev-middleware': [ '5.3.3' ],
+250 silly audit   'webpack-dev-server': [ '4.9.3' ],
+250 silly audit   ws: [ '8.8.1', '8.2.3' ],
+250 silly audit   'webpack-merge': [ '5.8.0' ],
+250 silly audit   'webpack-sources': [ '3.2.3' ],
+250 silly audit   'webpack-subresource-integrity': [ '5.1.0' ],
+250 silly audit   'websocket-driver': [ '0.7.4' ],
+250 silly audit   'websocket-extensions': [ '0.1.4' ],
+250 silly audit   'wide-align': [ '1.1.5' ],
+250 silly audit   wildcard: [ '2.0.0' ],
+250 silly audit   'wrap-ansi': [ '7.0.0', '2.1.0' ],
+250 silly audit   wrappy: [ '1.0.2' ],
+250 silly audit   xml2js: [ '0.4.19' ],
+250 silly audit   xmlbuilder: [ '9.0.7' ],
+250 silly audit   y18n: [ '5.0.8', '4.0.3' ],
+250 silly audit   yallist: [ '4.0.0' ],
+250 silly audit   yaml: [ '1.10.2' ],
+250 silly audit   yn: [ '2.0.0' ],
+250 silly audit   'zone.js': [ '0.9.1' ],
+250 silly audit   protractor: [ '5.4.4' ],
+250 silly audit   del: [ '2.2.2' ],
+250 silly audit   'is-path-cwd': [ '1.0.0' ],
+250 silly audit   'is-path-in-cwd': [ '1.0.1' ],
+250 silly audit   'is-path-inside': [ '1.0.1' ],
+250 silly audit   'webdriver-manager': [ '12.1.6' ],
+250 silly audit   decamelize: [ '1.2.0' ],
+250 silly audit   'os-locale': [ '3.1.0' ],
+250 silly audit   'require-main-filename': [ '1.0.1' ],
+250 silly audit   'which-module': [ '2.0.0' ],
+250 silly audit   lcid: [ '2.0.0' ],
+250 silly audit   mem: [ '4.3.0' ],
+250 silly audit   'invert-kv': [ '2.0.0' ],
+250 silly audit   'map-age-cleaner': [ '0.1.3' ],
+250 silly audit   'p-is-promise': [ '2.1.0' ],
+250 silly audit   'p-defer': [ '1.0.0' ],
+250 silly audit   'p-finally': [ '1.0.0' ],
+250 silly audit   'strip-eof': [ '1.0.0' ],
+250 silly audit   'nice-try': [ '1.0.5' ],
+250 silly audit   pump: [ '3.0.0' ],
+250 silly audit   'end-of-stream': [ '1.4.4' ],
+250 silly audit   'code-point-at': [ '1.1.0' ],
+250 silly audit   'number-is-nan': [ '1.0.1' ]
+250 silly audit }
+251 verbose reify failed optional dependency /home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/fsevents
+252 silly reify mark deleted [
+252 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/fsevents'
+252 silly reify ]
+253 verbose reify failed optional dependency /home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-windows-arm64
+254 silly reify mark deleted [
+254 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-windows-arm64'
+254 silly reify ]
+255 verbose reify failed optional dependency /home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-windows-64
+256 silly reify mark deleted [
+256 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-windows-64'
+256 silly reify ]
+257 verbose reify failed optional dependency /home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-windows-32
+258 silly reify mark deleted [
+258 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-windows-32'
+258 silly reify ]
+259 verbose reify failed optional dependency /home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-sunos-64
+260 silly reify mark deleted [
+260 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-sunos-64'
+260 silly reify ]
+261 verbose reify failed optional dependency /home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-openbsd-64
+262 silly reify mark deleted [
+262 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-openbsd-64'
+262 silly reify ]
+263 verbose reify failed optional dependency /home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-netbsd-64
+264 silly reify mark deleted [
+264 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-netbsd-64'
+264 silly reify ]
+265 verbose reify failed optional dependency /home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-linux-s390x
+266 silly reify mark deleted [
+266 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-linux-s390x'
+266 silly reify ]
+267 verbose reify failed optional dependency /home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-linux-riscv64
+268 silly reify mark deleted [
+268 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-linux-riscv64'
+268 silly reify ]
+269 verbose reify failed optional dependency /home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-linux-ppc64le
+270 silly reify mark deleted [
+270 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-linux-ppc64le'
+270 silly reify ]
+271 verbose reify failed optional dependency /home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-linux-mips64le
+272 silly reify mark deleted [
+272 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-linux-mips64le'
+272 silly reify ]
+273 verbose reify failed optional dependency /home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-linux-arm64
+274 silly reify mark deleted [
+274 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-linux-arm64'
+274 silly reify ]
+275 verbose reify failed optional dependency /home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-linux-arm
+276 silly reify mark deleted [
+276 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-linux-arm'
+276 silly reify ]
+277 verbose reify failed optional dependency /home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-linux-32
+278 silly reify mark deleted [
+278 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-linux-32'
+278 silly reify ]
+279 verbose reify failed optional dependency /home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-freebsd-arm64
+280 silly reify mark deleted [
+280 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-freebsd-arm64'
+280 silly reify ]
+281 verbose reify failed optional dependency /home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-freebsd-64
+282 silly reify mark deleted [
+282 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-freebsd-64'
+282 silly reify ]
+283 verbose reify failed optional dependency /home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-darwin-arm64
+284 silly reify mark deleted [
+284 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-darwin-arm64'
+284 silly reify ]
+285 verbose reify failed optional dependency /home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-darwin-64
+286 silly reify mark deleted [
+286 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-darwin-64'
+286 silly reify ]
+287 verbose reify failed optional dependency /home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-android-arm64
+288 silly reify mark deleted [
+288 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-android-arm64'
+288 silly reify ]
+289 verbose reify failed optional dependency /home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-android-64
+290 silly reify mark deleted [
+290 silly reify   '/home/thebuffylow/angular-lc101-projects/lesson2/exercises/node_modules/esbuild-android-64'
+290 silly reify ]
+291 timing reifyNode:node_modules/fsevents Completed in 18ms
+292 timing reifyNode:node_modules/esbuild-windows-arm64 Completed in 18ms
+293 timing reifyNode:node_modules/esbuild-windows-64 Completed in 18ms
+294 timing reifyNode:node_modules/esbuild-windows-32 Completed in 17ms
+295 timing reifyNode:node_modules/esbuild-sunos-64 Completed in 17ms
+296 timing reifyNode:node_modules/esbuild-openbsd-64 Completed in 18ms
+297 timing reifyNode:node_modules/esbuild-netbsd-64 Completed in 18ms
+298 timing reifyNode:node_modules/esbuild-linux-s390x Completed in 18ms
+299 timing reifyNode:node_modules/esbuild-linux-riscv64 Completed in 17ms
+300 timing reifyNode:node_modules/esbuild-linux-ppc64le Completed in 17ms
+301 timing reifyNode:node_modules/esbuild-linux-mips64le Completed in 17ms
+302 timing reifyNode:node_modules/esbuild-linux-arm64 Completed in 17ms
+303 timing reifyNode:node_modules/esbuild-linux-arm Completed in 17ms
+304 timing reifyNode:node_modules/esbuild-linux-32 Completed in 17ms
+305 timing reifyNode:node_modules/esbuild-freebsd-arm64 Completed in 16ms
+306 timing reifyNode:node_modules/esbuild-freebsd-64 Completed in 16ms
+307 timing reifyNode:node_modules/esbuild-darwin-arm64 Completed in 16ms
+308 timing reifyNode:node_modules/esbuild-darwin-64 Completed in 16ms
+309 timing reifyNode:node_modules/esbuild-android-arm64 Completed in 16ms
+310 timing reifyNode:node_modules/esbuild-android-64 Completed in 16ms
+311 silly tarball no local data for number-is-nan@https://registry.npmjs.org/number-is-nan/-/number-is-nan-1.0.1.tgz. Extracting by manifest.
+312 silly tarball no local data for code-point-at@https://registry.npmjs.org/code-point-at/-/code-point-at-1.1.0.tgz. Extracting by manifest.
+313 silly tarball no local data for strip-eof@https://registry.npmjs.org/strip-eof/-/strip-eof-1.0.0.tgz. Extracting by manifest.
+314 silly tarball no local data for p-finally@https://registry.npmjs.org/p-finally/-/p-finally-1.0.0.tgz. Extracting by manifest.
+315 silly tarball no local data for p-defer@https://registry.npmjs.org/p-defer/-/p-defer-1.0.0.tgz. Extracting by manifest.
+316 silly tarball no local data for which-module@https://registry.npmjs.org/which-module/-/which-module-2.0.0.tgz. Extracting by manifest.
+317 silly tarball no local data for require-main-filename@https://registry.npmjs.org/require-main-filename/-/require-main-filename-1.0.1.tgz. Extracting by manifest.
+318 silly tarball no local data for shebang-regex@https://registry.npmjs.org/shebang-regex/-/shebang-regex-1.0.0.tgz. Extracting by manifest.
+319 silly tarball no local data for decamelize@https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz. Extracting by manifest.
+320 silly tarball no local data for shebang-command@https://registry.npmjs.org/shebang-command/-/shebang-command-1.2.0.tgz. Extracting by manifest.
+321 silly tarball no local data for path-key@https://registry.npmjs.org/path-key/-/path-key-2.0.1.tgz. Extracting by manifest.
+322 silly tarball no local data for npm-run-path@https://registry.npmjs.org/npm-run-path/-/npm-run-path-2.0.2.tgz. Extracting by manifest.
+323 silly tarball no local data for is-stream@https://registry.npmjs.org/is-stream/-/is-stream-1.1.0.tgz. Extracting by manifest.
+324 silly tarball no local data for is-fullwidth-code-point@https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-2.0.0.tgz. Extracting by manifest.
+325 silly tarball no local data for path-exists@https://registry.npmjs.org/path-exists/-/path-exists-3.0.0.tgz. Extracting by manifest.
+326 silly tarball no local data for wrap-ansi@https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-2.1.0.tgz. Extracting by manifest.
+327 silly tarball no local data for is-fullwidth-code-point@https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-1.0.0.tgz. Extracting by manifest.
+328 silly tarball no local data for string-width@https://registry.npmjs.org/string-width/-/string-width-1.0.2.tgz. Extracting by manifest.
+329 silly tarball no local data for y18n@https://registry.npmjs.org/y18n/-/y18n-4.0.3.tgz. Extracting by manifest.
+330 silly tarball no local data for strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-4.0.0.tgz. Extracting by manifest.
+331 silly tarball no local data for strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-4.0.0.tgz. Extracting by manifest.
+332 timing reifyNode:node_modules/invert-kv Completed in 518ms
+333 timing reifyNode:node_modules/end-of-stream Completed in 521ms
+334 timing reifyNode:node_modules/os-locale Completed in 522ms
+335 timing reifyNode:node_modules/protractor/node_modules/locate-path Completed in 515ms
+336 timing reifyNode:node_modules/protractor/node_modules/get-caller-file Completed in 514ms
+337 timing reifyNode:node_modules/protractor/node_modules/p-locate Completed in 515ms
+338 timing reifyNode:node_modules/protractor/node_modules/ansi-regex Completed in 516ms
+339 timing reifyNode:node_modules/protractor/node_modules/string-width Completed in 515ms
+340 timing reifyNode:node_modules/p-is-promise Completed in 527ms
+341 timing reifyNode:node_modules/mem Completed in 527ms
+342 timing reifyNode:node_modules/lcid Completed in 527ms
+343 timing reifyNode:node_modules/protractor/node_modules/find-up Completed in 519ms
+344 timing reifyNode:node_modules/os-locale/node_modules/get-stream Completed in 524ms
+345 timing reifyNode:node_modules/nice-try Completed in 533ms
+346 timing reifyNode:node_modules/map-age-cleaner Completed in 532ms
+347 timing reifyNode:node_modules/protractor/node_modules/cliui Completed in 521ms
+348 timing reifyNode:node_modules/pump Completed in 536ms
+349 timing reifyNode:node_modules/os-locale/node_modules/execa Completed in 539ms
+350 timing reifyNode:node_modules/os-locale/node_modules/semver Completed in 546ms
+351 timing reifyNode:node_modules/os-locale/node_modules/cross-spawn Completed in 655ms
+352 timing reifyNode:node_modules/protractor/node_modules/yargs-parser Completed in 677ms
+353 http fetch GET 200 https://registry.npmjs.org/y18n/-/y18n-4.0.3.tgz 558ms (cache miss)
+354 timing reifyNode:node_modules/protractor/node_modules/y18n Completed in 678ms
+355 http fetch GET 200 https://registry.npmjs.org/p-defer/-/p-defer-1.0.0.tgz 726ms (cache miss)
+356 timing reifyNode:node_modules/p-defer Completed in 807ms
+357 http fetch GET 200 https://registry.npmjs.org/strip-eof/-/strip-eof-1.0.0.tgz 739ms (cache miss)
+358 timing reifyNode:node_modules/strip-eof Completed in 816ms
+359 http fetch GET 200 https://registry.npmjs.org/number-is-nan/-/number-is-nan-1.0.1.tgz 753ms (cache miss)
+360 timing reifyNode:node_modules/number-is-nan Completed in 823ms
+361 http fetch GET 200 https://registry.npmjs.org/p-finally/-/p-finally-1.0.0.tgz 789ms (cache miss)
+362 timing reifyNode:node_modules/p-finally Completed in 859ms
+363 http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-4.0.0.tgz 875ms (cache miss)
+364 timing reifyNode:node_modules/protractor/node_modules/cliui/node_modules/strip-ansi Completed in 1001ms
+365 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-1.0.0.tgz 897ms (cache miss)
+366 timing reifyNode:node_modules/protractor/node_modules/wrap-ansi/node_modules/is-fullwidth-code-point Completed in 1010ms
+367 http fetch GET 200 https://registry.npmjs.org/shebang-regex/-/shebang-regex-1.0.0.tgz 944ms (cache miss)
+368 timing reifyNode:node_modules/os-locale/node_modules/shebang-regex Completed in 1019ms
+369 http fetch GET 200 https://registry.npmjs.org/which-module/-/which-module-2.0.0.tgz 948ms (cache miss)
+370 timing reifyNode:node_modules/which-module Completed in 1023ms
+371 http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-4.0.0.tgz 893ms (cache miss)
+372 timing reifyNode:node_modules/protractor/node_modules/string-width/node_modules/strip-ansi Completed in 1017ms
+373 http fetch GET 200 https://registry.npmjs.org/string-width/-/string-width-1.0.2.tgz 906ms (cache miss)
+374 timing reifyNode:node_modules/protractor/node_modules/wrap-ansi/node_modules/string-width Completed in 1023ms
+375 http fetch GET 200 https://registry.npmjs.org/path-exists/-/path-exists-3.0.0.tgz 922ms (cache miss)
+376 timing reifyNode:node_modules/protractor/node_modules/path-exists Completed in 1025ms
+377 http fetch GET 200 https://registry.npmjs.org/shebang-command/-/shebang-command-1.2.0.tgz 954ms (cache miss)
+378 timing reifyNode:node_modules/os-locale/node_modules/shebang-command Completed in 1033ms
+379 http fetch GET 200 https://registry.npmjs.org/path-key/-/path-key-2.0.1.tgz 952ms (cache miss)
+380 timing reifyNode:node_modules/os-locale/node_modules/path-key Completed in 1030ms
+381 http fetch GET 200 https://registry.npmjs.org/is-stream/-/is-stream-1.1.0.tgz 950ms (cache miss)
+382 timing reifyNode:node_modules/os-locale/node_modules/is-stream Completed in 1031ms
+383 http fetch GET 200 https://registry.npmjs.org/code-point-at/-/code-point-at-1.1.0.tgz 969ms (cache miss)
+384 timing reifyNode:node_modules/code-point-at Completed in 1038ms
+385 http fetch GET 200 https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz 957ms (cache miss)
+386 timing reifyNode:node_modules/decamelize Completed in 1030ms
+387 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-2.0.0.tgz 950ms (cache miss)
+388 timing reifyNode:node_modules/protractor/node_modules/is-fullwidth-code-point Completed in 1028ms
+389 http fetch GET 200 https://registry.npmjs.org/require-main-filename/-/require-main-filename-1.0.1.tgz 963ms (cache miss)
+390 timing reifyNode:node_modules/require-main-filename Completed in 1050ms
+391 http fetch GET 200 https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-2.1.0.tgz 930ms (cache miss)
+392 timing reifyNode:node_modules/protractor/node_modules/wrap-ansi Completed in 1042ms
+393 http fetch GET 200 https://registry.npmjs.org/npm-run-path/-/npm-run-path-2.0.2.tgz 968ms (cache miss)
+394 timing reifyNode:node_modules/os-locale/node_modules/npm-run-path Completed in 1048ms
+395 timing reifyNode:node_modules/protractor/node_modules/yargs Completed in 1100ms
+396 timing reifyNode:node_modules/protractor Completed in 1305ms
+397 timing reify:unpack Completed in 1317ms
+398 timing reify:unretire Completed in 74ms
+399 timing build:queue Completed in 6ms
+400 timing build:link:node_modules/protractor Completed in 3ms
+401 timing build:link:node_modules/os-locale/node_modules/semver Completed in 2ms
+402 timing build:link Completed in 3ms
+403 timing build:deps Completed in 10ms
+404 timing build Completed in 10ms
+405 timing reify:build Completed in 12ms
+406 timing reify:trash Completed in 93ms
+407 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 2220ms
+408 timing auditReport:getReport Completed in 2238ms
+409 silly audit report {
+409 silly audit report   'yargs-parser': [
+409 silly audit report     {
+409 silly audit report       id: 1081885,
+409 silly audit report       url: 'https://github.com/advisories/GHSA-p9pc-299p-vxgp',
+409 silly audit report       title: 'yargs-parser Vulnerable to Prototype Pollution',
+409 silly audit report       severity: 'moderate',
+409 silly audit report       vulnerable_versions: '>=6.0.0 <13.1.2',
+409 silly audit report       cwe: [Array],
+409 silly audit report       cvss: [Object]
+409 silly audit report     }
+409 silly audit report   ]
+409 silly audit report }
+410 timing metavuln:packument:yargs-parser Completed in 1ms
+411 timing reify:save Completed in 712ms
+412 timing metavuln:cache:get:security-advisory:yargs-parser:CFH8poVixmdGxLDaM6TVdXeshg0wTkgtDdma2XLSW9f266UKeZ6PlpWq7zXNpQ0UkWoaGirRVgTpppSNdAF70w== Completed in 213ms
+413 timing metavuln:load:security-advisory:yargs-parser:1081885 Completed in 1ms
+414 timing metavuln:calculate:security-advisory:yargs-parser:1081885 Completed in 214ms
+415 timing metavuln:packument:yargs Completed in 1ms
+416 timing metavuln:cache:get:security-advisory:yargs:ikyQDbCEqRvHFcLrujyhUbeG9wUmD+Qym07h/KIEKXU/dy4SLEc9VhNU7D7KHj2sm76IpTV8ksBrcgATQilbOw== Completed in 24ms
+417 timing metavuln:load:security-advisory:yargs:CFH8poVixmdGxLDaM6TVdXeshg0wTkgtDdma2XLSW9f266UKeZ6PlpWq7zXNpQ0UkWoaGirRVgTpppSNdAF70w== Completed in 1ms
+418 timing metavuln:calculate:security-advisory:yargs:CFH8poVixmdGxLDaM6TVdXeshg0wTkgtDdma2XLSW9f266UKeZ6PlpWq7zXNpQ0UkWoaGirRVgTpppSNdAF70w== Completed in 26ms
+419 timing metavuln:packument:protractor Completed in 1ms
+420 timing metavuln:cache:get:security-advisory:protractor:W5yoxf1uothrGDVdC+q5pidfySC5DgvMrqK+m7eJXIRDsuz5UPURu78D4rZ+tLBRrwoz2kY3HFZWRWuz+ii3YQ== Completed in 6ms
+421 timing metavuln:load:security-advisory:protractor:ikyQDbCEqRvHFcLrujyhUbeG9wUmD+Qym07h/KIEKXU/dy4SLEc9VhNU7D7KHj2sm76IpTV8ksBrcgATQilbOw== Completed in 9ms
+422 timing metavuln:cache:put:security-advisory:protractor:W5yoxf1uothrGDVdC+q5pidfySC5DgvMrqK+m7eJXIRDsuz5UPURu78D4rZ+tLBRrwoz2kY3HFZWRWuz+ii3YQ== Completed in 29ms
+423 timing metavuln:calculate:security-advisory:protractor:ikyQDbCEqRvHFcLrujyhUbeG9wUmD+Qym07h/KIEKXU/dy4SLEc9VhNU7D7KHj2sm76IpTV8ksBrcgATQilbOw== Completed in 46ms
+424 timing auditReport:init Completed in 289ms
+425 timing reify:audit Completed in 2528ms
+426 timing reify Completed in 5832ms
+427 silly ADD node_modules/number-is-nan
+428 silly ADD node_modules/code-point-at
+429 silly ADD node_modules/end-of-stream
+430 silly ADD node_modules/pump
+431 silly ADD node_modules/nice-try
+432 silly ADD node_modules/strip-eof
+433 silly ADD node_modules/p-finally
+434 silly ADD node_modules/p-defer
+435 silly ADD node_modules/p-is-promise
+436 silly ADD node_modules/map-age-cleaner
+437 silly ADD node_modules/invert-kv
+438 silly ADD node_modules/mem
+439 silly ADD node_modules/lcid
+440 silly ADD node_modules/which-module
+441 silly ADD node_modules/require-main-filename
+442 silly ADD node_modules/os-locale
+443 silly ADD node_modules/os-locale/node_modules/shebang-regex
+444 silly ADD node_modules/os-locale/node_modules/shebang-command
+445 silly ADD node_modules/os-locale/node_modules/semver
+446 silly ADD node_modules/os-locale/node_modules/path-key
+447 silly ADD node_modules/os-locale/node_modules/npm-run-path
+448 silly ADD node_modules/os-locale/node_modules/is-stream
+449 silly ADD node_modules/os-locale/node_modules/get-stream
+450 silly ADD node_modules/os-locale/node_modules/cross-spawn
+451 silly ADD node_modules/os-locale/node_modules/execa
+452 silly ADD node_modules/decamelize
+453 silly ADD
+454 silly ADD
+455 silly ADD
+456 silly ADD
+457 silly ADD
+458 silly ADD
+459 silly ADD
+460 silly ADD
+461 silly ADD
+462 silly ADD
+463 silly ADD
+464 silly ADD
+465 silly ADD
+466 silly ADD
+467 silly ADD
+468 silly ADD
+469 silly ADD
+470 silly ADD
+471 silly ADD
+472 silly ADD
+473 silly REMOVE node_modules/wordwrap
+474 silly CHANGE node_modules/protractor
+475 silly ADD node_modules/protractor/node_modules/ansi-regex
+476 silly ADD node_modules/protractor/node_modules/is-fullwidth-code-point
+477 silly ADD node_modules/protractor/node_modules/path-exists
+478 silly ADD node_modules/protractor/node_modules/p-locate
+479 silly ADD node_modules/protractor/node_modules/locate-path
+480 silly ADD node_modules/protractor/node_modules/wrap-ansi
+481 silly ADD node_modules/protractor/node_modules/wrap-ansi/node_modules/is-fullwidth-code-point
+482 silly ADD node_modules/protractor/node_modules/wrap-ansi/node_modules/string-width
+483 silly ADD node_modules/protractor/node_modules/yargs-parser
+484 silly ADD node_modules/protractor/node_modules/y18n
+485 silly ADD node_modules/protractor/node_modules/string-width
+486 silly ADD node_modules/protractor/node_modules/string-width/node_modules/strip-ansi
+487 silly ADD node_modules/protractor/node_modules/get-caller-file
+488 silly ADD node_modules/protractor/node_modules/find-up
+489 silly ADD node_modules/protractor/node_modules/cliui
+490 silly ADD node_modules/protractor/node_modules/cliui/node_modules/strip-ansi
+491 silly ADD node_modules/protractor/node_modules/yargs
+492 silly REMOVE node_modules/optimist
+493 silly REMOVE node_modules/optimist/node_modules/minimist
+494 timing command:audit Completed in 7809ms
+495 verbose exit 0
+496 timing npm Completed in 7929ms
+497 verbose code 1

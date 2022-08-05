@@ -1,0 +1,20 @@
+[2022-08-04T23:24:55.274Z] Log level: Info
+[2022-08-04T23:24:55.302Z] [info] Validating found git in: git
+[2022-08-04T23:24:55.466Z] [info] Using git 2.30.2 from git
+[2022-08-04T23:24:55.649Z] > git rev-parse --show-toplevel [19ms]
+[2022-08-04T23:24:55.731Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2022-08-04T23:24:55.738Z] [info] Open repository: /home/thebuffylow/LC101/angular-lc101-projects
+[2022-08-04T23:24:57.811Z] > git status -z -uall [2022ms]
+[2022-08-04T23:24:57.961Z] > git symbolic-ref --short HEAD [126ms]
+[2022-08-04T23:24:58.050Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [57ms]
+[2022-08-04T23:24:58.146Z] > git remote --verbose [12ms]
+[2022-08-04T23:24:58.151Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [57ms]
+[2022-08-04T23:24:58.183Z] > git config --get commit.template [1ms]
+[2022-08-04T23:24:58.215Z] > git status -z -uall [20ms]
+[2022-08-04T23:24:58.245Z] > git check-ignore -v -z --stdin [31ms]
+[2022-08-04T23:24:58.247Z] > git symbolic-ref --short HEAD [3ms]
+[2022-08-04T23:24:58.312Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [26ms]
+[2022-08-04T23:24:58.387Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [21ms]
+[2022-08-04T23:24:58.391Z] > git remote --verbose [7ms]
+[2022-08-04T23:24:58.413Z] > git config --get commit.template [1ms]
+[2022-08-04T23:28:14.562Z] > git status -z -uall [6671ms]

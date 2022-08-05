@@ -1,8 +1,0 @@
-[2022-08-01 11:53:20.641] [sharedprocess] [info] Starting worker process with pid 14810 (type: fileWatcher, window: 1).
-[2022-08-01 11:54:42.849] [sharedprocess] [info] Getting Manifest... angular.ng-template
-[2022-08-01 11:54:42.881] [sharedprocess] [info] Installing extension: angular.ng-template
-[2022-08-01 11:54:48.861] [sharedprocess] [info] Downloaded extension: angular.ng-template /home/thebuffylow/.config/Code/CachedExtensionVSIXs/angular.ng-template-14.1.0
-[2022-08-01 11:54:55.573] [sharedprocess] [info] Extracted extension to /home/thebuffylow/.vscode/extensions/.73042bb7-97f7-4be3-9913-76c0994a4c80: angular.ng-template
-[2022-08-01 11:54:55.670] [sharedprocess] [info] Renamed to /home/thebuffylow/.vscode/extensions/angular.ng-template-14.1.0
-[2022-08-01 11:54:55.680] [sharedprocess] [info] Extracting completed. angular.ng-template
-[2022-08-01 11:54:55.697] [sharedprocess] [info] Extension installed successfully: angular.ng-template

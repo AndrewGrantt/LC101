@@ -113,12 +113,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/thebuffylow/LC101/angular-lc101-projects" added="2022-07-27T00:05:41.784291Z" modified="2022-07-27T00:05:41.784297Z" visited="2022-07-27T00:05:41.784292Z">
+  <bookmark href="file:///home/thebuffylow/LC101/angular-lc101-projects" added="2022-07-27T00:05:41.784291Z" modified="2022-08-01T19:00:40.727134Z" visited="2022-07-27T00:05:41.784292Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-07-27T00:05:41.784294Z" count="1"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-08-01T19:00:40.727104Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -129,6 +129,76 @@
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
           <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-08-01T16:55:13.530514Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/thebuffylow/projectone" added="2022-08-01T17:32:06.395230Z" modified="2022-08-01T17:32:06.395259Z" visited="2022-08-01T17:32:06.395231Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-08-01T17:32:06.395233Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/thebuffylow/angular-studio-part1/src/test.ts" added="2022-08-01T23:21:50.818549Z" modified="2022-08-01T23:21:50.820380Z" visited="2022-08-01T23:21:50.818551Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/vnd.qt.linguist"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-08-01T23:21:50.818556Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/thebuffylow/angular-studio-part1" added="2022-08-01T23:22:42.010222Z" modified="2022-08-01T23:22:42.010241Z" visited="2022-08-01T23:22:42.010222Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-08-01T23:22:42.010224Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/thebuffylow/Angular-Studios" added="2022-08-02T00:19:31.442287Z" modified="2022-08-04T19:58:55.782186Z" visited="2022-08-02T00:19:31.442307Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-08-04T19:58:55.782132Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/thebuffylow/js-assignment-6-orbit-report-buffylow" added="2022-08-02T01:42:25.475535Z" modified="2022-08-05T06:10:36.013955Z" visited="2022-08-02T01:42:25.475536Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-08-05T06:10:36.013951Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/thebuffylow/LC101/angular-lc101-projects/lesson2" added="2022-08-04T20:01:01.409645Z" modified="2022-08-04T20:01:01.409655Z" visited="2022-08-04T20:01:01.409646Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-08-04T20:01:01.409647Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/thebuffylow/angular-lc101-projects" added="2022-08-04T23:34:14.011425Z" modified="2022-08-04T23:34:14.011459Z" visited="2022-08-04T23:34:14.011426Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-08-04T23:34:14.011427Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

@@ -1,0 +1,23 @@
+[2022-08-04T19:14:43.891Z] Log level: Info
+[2022-08-04T19:14:43.942Z] [info] Validating found git in: git
+[2022-08-04T19:14:44.093Z] [info] Using git 2.30.2 from git
+[2022-08-04T19:14:44.207Z] > git rev-parse --show-toplevel [22ms]
+[2022-08-04T19:14:44.247Z] > git rev-parse --git-dir --git-common-dir [11ms]
+[2022-08-04T19:14:44.274Z] [info] Open repository: /home/thebuffylow/js-assignment-6-orbit-report-buffylow
+[2022-08-04T19:14:44.367Z] > git status -z -uall [23ms]
+[2022-08-04T19:14:44.389Z] > git symbolic-ref --short HEAD [10ms]
+[2022-08-04T19:14:44.432Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+[2022-08-04T19:14:44.454Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]
+[2022-08-04T19:14:44.456Z] > git remote --verbose [4ms]
+[2022-08-04T19:14:44.472Z] > git config --get commit.template [2ms]
+[2022-08-04T19:14:44.491Z] > git status -z -uall [7ms]
+[2022-08-04T19:14:44.508Z] > git symbolic-ref --short HEAD [2ms]
+[2022-08-04T19:14:44.542Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+[2022-08-04T19:14:44.579Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [19ms]
+[2022-08-04T19:14:44.584Z] > git remote --verbose [6ms]
+[2022-08-04T19:14:44.612Z] > git config --get commit.template [4ms]
+[2022-08-04T19:14:46.376Z] > git check-ignore -v -z --stdin [84ms]
+[2022-08-04T19:14:46.624Z] > git show --textconv :src/app/app.component.html [43ms]
+[2022-08-04T19:14:46.642Z] > git ls-files --stage -- /home/thebuffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html [27ms]
+[2022-08-04T19:14:46.715Z] > git cat-file -s 62ae26f94a0b14c609bf31370675ab1681324b43 [25ms]
+[2022-08-04T19:58:33.955Z] > git check-ignore -v -z --stdin [8ms]

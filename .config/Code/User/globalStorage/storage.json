@@ -38,8 +38,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -48,13 +47,46 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/thebuffylow/angular_practice",
-                                        "external": "file:///home/thebuffylow/angular_practice",
-                                        "path": "/home/thebuffylow/angular_practice",
+                                        "fsPath": "/home/thebuffylow/js-assignment-6-orbit-report-buffylow",
+                                        "external": "file:///home/thebuffylow/js-assignment-6-orbit-report-buffylow",
+                                        "path": "/home/thebuffylow/js-assignment-6-orbit-report-buffylow",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/angular_practice"
+                                    "label": "~/js-assignment-6-orbit-report-buffylow"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/thebuffylow/angular-lc101-projects",
+                                        "path": "/home/thebuffylow/angular-lc101-projects",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/angular-lc101-projects"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/thebuffylow/Angular-Studios",
+                                        "path": "/home/thebuffylow/Angular-Studios",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Angular-Studios"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/thebuffylow/LC101/angular-lc101-projects/lesson2",
+                                        "path": "/home/thebuffylow/LC101/angular-lc101-projects/lesson2",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/LC101/angular-lc101-projects/lesson2"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -66,6 +98,28 @@
                                     },
                                     "enabled": true,
                                     "label": "~/LC101/angular-lc101-projects"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/thebuffylow/projectone",
+                                        "path": "/home/thebuffylow/projectone",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/projectone"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/thebuffylow/angular_practice",
+                                        "path": "/home/thebuffylow/angular_practice",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/angular_practice"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -101,66 +155,24 @@
                                     "label": "/home/thebuffylow"
                                 },
                                 {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/thebuffylow/LC101/Fetch-and-JSON-Studio",
-                                        "path": "/home/thebuffylow/LC101/Fetch-and-JSON-Studio",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/LC101/Fetch-and-JSON-Studio"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/thebuffylow/LC101/js-assignment-4-html-me-something-buffylow",
-                                        "path": "/home/thebuffylow/LC101/js-assignment-4-html-me-something-buffylow",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/LC101/js-assignment-4-html-me-something-buffylow"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/thebuffylow/DOM-and-Events-Studio",
-                                        "path": "/home/thebuffylow/DOM-and-Events-Studio",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/DOM-and-Events-Studio"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/thebuffylow/js-assignment-4-html-me-something-buffylow",
-                                        "path": "/home/thebuffylow/js-assignment-4-html-me-something-buffylow",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/js-assignment-4-html-me-something-buffylow"
-                                },
-                                {
-                                    "id": "openRecentWorkspace",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/home/thebuffylow/communication-log-ROLE/index.html/index.html.code-workspace",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/communication-log-ROLE/index.html/index.html (Workspace)"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/thebuffylow/angular-studio-part1/src/test.ts",
+                                        "path": "/home/thebuffylow/angular-studio-part1/src/test.ts",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/angular-studio-part1/src/test.ts"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/thebuffylow/Git_Exercises/exercises.txt",
                                         "path": "/home/thebuffylow/Git_Exercises/exercises.txt",
                                         "scheme": "file"
                                     },
@@ -237,7 +249,8 @@
                     },
                     {
                         "id": "workbench.action.toggleAutoSave",
-                        "label": "A&&uto Save"
+                        "label": "A&&uto Save",
+                        "checked": true
                     },
                     {
                         "id": "submenuitem.36",
@@ -988,7 +1001,8 @@
                     },
                     {
                         "id": "workbench.action.debug.configure",
-                        "label": "Open &&Configurations"
+                        "label": "Open &&Configurations",
+                        "enabled": false
                     },
                     {
                         "id": "debug.addConfiguration",
@@ -1672,8 +1686,8 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/thebuffylow/angular_practice",
-            "backupPath": "/home/thebuffylow/.config/Code/Backups/ae79bf137ee389602c36874704704427",
+            "folder": "file:///home/thebuffylow/js-assignment-6-orbit-report-buffylow",
+            "backupPath": "/home/thebuffylow/.config/Code/Backups/7b69fedf9dc8dc8bad5d662f868558d3",
             "uiState": {
                 "mode": 1,
                 "x": 0,
