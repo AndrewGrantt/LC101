@@ -1409,3 +1409,79 @@ From https://github.com/buffylow/LC101
 [2022-08-05T06:58:25.384Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
 [2022-08-05T06:58:25.388Z] > git remote --verbose [7ms]
 [2022-08-05T06:58:25.412Z] > git config --get commit.template [4ms]
+[2022-08-05T06:58:32.480Z] > git status -z -uall [1262ms]
+[2022-08-05T06:58:32.504Z] > git symbolic-ref --short HEAD [5ms]
+[2022-08-05T06:58:32.520Z] > git add -A -- . [1330ms]
+[2022-08-05T06:58:32.553Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [34ms]
+[2022-08-05T06:58:32.651Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [62ms]
+[2022-08-05T06:58:32.686Z] > git remote --verbose [36ms]
+[2022-08-05T06:58:32.774Z] > git config --get commit.template [6ms]
+[2022-08-05T06:58:32.954Z] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [403ms]
+[2022-08-05T06:58:33.488Z] > git status -z -uall [516ms]
+[2022-08-05T06:58:33.504Z] > git symbolic-ref --short HEAD [3ms]
+[2022-08-05T06:58:33.528Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+[2022-08-05T06:58:33.565Z] > git remote --verbose [3ms]
+[2022-08-05T06:58:33.566Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [21ms]
+[2022-08-05T06:58:33.590Z] > git config --get commit.template [4ms]
+[2022-08-05T06:58:33.614Z] > git config --get commit.template [9ms]
+[2022-08-05T06:58:34.446Z] > git ls-files --stage -- /home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html [33ms]
+[2022-08-05T06:58:34.481Z] > git show --textconv :js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html [9ms]
+[2022-08-05T06:58:38.524Z] > git status -z -uall [707ms]
+[2022-08-05T06:58:38.542Z] > git symbolic-ref --short HEAD [8ms]
+[2022-08-05T06:58:38.553Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+[2022-08-05T06:58:38.569Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+[2022-08-05T06:58:38.570Z] > git remote --verbose [2ms]
+[2022-08-05T06:58:38.586Z] > git config --get commit.template [4ms]
+[2022-08-05T06:58:39.828Z] > git log --oneline --cherry main...main@{upstream} -- [14ms]
+[2022-08-05T06:58:40.341Z] > git pull --tags origin main [499ms]
+[2022-08-05T06:58:40.341Z] hint: Pulling without specifying how to reconcile divergent branches is
+hint: discouraged. You can squelch this message by running one of the following
+hint: commands sometime before your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+From https://github.com/buffylow/LC101
+ * branch              main       -> FETCH_HEAD
+[2022-08-05T06:58:41.634Z] > git ls-files --stage -- /home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html [16ms]
+[2022-08-05T06:58:41.669Z] > git show --textconv :js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html [7ms]
+[2022-08-05T06:58:41.803Z] > git push origin main:main [1452ms]
+[2022-08-05T06:58:41.803Z] To https://github.com/buffylow/LC101.git
+   83aa7f12..ba9a4b00  main -> main
+[2022-08-05T06:58:42.580Z] > git status -z -uall [756ms]
+[2022-08-05T06:58:42.608Z] > git symbolic-ref --short HEAD [9ms]
+[2022-08-05T06:58:42.629Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+[2022-08-05T06:58:42.668Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [22ms]
+[2022-08-05T06:58:42.673Z] > git remote --verbose [7ms]
+[2022-08-05T06:58:42.698Z] > git config --get commit.template [7ms]
+[2022-08-05T06:58:43.132Z] > git ls-files --stage -- /home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html [15ms]
+[2022-08-05T06:58:43.163Z] > git show --textconv :js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html [14ms]
+[2022-08-05T06:58:44.183Z] > git status -z -uall [565ms]
+[2022-08-05T06:58:44.205Z] > git symbolic-ref --short HEAD [7ms]
+[2022-08-05T06:58:44.227Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+[2022-08-05T06:58:44.273Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [31ms]
+[2022-08-05T06:58:44.279Z] > git remote --verbose [12ms]
+[2022-08-05T06:58:44.313Z] > git config --get commit.template [4ms]
+[2022-08-05T06:58:49.950Z] > git status -z -uall [576ms]
+[2022-08-05T06:58:49.968Z] > git symbolic-ref --short HEAD [8ms]
+[2022-08-05T06:58:49.985Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+[2022-08-05T06:58:50.025Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [25ms]
+[2022-08-05T06:58:50.026Z] > git remote --verbose [4ms]
+[2022-08-05T06:58:50.054Z] > git config --get commit.template [2ms]
+[2022-08-05T06:59:00.276Z] > git status -z -uall [1005ms]
+[2022-08-05T06:59:00.292Z] > git symbolic-ref --short HEAD [4ms]
+[2022-08-05T06:59:00.308Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+[2022-08-05T06:59:00.334Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [16ms]
+[2022-08-05T06:59:00.337Z] > git remote --verbose [5ms]
+[2022-08-05T06:59:00.354Z] > git config --get commit.template [3ms]
+[2022-08-05T06:59:05.893Z] > git status -z -uall [510ms]
+[2022-08-05T06:59:05.905Z] > git symbolic-ref --short HEAD [2ms]
+[2022-08-05T06:59:05.923Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+[2022-08-05T06:59:05.954Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+[2022-08-05T06:59:05.955Z] > git remote --verbose [3ms]
+[2022-08-05T06:59:05.979Z] > git config --get commit.template [3ms]
