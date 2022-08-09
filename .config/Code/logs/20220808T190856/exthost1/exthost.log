@@ -27,3 +27,5 @@
 [2022-08-08 19:09:47.380] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
 [2022-08-08 19:10:02.008] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
 [2022-08-08 19:10:10.375] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+[2022-08-08 19:11:14.635] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-08 19:11:14.703] [exthost] [info] Extension host with pid 10787 exiting with code 0

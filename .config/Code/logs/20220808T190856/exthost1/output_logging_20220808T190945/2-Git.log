@@ -19,3 +19,87 @@
 [2022-08-09T00:10:09.927Z] > git remote --verbose [5ms]
 [2022-08-09T00:10:21.050Z] > git config --get commit.template [126ms]
 [2022-08-09T00:10:21.716Z] > git check-ignore -v -z --stdin [216ms]
+[2022-08-09T00:11:10.996Z] > git add -A -- . [33892ms]
+[2022-08-09T00:11:10.996Z] warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/karma-jasmine-html-reporter/.gitattributes.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/karma-jasmine-html-reporter/LICENSE.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/karma-jasmine-html-reporter/README.md.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/karma-jasmine-html-reporter/package.json.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/karma-jasmine-html-reporter/src/index.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/void-elements/.gitattributes.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/void-elements/.npmignore.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/void-elements/.travis.yml.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/void-elements/LICENSE.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/void-elements/README.md.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/void-elements/pre-publish.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/void-elements/test/index.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/.editorconfig.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/.npmignore.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/README.md.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/lib/CachedSource.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/lib/ConcatSource.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/lib/LineToLineMappedSource.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/lib/LoadersList.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/lib/ModuleBuildError.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/lib/ModuleError.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/lib/ModuleWarning.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/lib/NormalModuleMixin.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/lib/OptionsDefaulter.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/lib/OriginalSource.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/lib/PrefixSource.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/lib/RawSource.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/lib/ReplaceSource.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/lib/Source.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/lib/SourceAndMapMixin.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/lib/SourceMapSource.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/lib/source-map.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/node_modules/source-list-map/README.md.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/node_modules/source-list-map/lib/CodeNode.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/node_modules/source-list-map/lib/MappingsContext.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/node_modules/source-list-map/lib/SourceListMap.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/node_modules/source-list-map/lib/SourceNode.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/node_modules/source-list-map/lib/base64-vlq.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/node_modules/source-list-map/lib/fromStringWithSourceMap.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/node_modules/source-list-map/lib/helpers.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in LC101/js-assignment-6-orbit-report-buffylow/node_modules/webpack-core/node_modules/source-list-map/lib/index.js.
+The file will have its original line endings in your working directory
+[2022-08-09T00:11:13.502Z] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [2477ms]

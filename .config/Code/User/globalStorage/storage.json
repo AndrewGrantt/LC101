@@ -232,21 +232,6 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.39",
-                        "label": "Share",
-                        "submenu": {
-                            "items": [
-                                {
-                                    "id": "github.copyVscodeDevLinkFile",
-                                    "label": "Copy vscode.dev Link"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "id": "vscode.menubar.separator"
-                    },
-                    {
                         "id": "workbench.action.toggleAutoSave",
                         "label": "A&&uto Save"
                     },
@@ -1668,12 +1653,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/thebuffylow/.config/Code/Backups/1660003737467",
+            "folder": "file:///home/thebuffylow/LC101/js-assignment-6-orbit-report-buffylow",
+            "backupPath": "/home/thebuffylow/.config/Code/Backups/d28cdab7b6b2137b4931639be968076e",
             "uiState": {
                 "mode": 0,
                 "x": 0,
                 "y": 16,
-                "width": 1615,
+                "width": 1613,
                 "height": 879
             }
         },
