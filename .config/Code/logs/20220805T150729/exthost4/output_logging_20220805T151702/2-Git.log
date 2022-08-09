@@ -1,0 +1,19 @@
+[2022-08-05T20:17:02.925Z] Log level: Info
+[2022-08-05T20:17:02.931Z] [info] Validating found git in: git
+[2022-08-05T20:17:03.000Z] [info] Using git  from git
+[2022-08-05T20:17:03.042Z] > git rev-parse --show-toplevel [17ms]
+[2022-08-05T20:17:03.053Z] > git rev-parse --git-dir --git-common-dir [4ms]
+[2022-08-05T20:17:03.059Z] [info] Open repository: /home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow-1
+[2022-08-05T20:17:03.316Z] > git status -z -uall [239ms]
+[2022-08-05T20:17:03.359Z] > git symbolic-ref --short HEAD [7ms]
+[2022-08-05T20:17:03.380Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+[2022-08-05T20:17:03.403Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [17ms]
+[2022-08-05T20:17:03.406Z] > git remote --verbose [5ms]
+[2022-08-05T20:17:03.444Z] > git config --get commit.template [2ms]
+[2022-08-05T20:17:03.503Z] > git status -z -uall [51ms]
+[2022-08-05T20:17:03.514Z] > git symbolic-ref --short HEAD [3ms]
+[2022-08-05T20:17:03.525Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+[2022-08-05T20:17:03.542Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+[2022-08-05T20:17:03.547Z] > git remote --verbose [6ms]
+[2022-08-05T20:17:03.559Z] > git config --get commit.template [3ms]
+[2022-08-05T20:17:03.832Z] > git check-ignore -v -z --stdin [23ms]

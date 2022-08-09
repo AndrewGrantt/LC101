@@ -1,4 +1,0 @@
-[2022-08-01 13:41:05.084] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
-[2022-08-01 13:41:08.052] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
-[2022-08-01 13:41:16.472] [renderer1] [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/thebuffylow/.config/Code/logs/20220726T150332/output_1_20220726T150334' failed: No such file or directory (EUNKNOWN) (path: /home/thebuffylow)
-[2022-08-01 13:41:16.478] [renderer1] [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/thebuffylow/.config/Code/logs/20220726T150332/output_1_20220726T150334' failed: No such file or directory

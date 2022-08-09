@@ -1,0 +1,16 @@
+[2022-08-05 15:14:26.945] [exthost] [info] Extension host with pid 19785 started
+[2022-08-05 15:14:26.945] [exthost] [info] Skipping acquiring lock for /home/thebuffylow/.config/Code/User/workspaceStorage/e9541e8896d1b7cc8d74432f3a96f1d2.
+[2022-08-05 15:14:27.611] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-08-05 15:14:27.671] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-05 15:14:27.714] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-05 15:14:27.722] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-05 15:14:27.749] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-08-05 15:14:28.116] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-05 15:14:28.192] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-05 15:14:28.840] [exthost] [info] Eager extensions activated
+[2022-08-05 15:14:28.977] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-08-05 15:14:29.121] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-05 15:14:29.205] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-05 15:14:29.225] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-05 15:14:32.003] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-05 15:14:32.015] [exthost] [info] Extension host with pid 19785 exiting with code 0

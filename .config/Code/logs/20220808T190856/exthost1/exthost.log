@@ -1,0 +1,29 @@
+[2022-08-08 19:09:02.024] [exthost] [info] Extension host with pid 10455 started
+[2022-08-08 19:09:02.646] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-08-08 19:09:02.776] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-08 19:09:02.829] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-08 19:09:02.835] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-08 19:09:03.052] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-08 19:09:03.139] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-08 19:09:03.352] [exthost] [info] Eager extensions activated
+[2022-08-08 19:09:03.496] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-08 19:09:03.528] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-08 19:09:03.532] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-08 19:09:04.831] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-08-08 19:09:41.434] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-08 19:09:41.475] [exthost] [info] Extension host with pid 10455 exiting with code 0
+[2022-08-08 19:09:45.437] [exthost] [info] Extension host with pid 10787 started
+[2022-08-08 19:09:45.437] [exthost] [info] Skipping acquiring lock for /home/thebuffylow/.config/Code/User/workspaceStorage/e42f271f69a296610c72026786463999.
+[2022-08-08 19:09:45.831] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-08-08 19:09:45.927] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-08 19:09:45.966] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-08 19:09:45.969] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-08 19:09:46.108] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-08 19:09:46.210] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-08 19:09:46.396] [exthost] [info] Eager extensions activated
+[2022-08-08 19:09:46.484] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-08 19:09:46.525] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-08 19:09:46.531] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-08 19:09:47.380] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-08-08 19:10:02.008] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+[2022-08-08 19:10:10.375] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000

@@ -1,0 +1,10 @@
+[2022-08-05 15:16:06.509] [renderer4] [error] Error while registering log channel file:///home/thebuffylow/.config/Code/logs/20220805T150729/ptyhost.log Timed out while waiting for file to be created
+[2022-08-05 15:16:06.512] [renderer4] [error] Error while registering log channel file:///home/thebuffylow/.config/Code/logs/20220805T150729/userDataSync.log Timed out while waiting for file to be created
+[2022-08-05 15:16:06.514] [renderer4] [error] Error while registering log channel file:///home/thebuffylow/.config/Code/logs/20220805T150729/main.log Timed out while waiting for file to be created
+[2022-08-05 15:16:06.515] [renderer4] [error] Error while registering log channel file:///home/thebuffylow/.config/Code/logs/20220805T150729/sharedprocess.log Timed out while waiting for file to be created
+[2022-08-05 15:16:54.327] [renderer4] [error] [Extension Host] (node:20202) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2022-08-05 15:17:11.674] [renderer4] [error] Error while registering log channel file:///home/thebuffylow/.config/Code/logs/20220805T150729/ptyhost.log Timed out while waiting for file to be created
+[2022-08-05 15:17:11.677] [renderer4] [error] Error while registering log channel file:///home/thebuffylow/.config/Code/logs/20220805T150729/userDataSync.log Timed out while waiting for file to be created
+[2022-08-05 15:17:11.678] [renderer4] [error] Error while registering log channel file:///home/thebuffylow/.config/Code/logs/20220805T150729/sharedprocess.log Timed out while waiting for file to be created
+[2022-08-05 15:17:11.678] [renderer4] [error] Error while registering log channel file:///home/thebuffylow/.config/Code/logs/20220805T150729/main.log Timed out while waiting for file to be created

@@ -683,3 +683,40 @@ npm install
 ng serve
 git push
 git commit -a
+git commit
+git restore 
+git oush
+git push
+git branch
+ls
+cd angular-lc101-projects
+ls
+cd lesson 3 
+cdlesson3
+cd lesson3
+ls
+cd examples
+npm install
+ng serve
+cd lesson3
+cd angular-lc101-projects/lesson3
+cd angular-lc101-projects
+cd
+ls
+cd angular-lc101-projects
+ls
+cd lesson3
+ls
+cd exercises
+npm install 
+ng serve 
+cd
+ls
+cd angular-lc101-projects
+ls
+cd lesson 3
+ls
+cd lesson3
+ls
+cd examples
+ng serve

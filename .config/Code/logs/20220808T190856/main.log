@@ -1,0 +1,7 @@
+[2022-08-08 19:08:57.561] [main] [info] update#setState idle
+[2022-08-08 19:09:00.065] [main] [info] Starting extension host with pid 10455 (fork() took 17 ms).
+[2022-08-08 19:09:27.578] [main] [info] update#setState checking for updates
+[2022-08-08 19:09:27.666] [main] [info] update#setState available for download
+[2022-08-08 19:09:41.609] [main] [info] Extension host with pid 10455 exited with code: 0, signal: null.
+[2022-08-08 19:09:43.914] [main] [info] Starting extension host with pid 10787 (fork() took 60 ms).
+[2022-08-08 19:10:05.154] [main] [info] Enabling inspect port on extension host with pid 10787.

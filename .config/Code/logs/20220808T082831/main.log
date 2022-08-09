@@ -1,0 +1,12 @@
+[2022-08-08 08:28:35.250] [main] [info] update#setState idle
+[2022-08-08 08:28:38.342] [main] [info] Starting extension host with pid 642 (fork() took 32 ms).
+[2022-08-08 08:29:03.886] [main] [info] Extension host with pid 642 exited with code: 0, signal: null.
+[2022-08-08 08:29:05.254] [main] [info] update#setState checking for updates
+[2022-08-08 08:29:05.263] [main] [info] update#setState available for download
+[2022-08-08 08:29:05.364] [main] [info] Starting extension host with pid 1002 (fork() took 28 ms).
+[2022-08-08 09:20:40.586] [main] [error] CodeWindow: detected unresponsive
+[2022-08-08 19:01:00.624] [main] [info] Extension host with pid 1002 exited with code: 0, signal: null.
+[2022-08-08 19:01:02.619] [main] [info] Starting extension host with pid 9767 (fork() took 31 ms).
+[2022-08-08 19:01:25.452] [main] [info] Enabling inspect port on extension host with pid 9767.
+[2022-08-08 19:02:11.780] [main] [info] Waiting for extension host with pid 9767 to exit.
+[2022-08-08 19:02:12.135] [main] [info] Extension host with pid 9767 exited with code: 0, signal: null.

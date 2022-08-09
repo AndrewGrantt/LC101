@@ -38,7 +38,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -47,13 +48,13 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/thebuffylow/js-assignment-6-orbit-report-buffylow",
-                                        "external": "file:///home/thebuffylow/js-assignment-6-orbit-report-buffylow",
-                                        "path": "/home/thebuffylow/js-assignment-6-orbit-report-buffylow",
+                                        "fsPath": "/home/thebuffylow/LC101/js-assignment-6-orbit-report-buffylow",
+                                        "external": "file:///home/thebuffylow/LC101/js-assignment-6-orbit-report-buffylow",
+                                        "path": "/home/thebuffylow/LC101/js-assignment-6-orbit-report-buffylow",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/js-assignment-6-orbit-report-buffylow"
+                                    "label": "~/LC101/js-assignment-6-orbit-report-buffylow"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -65,6 +66,17 @@
                                     },
                                     "enabled": true,
                                     "label": "~/angular-lc101-projects"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow-1",
+                                        "path": "/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow-1",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow-1"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -142,17 +154,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/LC101/js-assignment-5-launch-checklist-buffylow"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/thebuffylow",
-                                        "path": "/home/thebuffylow",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/home/thebuffylow"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -247,8 +248,7 @@
                     },
                     {
                         "id": "workbench.action.toggleAutoSave",
-                        "label": "A&&uto Save",
-                        "checked": true
+                        "label": "A&&uto Save"
                     },
                     {
                         "id": "submenuitem.36",
@@ -542,8 +542,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel",
-                                    "checked": true
+                                    "label": "Show &&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -636,13 +635,6 @@
                                 {
                                     "id": "workbench.action.splitEditorRight",
                                     "label": "Split &&Right"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
-                                    "id": "workbench.action.splitEditorInGroup",
-                                    "label": "Split in &&Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -765,7 +757,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -774,7 +767,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1086,7 +1080,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1425,11 +1420,6 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+numpad0"
             },
-            "workbench.action.splitEditorInGroup": {
-                "label": "Ctrl+K Ctrl+Shift+\\",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
-            },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
                 "userSettingsLabel": "shift+alt+0"
@@ -1678,14 +1668,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/thebuffylow/js-assignment-6-orbit-report-buffylow",
-            "backupPath": "/home/thebuffylow/.config/Code/Backups/7b69fedf9dc8dc8bad5d662f868558d3",
+            "backupPath": "/home/thebuffylow/.config/Code/Backups/1660003737467",
             "uiState": {
                 "mode": 0,
                 "x": 0,
                 "y": 16,
-                "width": 1616,
-                "height": 877
+                "width": 1615,
+                "height": 879
             }
         },
         "openedWindows": []

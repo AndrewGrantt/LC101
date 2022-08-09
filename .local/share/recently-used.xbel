@@ -3,26 +3,6 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/thebuffylow/communication-log-ROLE/index.html" added="2022-07-08T00:18:14.487396Z" modified="2022-07-08T01:09:36.264876Z" visited="2022-07-08T00:18:14.487397Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="inode/directory"/>
-        <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-07-08T01:09:36.264840Z" count="3"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/thebuffylow/communication-log-ROLE/index.html/index.html.code-workspace" added="2022-07-08T01:09:43.932925Z" modified="2022-07-08T01:09:43.932932Z" visited="2022-07-08T01:09:43.932926Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="application/x-code-workspace"/>
-        <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-07-08T01:09:43.932928Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
   <bookmark href="file:///home/thebuffylow/js-assignment-4-html-me-something-buffylow" added="2022-07-11T22:50:58.667166Z" modified="2022-07-11T22:50:58.667220Z" visited="2022-07-11T22:50:58.667167Z">
     <info>
       <metadata owner="http://freedesktop.org">
@@ -173,12 +153,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/thebuffylow/js-assignment-6-orbit-report-buffylow" added="2022-08-02T01:42:25.475535Z" modified="2022-08-05T06:10:36.013955Z" visited="2022-08-02T01:42:25.475536Z">
+  <bookmark href="file:///home/thebuffylow/js-assignment-6-orbit-report-buffylow" added="2022-08-02T01:42:25.475535Z" modified="2022-08-09T00:00:58.960809Z" visited="2022-08-02T01:42:25.475536Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-08-05T06:10:36.013951Z" count="4"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-08-09T00:00:58.960771Z" count="6"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -199,6 +179,16 @@
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
           <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-08-04T23:34:14.011427Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/thebuffylow/LC101/js-assignment-6-orbit-report-buffylow" added="2022-08-09T00:09:41.339570Z" modified="2022-08-09T00:09:41.339579Z" visited="2022-08-09T00:09:41.339571Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-08-09T00:09:41.339573Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

@@ -1,3 +1,0 @@
-[2022-08-01 19:19:11.316] [sharedprocess] [info] Starting worker process with pid 17052 (type: fileWatcher, window: 1).
-[2022-08-01 19:19:31.637] [sharedprocess] [info] Worker process with pid 17052 terminated normally (type: fileWatcher, window: 1).
-[2022-08-01 19:19:33.742] [sharedprocess] [info] Starting worker process with pid 17074 (type: fileWatcher, window: 1).

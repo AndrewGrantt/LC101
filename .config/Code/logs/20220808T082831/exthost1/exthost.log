@@ -1,0 +1,519 @@
+[2022-08-08 08:28:40.275] [exthost] [info] Extension host with pid 642 started
+[2022-08-08 08:28:40.275] [exthost] [info] Skipping acquiring lock for /home/thebuffylow/.config/Code/User/workspaceStorage/fe9c0c84f62cae3fe736fe20b2ebc9ad.
+[2022-08-08 08:28:40.651] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-08-08 08:28:40.701] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-08 08:28:40.720] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-08 08:28:40.729] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-08 08:28:40.744] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-08-08 08:28:40.886] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-08 08:28:41.001] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-08 08:28:41.309] [exthost] [info] Eager extensions activated
+[2022-08-08 08:28:41.345] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-08-08 08:28:41.457] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-08 08:28:41.479] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-08 08:28:41.484] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-08 08:29:03.788] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-08 08:29:03.804] [exthost] [info] Extension host with pid 642 exiting with code 0
+[2022-08-08 08:29:07.262] [exthost] [info] Extension host with pid 1002 started
+[2022-08-08 08:29:07.262] [exthost] [info] Skipping acquiring lock for /home/thebuffylow/.config/Code/User/workspaceStorage/e48da2f78bbe6b2088b17f87851218ea.
+[2022-08-08 08:29:07.605] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-08-08 08:29:07.651] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-08 08:29:07.659] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-08 08:29:07.666] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-08 08:29:07.876] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-08 08:29:07.931] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-08 08:29:08.279] [exthost] [info] Eager extensions activated
+[2022-08-08 08:29:08.784] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-08 08:29:08.807] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-08 08:29:08.820] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-08 08:29:09.778] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-08-08 08:32:48.300] [exthost] [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:http'
+[2022-08-08 08:37:41.465] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-08-08 08:37:41.716] [exthost] [info] ExtensionService#_doActivateExtension Angular.ng-template, startup: false, activationEvent: 'onLanguage:html'
+[2022-08-08 08:37:51.453] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+[2022-08-08 08:37:56.719] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-08-08 08:54:49.391] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-08-08 08:54:49.400] [exthost] [error] Error: Unable to find matching pair for [ at char 324
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21837)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14519)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at C (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201832)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186939)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at ne.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:51362)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:76493
+	at te._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:66659)
+	at te.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:76468)
+	at s._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13708)
+	at s._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13390)
+	at s._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:12107)
+	at s._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:10853)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:8957
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:18976)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:34679
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:18976)
+	at r._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:23563)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:21097
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:15807)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:14937
+	at Socket.R (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:13763)
+	at Socket.emit (node:events:390:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)
+[2022-08-08 08:54:50.069] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-08-08 08:54:50.071] [exthost] [error] Error: Unable to find matching pair for [ at char 324
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21837)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14519)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at C (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201832)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186939)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at ne.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:51362)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:76493
+	at te._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:66659)
+	at te.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:76468)
+	at s._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13708)
+	at s._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13390)
+	at s._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:12107)
+	at s._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:10853)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:8957
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:18976)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:34679
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:18976)
+	at r._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:23563)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:21097
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:15807)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:14937
+	at Socket.R (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:13763)
+	at Socket.emit (node:events:390:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)
+[2022-08-08 08:54:50.630] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-08-08 08:54:50.631] [exthost] [error] Error: Unable to find matching pair for [ at char 324
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21837)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14519)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at C (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201832)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186939)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at ne.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:51362)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:76493
+	at te._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:66659)
+	at te.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:76468)
+	at s._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13708)
+	at s._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13390)
+	at s._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:12107)
+	at s._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:10853)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:8957
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:18976)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:34679
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:18976)
+	at r._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:23563)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:21097
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:15807)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:14937
+	at Socket.R (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:13763)
+	at Socket.emit (node:events:390:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)
+[2022-08-08 08:54:51.172] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-08-08 08:54:51.172] [exthost] [error] Error: Unable to find matching pair for [ at char 324
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21837)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14519)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at C (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201832)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186939)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at ne.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:51362)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:76493
+	at te._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:66659)
+	at te.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:76468)
+	at s._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13708)
+	at s._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13390)
+	at s._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:12107)
+	at s._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:10853)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:8957
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:18976)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:34679
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:18976)
+	at r._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:23563)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:21097
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:15807)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:14937
+	at Socket.R (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:13763)
+	at Socket.emit (node:events:390:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)
+[2022-08-08 08:54:51.466] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-08-08 08:54:51.467] [exthost] [error] Error: Unable to find matching pair for [ at char 324
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21837)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14519)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at C (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201832)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186939)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at ne.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:51362)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:76493
+	at te._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:66659)
+	at te.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:76468)
+	at s._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13708)
+	at s._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13390)
+	at s._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:12107)
+	at s._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:10853)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:8957
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:18976)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:34679
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:18976)
+	at r._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:23563)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:21097
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:15807)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:14937
+	at Socket.R (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:13763)
+	at Socket.emit (node:events:390:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)
+[2022-08-08 08:54:51.726] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-08-08 08:54:51.742] [exthost] [error] Error: Unable to find matching pair for [ at char 324
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21837)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14519)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at C (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201832)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186939)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at ne.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:51362)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:76493
+	at te._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:66659)
+	at te.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:76468)
+	at s._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13708)
+	at s._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13390)
+	at s._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:12107)
+	at s._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:10853)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:8957
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:18976)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:34679
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:18976)
+	at r._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:23563)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:21097
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:15807)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:14937
+	at Socket.R (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:13763)
+	at Socket.emit (node:events:390:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)
+[2022-08-08 08:54:51.984] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-08-08 08:54:51.984] [exthost] [error] Error: Unable to find matching pair for [ at char 324
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21837)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14519)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at C (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201832)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186939)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at ne.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:51362)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:76493
+	at te._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:66659)
+	at te.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:76468)
+	at s._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13708)
+	at s._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13390)
+	at s._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:12107)
+	at s._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:10853)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:8957
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:18976)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:34679
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:18976)
+	at r._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:23563)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:21097
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:15807)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:14937
+	at Socket.R (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:13763)
+	at Socket.emit (node:events:390:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)
+[2022-08-08 08:54:59.401] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-08-08 08:54:59.402] [exthost] [error] Error: Unable to find matching pair for [ at char 324
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21837)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14519)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at C (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201832)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186939)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at ne.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:51362)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:76493
+	at te._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:66659)
+	at te.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:76468)
+	at s._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13708)
+	at s._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13390)
+	at s._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:12107)
+	at s._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:10853)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:8957
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:18976)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:34679
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:18976)
+	at r._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:23563)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:21097
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:15807)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:14937
+	at Socket.R (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:13763)
+	at Socket.emit (node:events:390:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)
+[2022-08-08 08:55:00.086] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-08-08 08:55:00.086] [exthost] [error] Error: Unable to find matching pair for [ at char 324
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21837)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14519)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at C (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201832)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186939)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at ne.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:51362)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:76493
+	at te._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:66659)
+	at te.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:76468)
+	at s._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13708)
+	at s._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13390)
+	at s._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:12107)
+	at s._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:10853)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:8957
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:18976)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:34679
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:18976)
+	at r._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:23563)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:21097
+	at w.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:15807)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:14937
+	at Socket.R (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:13763)
+	at Socket.emit (node:events:390:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)
+[2022-08-08 09:21:01.823] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-08 09:21:01.990] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-08 19:01:00.297] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-08 19:01:00.538] [exthost] [info] Extension host with pid 1002 exiting with code 0
+[2022-08-08 19:01:04.603] [exthost] [info] Extension host with pid 9767 started
+[2022-08-08 19:01:04.603] [exthost] [info] Skipping acquiring lock for /home/thebuffylow/.config/Code/User/workspaceStorage/2761d588cdfb7545aeb8df10b4d8d918.
+[2022-08-08 19:01:05.303] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-08-08 19:01:05.421] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-08 19:01:05.432] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-08 19:01:05.460] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-08 19:01:06.215] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-08 19:01:06.268] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-08 19:01:06.694] [exthost] [info] Eager extensions activated
+[2022-08-08 19:01:07.011] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-08 19:01:07.048] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-08 19:01:07.151] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-08 19:01:09.544] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-08-08 19:01:10.011] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.011] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.011] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.011] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.011] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.011] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.011] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.011] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.011] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.011] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.011] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.011] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.011] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.011] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.011] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.011] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.019] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.019] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.019] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.019] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.019] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.019] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.019] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.019] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.019] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.019] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.019] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.019] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.019] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.019] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.019] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.019] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.019] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.019] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.019] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.019] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.019] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.019] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.019] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.022] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.022] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.022] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.022] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.022] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.022] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.022] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.022] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.022] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.022] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.022] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.022] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.022] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.022] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.022] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.022] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.022] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.022] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.022] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.022] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.022] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.022] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:10.022] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/src/app/app.component.html' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:01:11.741] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1126
+[2022-08-08 19:01:14.247] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1127
+[2022-08-08 19:01:22.140] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-08-08 19:01:22.274] [exthost] [info] ExtensionService#_doActivateExtension Angular.ng-template, startup: false, activationEvent: 'onLanguage:html'
+[2022-08-08 19:02:07.522] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/tsconfig.app.json' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:02:07.534] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/tsconfig.app.json' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:02:07.534] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/tsconfig.app.json' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:02:07.534] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/thebuffylow/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/tsconfig.app.json' is in submodule 'js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-08 19:02:11.248] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-08 19:02:11.447] [exthost] [info] Extension host with pid 9767 exiting with code 0
