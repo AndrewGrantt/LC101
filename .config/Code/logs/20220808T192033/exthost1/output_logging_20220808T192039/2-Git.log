@@ -11,3 +11,39 @@
 [2022-08-09T00:20:50.207Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
 [2022-08-09T00:20:50.208Z] > git remote --verbose [3ms]
 [2022-08-09T00:20:55.433Z] > git config --get commit.template [125ms]
+[2022-08-09T00:20:58.068Z] > git status -z -uall [2510ms]
+[2022-08-09T00:20:58.087Z] > git symbolic-ref --short HEAD [20ms]
+[2022-08-09T00:20:58.143Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+[2022-08-09T00:20:58.228Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [29ms]
+[2022-08-09T00:20:58.232Z] > git remote --verbose [5ms]
+[2022-08-09T00:21:11.009Z] > git config --get commit.template [72ms]
+[2022-08-09T00:21:33.305Z] > git add -A -- . [37916ms]
+[2022-08-09T00:21:33.305Z] warning: CRLF will be replaced by LF in angular_practice/node_modules/void-elements/.gitattributes.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in angular_practice/node_modules/void-elements/.npmignore.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in angular_practice/node_modules/void-elements/.travis.yml.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in angular_practice/node_modules/void-elements/LICENSE.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in angular_practice/node_modules/void-elements/README.md.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in angular_practice/node_modules/void-elements/pre-publish.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in angular_practice/node_modules/void-elements/test/index.js.
+The file will have its original line endings in your working directory
+[2022-08-09T00:21:42.317Z] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [8972ms]
+[2022-08-09T00:21:45.174Z] > git status -z -uall [2836ms]
+[2022-08-09T00:21:45.255Z] > git symbolic-ref --short HEAD [3ms]
+[2022-08-09T00:21:45.268Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+[2022-08-09T00:21:45.319Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [18ms]
+[2022-08-09T00:21:45.348Z] > git remote --verbose [31ms]
+[2022-08-09T00:21:45.787Z] > git config --get commit.template [7ms]
+[2022-08-09T00:21:45.827Z] > git config --get commit.template [3ms]
+[2022-08-09T00:22:06.164Z] > git check-ignore -v -z --stdin [630ms]
+[2022-08-09T00:22:07.025Z] > git status -z -uall [3915ms]
+[2022-08-09T00:22:07.064Z] > git symbolic-ref --short HEAD [17ms]
+[2022-08-09T00:22:07.118Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+[2022-08-09T00:22:07.163Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [29ms]
+[2022-08-09T00:22:07.206Z] > git remote --verbose [46ms]
+[2022-08-09T00:22:07.235Z] > git config --get commit.template [7ms]
