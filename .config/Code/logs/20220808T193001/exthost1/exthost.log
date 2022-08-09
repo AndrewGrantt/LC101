@@ -1,0 +1,15 @@
+[2022-08-08 19:30:11.120] [exthost] [info] Extension host with pid 14331 started
+[2022-08-08 19:30:11.121] [exthost] [info] Skipping acquiring lock for /home/thebuffylow/.config/Code/User/workspaceStorage/e42f271f69a296610c72026786463999.
+[2022-08-08 19:30:11.916] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-08-08 19:30:11.998] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-08 19:30:12.008] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-08 19:30:12.018] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-08 19:30:12.206] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-08 19:30:12.303] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-08 19:30:12.883] [exthost] [info] Eager extensions activated
+[2022-08-08 19:30:13.052] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-08 19:30:13.181] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-08 19:30:13.193] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-08 19:30:15.063] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-08-08 19:30:21.992] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+[2022-08-08 19:30:27.326] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10024

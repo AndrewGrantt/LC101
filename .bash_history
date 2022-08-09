@@ -720,3 +720,21 @@ cd lesson3
 ls
 cd examples
 ng serve
+cd
+rdir
+rmdir
+rmdir -f angular-lc101-projects
+rmdir angular-lc101-projects
+ls
+rm rf- angular-lc101-projects
+rm-rf angular-lc101-projects
+ls 
+cd LC101
+ls
+cd js-assignment-6-orbit-report-buffylow
+git clone 
+npm install
+cd
+git clone https://github.com/Stl-LC101-MAY-2022/js-assignment-6-orbit-report-buffylow.git
+git push
+git pull

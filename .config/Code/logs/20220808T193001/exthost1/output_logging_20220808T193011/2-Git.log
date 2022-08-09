@@ -1,0 +1,36 @@
+[2022-08-09T00:30:12.576Z] Log level: Info
+[2022-08-09T00:30:12.584Z] [info] Validating found git in: git
+[2022-08-09T00:30:12.755Z] [info] Using git 2.30.2 from git
+[2022-08-09T00:30:12.898Z] > git rev-parse --show-toplevel [18ms]
+[2022-08-09T00:30:12.966Z] > git rev-parse --git-dir --git-common-dir [10ms]
+[2022-08-09T00:30:12.974Z] [info] Open repository: /home/thebuffylow
+[2022-08-09T00:30:17.513Z] > git status -z -uall [4484ms]
+[2022-08-09T00:30:21.586Z] > git symbolic-ref --short HEAD [23ms]
+[2022-08-09T00:30:21.671Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [77ms]
+[2022-08-09T00:30:21.707Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+[2022-08-09T00:30:21.713Z] > git remote --verbose [7ms]
+[2022-08-09T00:30:24.933Z] > git config --get commit.template [26ms]
+[2022-08-09T00:30:27.154Z] > git status -z -uall [2166ms]
+[2022-08-09T00:30:27.155Z] > git symbolic-ref --short HEAD [5ms]
+[2022-08-09T00:30:27.171Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+[2022-08-09T00:30:27.189Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+[2022-08-09T00:30:27.190Z] > git remote --verbose [2ms]
+[2022-08-09T00:30:34.182Z] > git config --get commit.template [24ms]
+[2022-08-09T00:31:59.186Z] > git check-ignore -v -z --stdin [425ms]
+[2022-08-09T00:34:36.236Z] > git log --oneline --cherry main...main@{upstream} -- [533ms]
+[2022-08-09T00:34:36.280Z] > git pull --tags origin main [28ms]
+[2022-08-09T00:34:36.280Z] hint: Pulling without specifying how to reconcile divergent branches is
+hint: discouraged. You can squelch this message by running one of the following
+hint: commands sometime before your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+error: You have not concluded your merge (MERGE_HEAD exists).
+hint: Please, commit your changes before merging.
+fatal: Exiting because of unfinished merge.

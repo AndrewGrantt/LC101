@@ -1,6 +1,0 @@
-[2022-08-04 18:42:45.962] [renderer1] [error] [File Watcher (universal)] restarting watcher after error: terminated by itself with code undefined, signal: SIGTRAP
-[2022-08-04 18:42:48.921] [renderer1] [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /home/thebuffylow/angular-lc101-projects)
-[2022-08-04 18:42:48.931] [renderer1] [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
-[2022-08-04 18:42:55.068] [renderer1] [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /home/thebuffylow/angular-lc101-projects)
-[2022-08-04 18:42:55.082] [renderer1] [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
-[2022-08-04 18:45:04.868] [renderer1] [error] [File Watcher (universal)] restarting watcher after error: terminated by itself with code undefined, signal: SIGTRAP

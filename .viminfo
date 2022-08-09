@@ -25,36 +25,48 @@
 # Registers:
 
 # File marks:
-'0  16  62  ~/.git/COMMIT_EDITMSG
-|4,48,16,62,1659683583,"~/.git/COMMIT_EDITMSG"
-'1  1  0  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
-|4,49,1,0,1659683485,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
-'2  2  66  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
-|4,50,2,66,1659683132,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
+'0  6  12  ~/.git/MERGE_MSG
+|4,48,6,12,1660005126,"~/.git/MERGE_MSG"
+'1  16  62  ~/.git/COMMIT_EDITMSG
+|4,49,16,62,1659683583,"~/.git/COMMIT_EDITMSG"
+'2  1  0  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
+|4,50,1,0,1659683485,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
 '3  2  66  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
 |4,51,2,66,1659683132,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
-'4  10  44  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
-|4,52,10,44,1659682969,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
-'5  17  0  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
-|4,53,17,0,1659682969,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
-'6  10  44  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
-|4,54,10,44,1659682969,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
-'7  17  0  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
-|4,55,17,0,1659682969,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
-'8  1  0  ~/.git/COMMIT_EDITMSG
-|4,56,1,0,1659399540,"~/.git/COMMIT_EDITMSG"
+'4  2  66  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
+|4,52,2,66,1659683132,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
+'5  10  44  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
+|4,53,10,44,1659682969,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
+'6  17  0  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
+|4,54,17,0,1659682969,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
+'7  10  44  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
+|4,55,10,44,1659682969,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
+'8  17  0  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
+|4,56,17,0,1659682969,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
 '9  1  0  ~/.git/COMMIT_EDITMSG
 |4,57,1,0,1659399540,"~/.git/COMMIT_EDITMSG"
 
 # Jumplist (newest first):
+-'  6  12  ~/.git/MERGE_MSG
+|4,39,6,12,1660005126,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1660005091,"~/.git/MERGE_MSG"
 -'  16  62  ~/.git/COMMIT_EDITMSG
 |4,39,16,62,1659683583,"~/.git/COMMIT_EDITMSG"
+-'  16  62  ~/.git/COMMIT_EDITMSG
+|4,39,16,62,1659683583,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1659683514,"~/.git/COMMIT_EDITMSG"
 -'  1  0  ~/.git/COMMIT_EDITMSG
 |4,39,1,0,1659683514,"~/.git/COMMIT_EDITMSG"
 -'  1  0  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
 |4,39,1,0,1659683485,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
 -'  1  0  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
 |4,39,1,0,1659683485,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
+-'  1  0  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
+|4,39,1,0,1659683485,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
+-'  1  0  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
+|4,39,1,0,1659683485,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
 -'  2  66  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
 |4,39,2,66,1659683132,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
 -'  2  66  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
@@ -63,6 +75,18 @@
 |4,39,2,66,1659683132,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
 -'  2  66  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
 |4,39,2,66,1659683132,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
+-'  2  66  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
+|4,39,2,66,1659683132,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
+-'  2  66  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
+|4,39,2,66,1659683132,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
+-'  2  66  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
+|4,39,2,66,1659683132,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
+-'  2  66  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
+|4,39,2,66,1659683132,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
+-'  1  0  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
+|4,39,1,0,1659683048,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
+-'  1  0  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
+|4,39,1,0,1659683048,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
 -'  1  0  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
 |4,39,1,0,1659683048,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
 -'  1  0  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
@@ -83,10 +107,46 @@
 |4,39,10,44,1659682969,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
 -'  17  0  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
 |4,39,17,0,1659682969,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
+-'  10  44  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
+|4,39,10,44,1659682969,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
+-'  17  0  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
+|4,39,17,0,1659682969,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
+-'  10  44  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
+|4,39,10,44,1659682969,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
+-'  17  0  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
+|4,39,17,0,1659682969,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
+-'  10  44  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
+|4,39,10,44,1659682969,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
+-'  17  0  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
+|4,39,17,0,1659682969,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
+-'  10  44  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
+|4,39,10,44,1659682969,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
+-'  17  0  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
+|4,39,17,0,1659682969,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
 -'  1  0  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
 |4,39,1,0,1659682933,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
 -'  1  0  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
 |4,39,1,0,1659682933,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
+-'  1  0  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
+|4,39,1,0,1659682933,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
+-'  1  0  ~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG
+|4,39,1,0,1659682933,"~/js-assignment-6-orbit-report-buffylow/js-assignment-6-orbit-report-buffylow/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1659399540,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1659399540,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1659399540,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1659399540,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1659399540,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1659399540,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1659399540,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1659399540,"~/.git/COMMIT_EDITMSG"
 -'  1  0  ~/.git/COMMIT_EDITMSG
 |4,39,1,0,1659399540,"~/.git/COMMIT_EDITMSG"
 -'  1  0  ~/.git/COMMIT_EDITMSG
@@ -105,6 +165,10 @@
 |4,39,1,0,1659399540,"~/.git/COMMIT_EDITMSG"
 
 # History of marks within files (newest to oldest):
+
+> ~/.git/MERGE_MSG
+	*	1660005113	0
+	"	6	12
 
 > ~/.git/COMMIT_EDITMSG
 	*	1659683581	0

@@ -1,0 +1,6 @@
+[2022-08-08 19:30:13.361] [sharedprocess] [info] Starting worker process with pid 14590 (type: fileWatcher, window: 2).
+[2022-08-08 19:30:13.378] [sharedprocess] [info] Starting worker process with pid 14591 (type: fileWatcher, window: 1).
+[2022-08-08 19:30:18.839] [sharedprocess] [info] Worker process with pid 14590 terminated normally (type: fileWatcher, window: 2).
+[2022-08-08 19:30:51.811] [sharedprocess] [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/watcherMain)
+[2022-08-08 19:30:51.834] [sharedprocess] [info] Worker process with pid 14591 terminated normally (type: fileWatcher, window: 1).
+[2022-08-08 19:30:51.896] [sharedprocess] [info] Starting worker process with pid 14948 (type: fileWatcher, window: 1).
